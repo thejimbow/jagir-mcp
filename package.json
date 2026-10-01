@@ -18,7 +18,8 @@
     "typecheck": "tsc -p tsconfig.json",
     "test": "vitest run",
     "test:live": "LIVE=1 vitest run test/live.test.ts",
-    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+    "prepublishOnly": "npm run typecheck && npm test && npm run build",
+    "pack:mcpb": "scripts/pack-mcpb.sh"
   },
   "keywords": [
     "mcp",
