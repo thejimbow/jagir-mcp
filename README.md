@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/logo-wordmark.svg" alt="jayab" width="360"></p>
+
 # jayab-mcp
 
 MCP server to search and compare short-term rentals on **Jabama**, **Jajiga** and **Otaghak** (Iran) from Claude and other MCP clients.

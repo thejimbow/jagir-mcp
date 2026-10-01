@@ -6,6 +6,7 @@ import { addDays, nightsBetween, normalizeDate, todayTehran, validateStayDates }
 import { parseStayId } from './core/ids.js';
 import { PLATFORMS, type Platform, type PlatformAdapter, type SearchParams } from './core/types.js';
 import { errorMessage } from './core/util.js';
+import { ICONS } from './icon.js';
 
 export const VERSION = '0.1.0';
 const DEFAULT_LIMIT = 30;
@@ -29,7 +30,14 @@ const date = (what: string) =>
 
 export function createServer(adapters: Record<Platform, PlatformAdapter>, options: ServerOptions = {}): McpServer {
   const today = options.today ?? (() => todayTehran());
-  const server = new McpServer({ name: 'jayab-mcp', version: VERSION });
+  const server = new McpServer({
+    name: 'jayab-mcp',
+    title: 'jayab',
+    version: VERSION,
+    description: 'Search and compare stays on Jabama, Jajiga and Otaghak (Iran). Read-only.',
+    websiteUrl: 'https://github.com/thejimbow/jayab-mcp',
+    icons: ICONS,
+  });
   const adapterFor = (id: string) => {
     const parsed = parseStayId(id);
     return { adapter: adapters[parsed.platform], id: parsed.id };
