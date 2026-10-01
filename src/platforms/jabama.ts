@@ -2,13 +2,15 @@ import { compactDate, nightsBetween, toJalaliString } from '../core/dates.js';
 import { httpJson, type HttpJson } from '../core/http.js';
 import { formatStayId } from '../core/ids.js';
 import {
-  PlatformError, type CalendarDay, type LocationMatch, type PlatformAdapter, type Quote, type SortOrder, type Stay, type StayDetail,
+  PlatformError, type CalendarDay, type Fact, type LocationMatch, type PlatformAdapter, type Quote, type RatingSummary, type Review,
+  type SortOrder, type Stay, type StayDetail,
 } from '../core/types.js';
-import { compact, num, pos, rialToToman, str, type Raw } from '../core/util.js';
+import { compact, fact, itemText, MAX_IMAGES, num, pos, rialToToman, str, type Raw } from '../core/util.js';
 
 const API = 'https://gw.jabama.com';
 const WEB = 'https://www.jabama.com';
 const MAX_PAGE = 36;
+const MAX_REVIEW_PAGES = 30; // 10 reviews per page
 const NO_UPPER_BOUND = 1_000_000_000; // Toman per night
 
 const SORTS: Record<SortOrder, [field: string, direction: string]> = {
@@ -83,7 +85,67 @@ export function mapJabamaSearchItem(item: Raw, ctx: DateCtx): Stay | null {
   };
 }
 
-export function mapJabamaDetail(item: Raw): StayDetail {
+const BEDS: [key: string, label: string][] = [
+  ['double', 'تخت دونفره'],
+  ['single', 'تخت یک‌نفره'],
+  ['twin', 'تخت دوقلو'],
+  ['mattress', 'تشک'],
+];
+
+const LONG_STAY_DISCOUNTS: Record<string, string> = {
+  threeDay: 'اقامت ۳ شب و بیشتر',
+  fourteenDay: 'اقامت ۱۴ شب و بیشتر',
+  short: 'اقامت کوتاه‌مدت',
+  long: 'اقامت بلندمدت',
+};
+
+const MEALS: Record<string, string> = { breakfast: 'صبحانه', lunch: 'ناهار', dinner: 'شام' };
+
+/** Rating summary from the listing payload's `meta.reviews` (falls back to `item.rateAndReview`). */
+export function mapJabamaRatings(item: Raw, meta: Raw): RatingSummary | null {
+  const reviews = meta?.reviews;
+  const overall = pos(reviews?.overalRating) ?? pos(item?.rateAndReview?.score);
+  const count = num(reviews?.reviewsCount) ?? num(item?.rateAndReview?.count);
+  if (overall === null && count === null) return null;
+  const chart: Raw[] = reviews?.starsChart ?? [];
+  return {
+    overall,
+    count,
+    breakdown: compact(
+      (reviews?.items ?? []).map((i: Raw) => {
+        const label = str(i?.ratingItem?.title);
+        const score = num(i?.rating);
+        return label && score !== null && i?.ratingItem?.inVisible !== true ? { label, score } : null;
+      }),
+    ),
+    distribution: chart.length
+      ? Object.fromEntries(compact(chart.map((c) => (num(c?.starsCount) !== null ? [String(c.starsCount), num(c.reviewsCount) ?? 0] : null))))
+      : null,
+  };
+}
+
+function detailFacts(item: Raw): Fact[] {
+  const metrics = item.accommodationMetrics ?? {};
+  const nearby = (item.nearbyCentersV2 ?? []).flatMap((group: Raw) =>
+    (group?.items ?? []).map((i: Raw) => fact(`${str(group?.title) ?? ''} — ${str(i?.key) ?? ''}`.replace(/^ — | — $/g, ''), i?.value)),
+  );
+  const descriptions = (item.extraDescription ?? []).map((d: Raw) => fact(d?.title, d?.text));
+  const meals = Object.entries(item.meal ?? {}).filter(([, v]) => v === true).map(([k]) => MEALS[k] ?? k);
+  return compact<Fact>([
+    ...nearby,
+    ...descriptions,
+    fact('متراژ زیربنا', pos(metrics.buildingSize)),
+    fact('سرویس ایرانی', pos(metrics.iranianToiletsCount)),
+    fact('سرویس فرنگی', pos(metrics.toiletsCount)),
+    fact('تعداد پله', pos(metrics.stairsCount)),
+    fact('تعداد واحد', (num(item.unitCount) ?? 0) > 1 ? item.unitCount : null),
+    fact('وعده غذایی', meals.join('، ')),
+    fact('مناسب سالمندان و معلولان', item.suitableForElderlyAndDisabled === true ? 'بله' : null),
+    ...(item.specialAmenities ?? []).map((a: Raw) => fact('امکانات ویژه', str(a?.title?.fa) ?? itemText(a))),
+  ]);
+}
+
+export function mapJabamaDetail(item: Raw, meta?: Raw): StayDetail {
   const code = num(item?.code);
   const title = str(item?.title);
   if (code === null || !title) throw new PlatformError('jabama', 'Unexpected listing payload');
@@ -91,7 +153,8 @@ export function mapJabamaDetail(item: Raw): StayDetail {
   const city = place.city ?? place.area?.city;
   const guests = item.capacity?.guests;
   const price = item.price ?? {};
-  const images = compact<string>((item.placeImages ?? []).map((i: Raw) => str(i?.url))).slice(0, 10);
+  const metrics = item.accommodationMetrics ?? {};
+  const images = compact<string>((item.placeImages ?? []).map((i: Raw) => str(i?.url))).slice(0, MAX_IMAGES);
   return {
     id: formatStayId('jabama', code),
     platform: 'jabama',
@@ -112,6 +175,7 @@ export function mapJabamaDetail(item: Raw): StayDetail {
     amenities: compact<string>(
       (item.amenitiesV2 ?? []).filter((a: Raw) => a?.state !== false).map((a: Raw) => str(a?.title?.fa) ?? str(a?.title?.en)),
     ),
+    missingAmenities: compact<string>((item.missedAmenities ?? []).map((a: Raw) => str(a?.title?.fa) ?? str(a?.title?.en))),
     rules: compact<string>((item.rules ?? []).map((r: Raw) => str((r?.texts ?? []).map((t: Raw) => t?.text ?? '').join('')))),
     checkInTime: str(item.checkIn),
     checkOutTime: str(item.checkOut),
@@ -123,7 +187,38 @@ export function mapJabamaDetail(item: Raw): StayDetail {
       holiday: rialToToman(pos(price.holiday)),
       extraPerson: rialToToman(pos(price.extraPeople?.base)),
     },
+    ratings: mapJabamaRatings(item, meta),
+    areaM2: pos(metrics.areaSize),
+    bathrooms: num(metrics.bathroomsCount),
+    floor: num(metrics.floor),
+    beds: compact(BEDS.map(([key, label]) => {
+      const n = pos(item.capacity?.beds?.[key]);
+      return n !== null ? `${n} ${label}` : null;
+    })),
+    privacy: null,
+    successfulBookings: null,
+    discounts: compact(
+      Object.entries(price.longStaysDiscount ?? {}).map(([k, v]) => (pos(v) ? `${v}% تخفیف ${LONG_STAY_DISCOUNTS[k] ?? k}` : null)),
+    ),
+    facts: detailFacts(item),
     images,
+    media: [],
+  };
+}
+
+function mapReview(r: Raw): Review | null {
+  const text = str(r?.comment);
+  if (!text) return null;
+  const info = compact<string>([...(r.subTitles ?? []).map(itemText), ...(r.reviewInfo ?? []).map(itemText)]);
+  return {
+    date: null,
+    rating: num(r.overalRating),
+    text,
+    positives: [],
+    negatives: [],
+    recommended: null,
+    stayInfo: info.length ? info.join(' · ') : null,
+    hostReply: str(r.response?.comment),
   };
 }
 
@@ -135,11 +230,13 @@ function mapCalendarDay(d: Raw): CalendarDay | null {
 }
 
 export function createJabamaAdapter(http: HttpJson = httpJson): PlatformAdapter {
-  async function fetchItem(id: string): Promise<Raw> {
+  /** Listing payload: `item` is the accommodation, `meta` carries the rating breakdown. */
+  async function fetchListing(id: string): Promise<{ item: Raw; meta: Raw }> {
     const result = unwrap(await http(`${API}/api/v1/accommodations/${encodeURIComponent(id)}`, { query: { reversePeriods: 'true' } }));
     if (!result.item) throw new PlatformError('jabama', `Listing ${id} not found`);
-    return result.item;
+    return { item: result.item, meta: result.meta };
   }
+  const fetchItem = async (id: string): Promise<Raw> => (await fetchListing(id)).item;
 
   async function resolveLocation(query: string): Promise<LocationMatch[]> {
     const cities = unwrap(await http(`${API}/api/taraaz/v1/area/cities/search`, { query: { q: query, page: 1 } }));
@@ -193,7 +290,29 @@ export function createJabamaAdapter(http: HttpJson = httpJson): PlatformAdapter 
     },
 
     async getStay(id) {
-      return mapJabamaDetail(await fetchItem(id));
+      const { item, meta } = await fetchListing(id);
+      return mapJabamaDetail(item, meta);
+    },
+
+    async getReviews(id, limit) {
+      const { item, meta } = await fetchListing(id);
+      const code = num(item.code) ?? id;
+      const reviews: Review[] = [];
+      for (let page = 1; page <= MAX_REVIEW_PAGES && reviews.length < limit; page++) {
+        const result = unwrap(await http(`${API}/api/v2/reviews/place/${encodeURIComponent(String(code))}`, { query: { page } }));
+        const batch: Raw[] = result.reviews ?? [];
+        if (batch.length === 0) break;
+        reviews.push(...compact(batch.map(mapReview)));
+      }
+      const ratings = mapJabamaRatings(item, meta);
+      return {
+        id: formatStayId('jabama', code),
+        platform: 'jabama',
+        url: jabamaUrl(item.type, code),
+        total: ratings?.count ?? null,
+        ratings,
+        reviews: reviews.slice(0, limit),
+      };
     },
 
     async getCalendar(id, from, to) {

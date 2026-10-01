@@ -20,6 +20,7 @@ function adapter(platform: Platform, stays: Stay[] | Error): PlatformAdapter {
     getStay: fail,
     getCalendar: fail,
     getQuote: fail,
+    getReviews: fail,
   };
 }
 

@@ -58,7 +58,53 @@ describe('mapOtaghakDetail', () => {
   });
 });
 
+describe('mapOtaghakDetail extras', () => {
+  const points = fixture('otaghak/points.json');
+  const d = mapOtaghakDetail(detail, attributes, points);
+
+  it('includes the points breakdown with cleanliness and the star distribution', () => {
+    expect(d.ratings).toMatchObject({ overall: 5, count: 26, distribution: { '5': 24, '4': 2, '3': 0, '2': 0, '1': 0 } });
+    expect(d.ratings!.breakdown).toContainEqual({ label: 'نظافت و تمیزی', score: 4.9 });
+    expect(d.ratings!.breakdown).toContainEqual({ label: 'امنیت محله', score: 5 });
+  });
+
+  it('maps view, privacy, beds, bookings, gallery and host stats without the host name', () => {
+    expect(d).toMatchObject({ areaM2: 45, privacy: 'غیر دربست', successfulBookings: 41 });
+    expect(d.beds).toEqual(['اتاق خواب یک: سرویس خواب (تخت دو نفره)']);
+    expect(d.facts).toContainEqual({ label: 'بافت و چشم انداز', value: 'شهری' });
+    expect(d.facts.map((f) => f.label)).toContain('نرخ ورود کودک');
+    expect(d.facts.map((f) => f.label)).toContain('زمان پاسخگویی');
+    expect(d.images.length).toBeGreaterThan(1);
+    expect(d.images[0]).toBe('https://cdn.otaghak.com/otg-images-new/X500/536ff812-e503-41fa-8621-427b051d8da8.webp');
+    expect(JSON.stringify(d)).not.toContain('رضا خیری');
+  });
+
+  it('falls back to seo rating when points are unavailable', () => {
+    expect(mapOtaghakDetail(detail, attributes, null).ratings).toMatchObject({ overall: 4.9, count: 26, breakdown: [] });
+  });
+});
+
 describe('createOtaghakAdapter', () => {
+  it('reads comments with positives, negatives and host replies', async () => {
+    const { http, calls } = fakeHttp((url) => (url.endsWith('/GetAllByRoomId') ? fixture('otaghak/reviews.json') : fixture('otaghak/points.json')));
+    const res = await createOtaghakAdapter(http).getReviews('2397109', 5);
+    expect(calls.find((c) => c.url.endsWith('/GetAllByRoomId'))!.req.query).toEqual({ roomId: '2397109', take: 5, skip: 0 });
+    expect(res).toMatchObject({ id: 'otaghak:2397109', platform: 'otaghak', total: 26, url: 'https://www.otaghak.com/room/2397109/' });
+    expect(res.ratings!.breakdown[0]).toEqual({ label: 'نظافت و تمیزی', score: 4.9 });
+    expect(res.reviews[0]).toMatchObject({ date: '2026-04-18', rating: 5, recommended: true, hostReply: 'سپاس از لطف شما', stayInfo: null });
+    expect(res.reviews[0]!.text).toMatch(/^بسیار مردشریف/);
+    expect(res.reviews.every((r) => Array.isArray(r.positives) && Array.isArray(r.negatives))).toBe(true);
+  });
+
+  it('keeps positive and negative points and not-recommended flags', async () => {
+    const [first] = fixture('otaghak/reviews.json');
+    const comment = { ...first, positivePoints: ['حیاط تمیز و مرتب'], negativePoints: ['سر و صدای خیابان'], recomendationType: 'NotRecommended' };
+    const { http } = fakeHttp((url) => (url.endsWith('/GetAllByRoomId') ? [comment] : new Error('points down')));
+    const res = await createOtaghakAdapter(http).getReviews('2397109', 5);
+    expect(res.reviews[0]).toMatchObject({ positives: ['حیاط تمیز و مرتب'], negatives: ['سر و صدای خیابان'], recommended: false });
+    expect(res.ratings).toBeNull();
+  });
+
   it('resolves a city and searches with the JSON body', async () => {
     const { http, calls } = fakeHttp((url) => (url.endsWith('/GetSearchResult') ? fixture('otaghak/locations.json') : search));
     const res = await createOtaghakAdapter(http).search({

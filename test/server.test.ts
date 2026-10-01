@@ -11,6 +11,7 @@ interface Seen {
   search?: SearchParams;
   calendar?: unknown[];
   quote?: unknown[];
+  reviews?: unknown[];
 }
 
 function adapter(platform: Platform, seen: Seen): PlatformAdapter {
@@ -24,9 +25,15 @@ function adapter(platform: Platform, seen: Seen): PlatformAdapter {
     },
     getStay: async (id) => ({
       ...makeStay(platform, Number(id)),
-      description: null, amenities: [], rules: [], checkInTime: null, checkOutTime: null, minNights: null,
-      cancellationPolicy: null, basePrices: { normal: null, weekend: null, holiday: null, extraPerson: null }, images: [],
+      description: null, amenities: [], missingAmenities: [], rules: [], checkInTime: null, checkOutTime: null, minNights: null,
+      cancellationPolicy: null, basePrices: { normal: null, weekend: null, holiday: null, extraPerson: null }, ratings: null,
+      areaM2: null, bathrooms: null, floor: null, beds: [], privacy: null, successfulBookings: null, discounts: [], facts: [],
+      images: [], media: [],
     }),
+    getReviews: async (id, limit) => {
+      seen.reviews = [id, limit];
+      return { id: `${platform}:${id}`, platform, url: 'u', total: 1, ratings: null, reviews: [] };
+    },
     getCalendar: async (id, from, to) => {
       seen.calendar = [id, from, to];
       return [{ date: from, available: true, price: 1 }];
@@ -60,10 +67,12 @@ async function connect() {
 }
 
 describe('MCP server', () => {
-  it('lists the five tools', async () => {
+  it('lists the six tools', async () => {
     const { client } = await connect();
     const { tools } = await client.listTools();
-    expect(tools.map((t) => t.name).sort()).toEqual(['get_quote', 'get_stay', 'get_stay_calendar', 'resolve_location', 'search_stays']);
+    expect(tools.map((t) => t.name).sort()).toEqual([
+      'get_quote', 'get_reviews', 'get_stay', 'get_stay_calendar', 'resolve_location', 'search_stays',
+    ]);
     expect(tools.every((t) => t.annotations?.readOnlyHint === true)).toBe(true);
   });
 
@@ -117,6 +126,15 @@ describe('MCP server', () => {
     const res = await call('get_stay_calendar', { id: 'jajiga:5', from: '2026-10-01', to: '2027-03-01' });
     expect(res.isError).toBe(true);
     expect(res.text).toMatch(/120/);
+  });
+
+  it('get_reviews defaults to 50 reviews and caps at 200', async () => {
+    const { call, seen } = await connect();
+    expect((await call('get_reviews', { id: 'otaghak:9' })).json.id).toBe('otaghak:9');
+    expect(seen.otaghak.reviews).toEqual(['9', 50]);
+    await call('get_reviews', { id: 'jajiga:9', limit: 120 });
+    expect(seen.jajiga.reviews).toEqual(['9', 120]);
+    expect((await call('get_reviews', { id: 'jajiga:9', limit: 500 })).isError).toBe(true);
   });
 
   it('get_quote validates dates and forwards to the adapter', async () => {

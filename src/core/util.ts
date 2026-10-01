@@ -30,3 +30,19 @@ export function errorMessage(e: unknown): string {
 export function compact<T>(xs: readonly (T | null | undefined)[]): T[] {
   return xs.filter((x): x is T => x != null);
 }
+
+export const MAX_IMAGES = 50;
+
+/** A labelled fact, or null when the value is empty. */
+export function fact(label: unknown, value: unknown): { label: string; value: string } | null {
+  const l = str(label);
+  const v = typeof value === 'number' ? String(value) : str(value);
+  return l && v ? { label: l, value: v } : null;
+}
+
+/** Text of a list item that may be a plain string or an object with a title/name/text field. */
+export function itemText(x: unknown): string | null {
+  if (typeof x === 'string') return str(x);
+  const o = x as Raw;
+  return str(o?.title) ?? str(o?.name) ?? str(o?.text) ?? str(o?.body);
+}

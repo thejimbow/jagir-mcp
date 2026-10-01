@@ -189,3 +189,12 @@ Booking/login, reviews tool, deep pagination, caching layer, HTTP transport, Jaj
 - Jajiga `rules[]` lists restrictions in force; each key maps to the site's own display text (`ssrLangData.roomUtils.roomRules.<key>.room`, e.g. `pet` → «همراه داشتن حیوان خانگی ممنوع است.»). Feature and cancellation-policy keys map to the site's labels the same way.
 - Jabama rules come pre-rendered in `item.rules[].texts[]`; the adapter joins the text fragments («ارائه کارت ملی کافی است.»).
 - Otaghak search `perNight` is `total / nights` (includes extra guests), matching Jabama and Jajiga; verified live that Jabama `mainPrice` scales with `capacity`.
+
+## Addendum (2026-10-01): reviews and full detail
+
+- New tool `get_reviews(id, limit=50, max 200)` → `{ id, total, ratings, reviews[] }`; each review: `date, rating, text, positives[], negatives[], recommended, stayInfo, hostReply`. Reviewer and host names are not returned.
+  - Jabama `GET /api/v2/reviews/place/{code}?page=N` (10/page); ratings from the listing's `meta.reviews` (`items[].ratingItem.title`, `starsChart`).
+  - Jajiga `GET /room/{id}/reviews?page=N&per_page≤50`; ratings from `/room/{id}` `ratings.{cleanliness,accuracy,…}` and `comments_grouped_by_rating`.
+  - Otaghak `GET /api/v2/Comments/GetAllByRoomId?roomId&take&skip` (incl. `positivePoints`, `negativePoints`, `recomendationType`); ratings from `GET /api/v2/Points/GetRoomPointsV2?roomId` (`points[]`, `progresses[]`).
+- `StayDetail` gains `ratings` (overall, count, breakdown incl. cleanliness, star distribution), `areaM2`, `bathrooms`, `floor`, `beds[]`, `privacy`, `successfulBookings`, `discounts[]`, `missingAmenities[]`, `facts[]` (view/setting, distances, extra descriptions, child pricing, host response time…), all photos (≤50) and `media[]` (video/VR).
+- Jajiga search `per_page` is capped at 30 (HTTP 422 above).

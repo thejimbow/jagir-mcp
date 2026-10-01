@@ -62,7 +62,54 @@ describe('mapJabamaDetail', () => {
   });
 });
 
+describe('mapJabamaDetail extras', () => {
+  const d = mapJabamaDetail(detail.result.item, detail.result.meta);
+
+  it('includes the rating breakdown with cleanliness and the star distribution', () => {
+    expect(d.ratings).toMatchObject({ overall: 4.9, count: 30, distribution: { '1': 0, '2': 0, '3': 1, '4': 2, '5': 27 } });
+    expect(d.ratings!.breakdown).toContainEqual({ label: 'نظافت', score: 4.7 });
+  });
+
+  it('maps size, beds, nearby places, descriptions and missing amenities', () => {
+    expect(d).toMatchObject({ areaM2: 100, bathrooms: 1, floor: 1 });
+    expect(d.beds).toEqual(['2 تخت دونفره', '2 تشک']);
+    expect(d.facts).toContainEqual({ label: 'قابل دسترسی با خودرو — فاصله از دریا', value: 'زیر ‍۵ دقیقه' });
+    expect(d.facts).toContainEqual({ label: 'توصیف فضای اقامتگاه و واحد', value: 'ویلا دارای حیاط نسبتا بزرگ و مستقل می باشد.' });
+    expect(d.missingAmenities).toContain('رستوران');
+  });
+
+  it('never exposes host contact fields', () => {
+    expect(JSON.stringify(d)).not.toMatch(/telephone|ownerName|hostInfo/);
+  });
+});
+
 describe('createJabamaAdapter', () => {
+  it('pages through reviews up to the limit', async () => {
+    const reviews = fixture('jabama/reviews.json');
+    const { http, calls } = fakeHttp((url, req) => {
+      if (url.includes('/reviews/place/')) return req.query?.page === 1 ? reviews : { result: { reviews: [] }, success: true };
+      return detail;
+    });
+    const res = await createJabamaAdapter(http).getReviews('800749', 50);
+    expect(calls.filter((c) => c.url.includes('/reviews/place/800749')).map((c) => c.req.query?.page)).toEqual([1, 2]);
+    expect(res).toMatchObject({ id: 'jabama:800749', platform: 'jabama', total: 30, url: 'https://www.jabama.com/stay/villa-800749' });
+    expect(res.ratings!.breakdown).toContainEqual({ label: 'نظافت', score: 4.7 });
+    expect(res.reviews).toHaveLength(10);
+    expect(res.reviews[0]).toMatchObject({
+      rating: 5,
+      stayInfo: 'اقامت 6 روز پیش · 4 شب اقامت در اقامتگاه',
+      hostReply: 'بادرود ازنقطه نظرات حضرتعالی وکمال تشکر را داریم به امید دیدار مجدتتان',
+      positives: [],
+      negatives: [],
+      recommended: null,
+    });
+    expect(res.reviews[0]!.text).toMatch(/^سلام دوستان بسیار عالی بود/);
+    expect(JSON.stringify(res)).not.toContain('رویا');
+
+    const few = await createJabamaAdapter(http).getReviews('800749', 3);
+    expect(few.reviews).toHaveLength(3);
+  });
+
   it('resolves a city then searches with Jabama body format', async () => {
     const { http, calls } = fakeHttp((url) =>
       url.includes('/area/cities/search') ? fixture('jabama/cities.json') : search,

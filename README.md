@@ -9,7 +9,8 @@ Read-only: it searches, shows details, calendars and price quotes. It never logs
 | Tool | What it does |
 |---|---|
 | `search_stays` | Search a city on all three platforms at once; merged, normalized results (Toman) |
-| `get_stay` | Details of one stay: amenities, rules, check-in/out, cancellation policy |
+| `get_stay` | Everything about one stay: amenities, rules, rating breakdown (incl. cleanliness), beds, area, view/setting, distances, all photos |
+| `get_reviews` | Guest reviews with full text, rating, host reply and (Otaghak) positive/negative points |
 | `get_stay_calendar` | Per-night availability and price |
 | `get_quote` | Exact price for dates + guests (extra guests, fees) |
 | `resolve_location` | How a city name is known on each platform |
