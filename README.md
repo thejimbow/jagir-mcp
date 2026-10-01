@@ -23,7 +23,11 @@ Stay ids look like `jabama:800749`, `jajiga:3237270`, `otaghak:2397109`. Dates a
 
 Requires Node.js 20+.
 
-### Claude Desktop
+### Claude Desktop (extension)
+
+Build the bundle with `npm run pack:mcpb`, then double-click `jagir.mcpb` (or drag it into Settings → Extensions). Claude Desktop runs it with its built-in Node.js and shows the Jagir icon.
+
+### Claude Desktop (manual config)
 
 `claude_desktop_config.json`:
 ```json

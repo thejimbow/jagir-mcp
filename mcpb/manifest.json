@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/mcpb/main/dist/mcpb-manifest-v0.2.schema.json",
+  "manifest_version": "0.2",
+  "name": "jagir-mcp",
+  "display_name": "Jagir",
+  "version": "0.1.0",
+  "description": "Search and compare stays on Jabama, Jajiga and Otaghak (Iran). Read-only.",
+  "long_description": "Jagir (جاگیر) searches Jabama, Jajiga and Otaghak in one go: prices in Toman, Gregorian or Jalali dates, full stay details with cleanliness and other sub-ratings, complete guest reviews, availability calendars and price quotes. It never logs in or books anything.",
+  "author": { "name": "thejimbow", "url": "https://github.com/thejimbow" },
+  "repository": { "type": "git", "url": "https://github.com/thejimbow/jagir-mcp" },
+  "homepage": "https://github.com/thejimbow/jagir-mcp",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/index.js"],
+      "env": {}
+    }
+  },
+  "tools": [
+    { "name": "resolve_location", "description": "Match a city or area name on each platform." },
+    { "name": "search_stays", "description": "Search all three platforms at once and compare prices." },
+    { "name": "get_stay", "description": "Full stay detail: amenities, rules, beds, ratings breakdown, photos." },
+    { "name": "get_reviews", "description": "Complete guest reviews with host replies." },
+    { "name": "get_stay_calendar", "description": "Nightly availability and prices." },
+    { "name": "get_quote", "description": "Total price for given dates and guests." }
+  ],
+  "keywords": ["iran", "travel", "vacation-rental", "jabama", "jajiga", "otaghak"],
+  "license": "MIT",
+  "compatibility": {
+    "platforms": ["darwin", "win32", "linux"],
+    "runtimes": { "node": ">=20.0.0" }
+  }
+}
