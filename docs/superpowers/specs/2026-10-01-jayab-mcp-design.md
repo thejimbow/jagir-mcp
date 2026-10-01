@@ -184,7 +184,8 @@ All tool outputs are a single `text` content block containing pretty JSON; tool 
 
 Booking/login, reviews tool, deep pagination, caching layer, HTTP transport, Jajiga `__NEXT_DATA__` fallback, English titles.
 
-## Open items (resolve during implementation)
+## Resolved during implementation
 
-- Jajiga `rules[]` semantics (allowed vs forbidden) — output as raw rule keys translated by a small map, labelled neutrally.
-- Jabama: rules forbidden = names in `negativeRestrictedRules`; others in `restrictedRules` shown with `positive` text — verify against fixture.
+- Jajiga `rules[]` lists restrictions in force; each key maps to the site's own display text (`ssrLangData.roomUtils.roomRules.<key>.room`, e.g. `pet` → «همراه داشتن حیوان خانگی ممنوع است.»). Feature and cancellation-policy keys map to the site's labels the same way.
+- Jabama rules come pre-rendered in `item.rules[].texts[]`; the adapter joins the text fragments («ارائه کارت ملی کافی است.»).
+- Otaghak search `perNight` is `total / nights` (includes extra guests), matching Jabama and Jajiga; verified live that Jabama `mainPrice` scales with `capacity`.

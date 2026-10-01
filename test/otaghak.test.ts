@@ -22,7 +22,7 @@ describe('mapOtaghakSearchItem', () => {
       reviewsCount: 2,
       capacity: { base: 3, max: 4 },
       instantBooking: false,
-      price: { total: 3_800_000, perNight: 1_600_000, nights: 2 },
+      price: { total: 3_800_000, perNight: 1_900_000, nights: 2 },
     });
     expect(JSON.stringify(stay)).not.toMatch(/hostPhoneNumber|hostName/);
   });
