@@ -1,0 +1,273 @@
+{
+  "result": {
+    "id": null,
+    "creationTime": null,
+    "status": null,
+    "statusReason": null,
+    "paidAmount": 60400000,
+    "paidPartialAmount": 0,
+    "totalPartialPrice": null,
+    "fullPayOnPartial": null,
+    "totalPrice": 60400000,
+    "discountAmount": null,
+    "discountCodeUniqueId": null,
+    "providerDiscountAmount": 0,
+    "discountPercentage": 0,
+    "bnpl": {
+      "showBNPLBanner": false,
+      "bnplBanner": null
+    },
+    "lineItems": [
+      {
+        "id": null,
+        "coreStatus": "awaitingPayment",
+        "isInstant": true,
+        "reservationType": null,
+        "paymentType": null,
+        "fullPayOnPartial": null,
+        "productProviderType": null,
+        "passengerInformation": null,
+        "expiredTimeGuestPayment": null,
+        "expiredTimeGuestPaymentTotalSeconds": 0,
+        "expiredTimeHostAcceptance": null,
+        "expiredTimeHostAcceptanceTotalSeconds": 0,
+        "paidAmount": 60400000,
+        "partialPrice": 0,
+        "paidPartialAmount": null,
+        "total": 60400000,
+        "providerDiscountAmount": 0,
+        "previewPrices": {
+          "mainPrice": 22200000,
+          "minDiscountedPrice": 29000000,
+          "maxDiscountPercent": 0
+        },
+        "cashbackPreview": null,
+        "discountAmount": null,
+        "discountUniqueId": null,
+        "providerJabamaDiscountAmount": 0,
+        "providerHostDiscountAmount": 0,
+        "providerLongStayDiscountAmount": {
+          "short": 0,
+          "long": 0
+        },
+        "checkOut": "2026-10-17 12:00:00",
+        "checkIn": "2026-10-15 14:00:00",
+        "adults": 6,
+        "children": 0,
+        "extraServices": [],
+        "cancellationPolicy": {
+          "id": "637a0ce14ac791001be59bac",
+          "title": "متعادل ",
+          "beforeCheckIn": {
+            "days": 4,
+            "jabamaShare": 15,
+            "firstNightPercent": 10,
+            "remainingNightsPercent": 10
+          },
+          "untilCheckIn": {
+            "days": 3,
+            "jabamaShare": 15,
+            "hostShare": 85,
+            "firstNightPercent": 50,
+            "remainingNightsPercent": 20
+          },
+          "afterCheckIn": {
+            "jabamaShare": 15,
+            "remainingNightsPercent": 50,
+            "passedNightsPercent": 100
+          },
+          "jabamaCommission": 15
+        },
+        "cancellationPolicyDetails": {
+          "id": "637a0ce14ac791001be59bac",
+          "title": "متعادل ",
+          "beforeCheckIn": {
+            "title": "تا 19 مهر",
+            "text": " 10٪ مبلغ شب اول + 10٪ مبلغ شب‌های باقیمانده",
+            "color": "#42c3ab",
+            "icon": "https://www.jabama.com/_assets/70f5462979bab1c8be051d368eb6e7e8.svg#i-jabama-persian-logo"
+          },
+          "untilCheckIn": {
+            "title": "از 19 مهر تا 23 مهر",
+            "text": " 50٪ مبلغ شب اول + 20٪ مبلغ شب‌های باقیمانده",
+            "color": "#ffa500",
+            "icon": ""
+          },
+          "afterCheckIn": {
+            "title": "از 23 مهر تا 25 مهر",
+            "text": " 100٪ مبلغ شب‌های سپری شده + 50٪ مبلغ شب‌های باقیمانده",
+            "color": "#ea5045",
+            "icon": "https://www.jabama.com/_assets/70f5462979bab1c8be051d368eb6e7e8.svg#i-jabama-persian-logo"
+          },
+          "isDefault": false,
+          "jabamaCommission": 15,
+          "description": null,
+          "hasPermissionToCancelWithoutCharge": null
+        },
+        "cancellationPolicyText": "از لحظه رزرو تا 4 روز قبل از تاریخ ورود 10٪ مبلغ شب اول و 10٪ مبلغ شب‌های باقیمانده کسر می‌گردد. ",
+        "accommodationId": "69c979975b6e82d43096dcb9",
+        "accommodation": {
+          "placeType": "personalRoom",
+          "id": "69c979975b6e82d43096dcb9",
+          "title": "ویلا دوخوابه هونام",
+          "wowCheckIn": false,
+          "vatStatus": false,
+          "placeOfResidence": {
+            "location": {
+              "lng": 50.69080549381567,
+              "lat": 36.88684724248047,
+              "radius": 400
+            },
+            "area": {
+              "city": {
+                "type": "city",
+                "name": {
+                  "fa": "رامسر",
+                  "en": "ramsar"
+                },
+                "location": {
+                  "lng": 50.66233444,
+                  "lat": 36.91598892,
+                  "radius": null
+                },
+                "id": "5fa948b0abcd0544d9687271",
+                "province": {
+                  "type": "province",
+                  "name": {
+                    "fa": "مازندران",
+                    "en": "mazandaran"
+                  },
+                  "location": {
+                    "lng": 52.19323486,
+                    "lat": 36.4921131,
+                    "radius": null
+                  },
+                  "id": "5fa948afabcd0544d9687255"
+                }
+              },
+              "address": null,
+              "areaType": "city"
+            }
+          },
+          "price": {
+            "custom": [
+              {
+                "status": "available",
+                "price": 24600000,
+                "discount": 0,
+                "jabamaDiscount": 0,
+                "date": "2026-10-14T20:30:00.000Z",
+                "extraPeople": 0
+              },
+              {
+                "status": "available",
+                "price": 22200000,
+                "discount": 0,
+                "jabamaDiscount": 0,
+                "date": "2026-10-15T20:30:00.000Z",
+                "extraPeople": 0
+              },
+              {
+                "status": "available",
+                "price": 22200000,
+                "discount": 0,
+                "jabamaDiscount": 0,
+                "date": "2026-10-16T20:30:00.000Z",
+                "extraPeople": 0
+              }
+            ],
+            "base": 29200000,
+            "weekend": 32200000,
+            "holiday": 35500000,
+            "extraPeople": {
+              "base": 3400000,
+              "weekend": 3400000,
+              "holiday": 3400000
+            },
+            "longStaysDiscount": {
+              "short": 0,
+              "long": 0
+            }
+          },
+          "partialPaymentRate": null,
+          "guests": {
+            "base": 4,
+            "extra": 4
+          },
+          "images": [
+            "https://cdn.jabama.com/image/jabama-images/11587623/c1d8b395-9a56-4e94-b93b-603106798fc2.jpg",
+            "https://cdn.jabama.com/image/jabama-images/11587623/d85a768c-ed8e-4187-8088-0e371343d98a.jpg",
+            "https://cdn.jabama.com/image/jabama-images/11587623/4a72ffc0-6e42-4dc3-8b4b-c96f57383aec.jpg",
+            "https://cdn.jabama.com/image/jabama-images/11587623/43e9fbb7-7410-4f21-8c05-a7f43f19ab04.jpg",
+            "https://cdn.jabama.com/image/jabama-images/11587623/02e36183-f39d-473c-92e7-3f90ca8f2ebd.jpg",
+            "https://cdn.jabama.com/image/jabama-images/11587623/1f72696a-c5ce-4f56-9880-636373cb9f42.jpg",
+            "https://cdn.jabama.com/image/jabama-images/11587623/14b700a3-4e5c-4895-a4db-14aa0962b796.jpg",
+            "https://cdn.jabama.com/image/jabama-images/11587623/3be0f46c-a8dd-4d43-8e93-f8cc328aef2e.jpg"
+          ],
+          "type": "villa",
+          "code": "800749",
+          "disinfected": false,
+          "reservationType": "instant",
+          "minNight": 1
+        },
+        "guestShare": 0,
+        "guestCommissionRate": 0,
+        "vatShare": 0,
+        "vat": 10,
+        "sellPrice": 60400000,
+        "replacementCompensationAmount": 0,
+        "extraServicesPrice": 0,
+        "pricePerDay": {
+          "days": [
+            {
+              "jalaliDateString": "1405-7-23",
+              "date": "2026-10-15",
+              "type": "custom",
+              "price": 24600000,
+              "extraPeople": 3400000,
+              "discount": 0,
+              "jabamaDiscount": 0,
+              "passengersCount": null,
+              "totalDayPrice": 31400000,
+              "payFactor": 100,
+              "guarantee": false,
+              "guarantUnits": null,
+              "nonGuarantUnits": null,
+              "exclusiveContract": false
+            },
+            {
+              "jalaliDateString": "1405-7-24",
+              "date": "2026-10-16",
+              "type": "custom",
+              "price": 22200000,
+              "extraPeople": 3400000,
+              "discount": 0,
+              "jabamaDiscount": 0,
+              "passengersCount": null,
+              "totalDayPrice": 29000000,
+              "payFactor": 100,
+              "guarantee": false,
+              "guarantUnits": null,
+              "nonGuarantUnits": null,
+              "exclusiveContract": false
+            }
+          ],
+          "extraServices": [],
+          "daysCount": {
+            "totalDays": 2,
+            "guaranteeDays": 0,
+            "nonGuaranteeDays": 2,
+            "instantPerDays": 0,
+            "instantDays": 2,
+            "preApproveDays": 0
+          },
+          "unit": null
+        }
+      }
+    ]
+  },
+  "targetUrl": null,
+  "success": true,
+  "error": null,
+  "unauthorizedRequest": false
+}

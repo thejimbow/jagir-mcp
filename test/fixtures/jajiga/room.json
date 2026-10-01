@@ -1,0 +1,412 @@
+{
+  "id": 3237270,
+  "status": "active",
+  "units_count": 1,
+  "url": "/room/3237270",
+  "short_url": "/r/23tq",
+  "title": "خانه مبله در رامسر - همکف",
+  "description": "این خانه مبله دو خوابه در طبقه همکف یک ساختمان دو طبقه دو واحدی در محله لمتر شهر رامسر واقع شده است.\nاطراف حیاط با دیوار محصور شده و میزبان نیز در طبقه بالا همین ساختمان سکونت دارد که دروازه ورودی و حیاط به صورت مشترک استفاده می گردد.\nمهمانان گرامی می توانند برای تهیه مایحتاج روزانه خود از سوپرمارکت و نانوایی در فاصله حدود 200 متری از خانه استفاده نمایند.\nآنتن دهی تلفن همراه برای دو اپراتور ایرانسل و همراه اول در مکالمه خوب و پوشش اینترنت به صورت 4g می باشد.\nتله کابین رامسر، ساحل ماسه‌ای صدف، شهر بازی رویاها، مجموعه توریستی ساحل پلازا، ییلاق زیبای جواهرده، پارک جنگلی صفارود و دالخانی از جاذبه های طبیعی و گردشگری رامسر زیبا می باشند.\n**ارائه مدارک محرمیت برای زوجین الزامی است.**",
+  "geo": {
+    "lat": 36.9199,
+    "lng": 50.6599
+  },
+  "province": {
+    "id": "p26",
+    "name": "مازندران",
+    "url": "/s/mazandaran"
+  },
+  "city": {
+    "id": 303,
+    "name": "رامسر",
+    "url": "/s/ramsar"
+  },
+  "pictures": [
+    {
+      "name": "32372702604302224565579734.jpg",
+      "url": "2026/04/30/32372702604302224565579734.jpg",
+      "preview": "U=FsACxaRjkW?woffit8.9kCaet7.9ogWBt7",
+      "description": "نما ساختمان",
+      "created_at": "2026-04-30"
+    },
+    {
+      "name": "3237270250804142159.jpg",
+      "url": "2025/08/04/3237270250804142159.jpg",
+      "preview": "UGC?.FVr$+%d~q-:jFRiIC_3RiIU_Ms=V[aw",
+      "description": "باربیکیو",
+      "created_at": "2025-08-04"
+    },
+    {
+      "name": "32372702602231812582337847.jpg",
+      "url": "2026/02/23/32372702602231812582337847.jpg",
+      "preview": "UZFiDSxuad%2~qM{aexu%gIUV@xu?vjZV@t8",
+      "description": "پذیرایی",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231812553135755.jpg",
+      "url": "2026/02/23/32372702602231812553135755.jpg",
+      "preview": "UVD,1Tx^Rj-p_4W=Ioog-=M|M{j]_4WqRixu",
+      "description": "پذیرایی",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231812515293227.jpg",
+      "url": "2026/02/23/32372702602231812515293227.jpg",
+      "preview": "ULE{b1-=I9?b_4t8nh%Mxvs;xajZ~qxaRiae",
+      "description": "پذیرایی",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231812419909483.jpg",
+      "url": "2026/02/23/32372702602231812419909483.jpg",
+      "preview": "UnEfTkxvof%M_NkWkC%M-=bIj]xu-;t7oLt7",
+      "description": "پذیرایی",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231812222706364.jpg",
+      "url": "2026/02/23/32372702602231812222706364.jpg",
+      "preview": "URDl$k?HM_%M~qxtM{t7?bxuWBaz_3%MWBay",
+      "description": "پذیرایی",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231812343957979.jpg",
+      "url": "2026/02/23/32372702602231812343957979.jpg",
+      "preview": "UdECnGxFM{xu~qxtWAof-;xuaxWB-;s:WBay",
+      "description": "پذیرایی",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231812479988280.jpg",
+      "url": "2026/02/23/32372702602231812479988280.jpg",
+      "preview": "UREVmNg4D*s:^,NHt8%M?bNGj[xu~qW=M{ae",
+      "description": "پذیرایی",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231815138270486.jpg",
+      "url": "2026/02/23/32372702602231815138270486.jpg",
+      "preview": "UME36nxGxt_3_Nof%M%MtRWBt7ae?Gn%t7t6",
+      "description": "آشپزخانه",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231812099181535.jpg",
+      "url": "2026/02/23/32372702602231812099181535.jpg",
+      "preview": "UQF5{o^,-;_3~q-;s9xaV@xaVsaL-pxan%s:",
+      "description": "آشپزخانه",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231813048120968.jpg",
+      "url": "2026/02/23/32372702602231813048120968.jpg",
+      "preview": "UUFO_s_3tSx]~W%MIVbI%MoeIURj_3xuofV@",
+      "description": "میز غذاخوری",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231810416088018.jpg",
+      "url": "2026/02/23/32372702602231810416088018.jpg",
+      "preview": "UUDcO7?ID%NF~q%3M{bu%2j]R*oz%2t8R*WV",
+      "description": "آشپزخانه",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231813017418377.jpg",
+      "url": "2026/02/23/32372702602231813017418377.jpg",
+      "preview": "UsGkwd-qNatQ~W%MS2of.7xuaes.-;xajGt7",
+      "description": "اتاق خواب",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231813074788024.jpg",
+      "url": "2026/02/23/32372702602231813074788024.jpg",
+      "preview": "UXD]e-xuE1%g~qxaM{kC-;t7WBf8-;off6t7",
+      "description": "اتاق خواب",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231813107137073.jpg",
+      "url": "2026/02/23/32372702602231813107137073.jpg",
+      "preview": "UhG924V?snx]~pRjayt8%MR+WBt7-;aff8t7",
+      "description": "اتاق خواب",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702602231812066025360.jpg",
+      "url": "2026/02/23/32372702602231812066025360.jpg",
+      "preview": "UvF?CM-:xt%M~q-pxaxu?H%1xZs.-pxas:s:",
+      "description": "اتاق خواب",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "32372702607141536036475772.jpg",
+      "url": "2026/07/14/32372702607141536036475772.jpg",
+      "preview": "UME.ql~W4oIU?btQI;X8kVWVoztR^+xuRPjF",
+      "description": null,
+      "created_at": "2026-07-14"
+    },
+    {
+      "name": "32372702602231815262987998.jpg",
+      "url": "2026/02/23/32372702602231815262987998.jpg",
+      "preview": "UJECk3_39FM|~p%MNGRjx]t7RjWB~qxuIURk",
+      "description": "سرویس ایرانی",
+      "created_at": "2026-02-23"
+    },
+    {
+      "name": "3237270240629143454.jpg",
+      "url": "2024/06/29/3237270240629143454.jpg",
+      "preview": "UWF$6D~ptQM{_3-;oyRjxuxuofWB?b%MofWB",
+      "description": "حمام",
+      "created_at": "2024-06-29"
+    },
+    {
+      "name": "3237270240629143451.jpg",
+      "url": "2024/06/29/3237270240629143451.jpg",
+      "preview": "UaH27l-;%g~p~Wxut7%Mxus:azj]?at7ogxu",
+      "description": "سرویس ایرانی",
+      "created_at": "2024-06-29"
+    },
+    {
+      "name": "3237270240629143456.jpg",
+      "url": "2024/06/29/3237270240629143456.jpg",
+      "preview": "UbFrkjD$9Z?b~qIUM{%M%gM{WBxu?bIUWBxu",
+      "description": "روشویی",
+      "created_at": "2024-06-29"
+    },
+    {
+      "name": "32372702603141715374549591.jpg",
+      "url": "2026/03/14/32372702603141715374549591.jpg",
+      "preview": "UUFYcD$%RO^+?axtjGofR-%Mt7IV~pxuRjxt",
+      "description": "ایوان",
+      "created_at": "2026-03-14"
+    },
+    {
+      "name": "32372702604041822163506325.jpg",
+      "url": "2026/04/04/32372702604041822163506325.jpg",
+      "preview": "UaGutA~Wt7.7-:V@j@%M%MjZt6xu~q%Ms.xu",
+      "description": null,
+      "created_at": "2026-04-04"
+    },
+    {
+      "name": "32372702604042217518885496.jpg",
+      "url": "2026/04/04/32372702604042217518885496.jpg",
+      "preview": "UPDlya-;og-;tRt6xaxux]j[oft7~qozR*t8",
+      "description": null,
+      "created_at": "2026-04-04"
+    },
+    {
+      "name": "3237270251109000403.jpg",
+      "url": "2025/11/09/3237270251109000403.jpg",
+      "preview": "UFDJR@-=Mw%C%2ROR%%NVtM|WYoO~pt9RkRi",
+      "description": "ورودی",
+      "created_at": "2025-11-09"
+    },
+    {
+      "name": "32372702604242227218772961.jpg",
+      "url": "2026/04/24/32372702604242227218772961.jpg",
+      "preview": "USF5gU?bo#%2~WyDg3s:%Nxut7of^+%3xbxa",
+      "description": null,
+      "created_at": "2026-04-24"
+    },
+    {
+      "name": "3237270250802224731.jpg",
+      "url": "2025/08/02/3237270250802224731.jpg",
+      "preview": "UGECn4~p0000pBoy%MtP0JE1?b%f_LxuE1NF",
+      "description": "حیاط بهاری",
+      "created_at": "2025-08-02"
+    },
+    {
+      "name": "32372702606210920095090786.jpg",
+      "url": "2026/06/21/32372702606210920095090786.jpg",
+      "preview": "UBBpqa^+t7RhImNHIUIU9FRjM{RQ~q%2s;s:",
+      "description": null,
+      "created_at": "2026-06-21"
+    },
+    {
+      "name": "32372702604242230093046807.jpg",
+      "url": "2026/04/24/32372702604242230093046807.jpg",
+      "preview": "UVCsjY~X-=%fo|jIi{f+SeRkaeof?b-qxuxt",
+      "description": null,
+      "created_at": "2026-04-24"
+    },
+    {
+      "name": "3237270250802214530.jpg",
+      "url": "2025/08/02/3237270250802214530.jpg",
+      "preview": "U~LXV%x]t7-;~q%Mofxu_3xujZt7_2ofWBt7",
+      "description": "دروازه ورودی",
+      "created_at": "2025-08-02"
+    }
+  ],
+  "vr_photo": null,
+  "video_url": null,
+  "allocation": "shared_place",
+  "types": [
+    "apartment",
+    "suite"
+  ],
+  "regions": [
+    "urban"
+  ],
+  "floor_area": 100,
+  "land_area": 500,
+  "floors_count": 0,
+  "bedrooms": 2,
+  "sleep_arrange": [
+    {
+      "space_id": 1,
+      "single": 0,
+      "double": 1,
+      "mattress": 0,
+      "sofa_bed": 0,
+      "etc": ""
+    },
+    {
+      "space_id": 2,
+      "single": 0,
+      "double": 1,
+      "mattress": 0,
+      "sofa_bed": 0,
+      "etc": ""
+    },
+    {
+      "space_id": 0,
+      "single": 0,
+      "double": 0,
+      "mattress": 2,
+      "sofa_bed": 0,
+      "etc": ""
+    }
+  ],
+  "sleep_description": "ملحفه ها قبل ورود میهمان بطور کامل تعویض میشود",
+  "guest_number": 4,
+  "max_guest_number": 8,
+  "stays_min": 1,
+  "stays_max": null,
+  "entrance_time_min": 14,
+  "entrance_time_max": 22,
+  "leaving_time": 12,
+  "features": [
+    {
+      "name": "essentials",
+      "description": "مایع دستشویی و مایع ظرفشویی"
+    },
+    {
+      "name": "electricity",
+      "description": "درمواقع قطع شدن برق چراغ روشنایی گازی روشن میشود"
+    },
+    {
+      "name": "water",
+      "description": "آب لوله کشی شهری"
+    },
+    {
+      "name": "tv",
+      "description": "تلویزیون معمولی"
+    },
+    {
+      "name": "heating",
+      "description": "یک شعله بخاری گازی در پذیرایی و یک شعله بخاری گازی در هر اتاق خواب"
+    },
+    {
+      "name": "cooler",
+      "description": "یک دستگاه کولر اسپیلت 24000 در پذیرایی"
+    },
+    {
+      "name": "kitchen",
+      "description": "برای 6 نفر به طور کامل موجود است."
+    },
+    {
+      "name": "stave",
+      "description": "پنج شعله"
+    },
+    {
+      "name": "refrigerator",
+      "description": null
+    },
+    {
+      "name": "vacuumcleaner",
+      "description": "در صورت نیاز در اختیار مهمان قرار می گیرد."
+    },
+    {
+      "name": "furniture",
+      "description": "مبلمان 6 نفره"
+    },
+    {
+      "name": "table",
+      "description": "۴ نفره"
+    },
+    {
+      "name": "drawer",
+      "description": "کمددیواری"
+    },
+    {
+      "name": "parking",
+      "description": "پارکینگ روباز برای سه خودرو"
+    },
+    {
+      "name": "islamictoilet",
+      "description": "با فرنگی سیار"
+    },
+    {
+      "name": "barbecue",
+      "description": "باربیکیو زغالی"
+    },
+    {
+      "name": "janitor",
+      "description": "میزبان در طبقه بالا سکونت دارد."
+    },
+    {
+      "name": "bathroom",
+      "description": null
+    }
+  ],
+  "properties": [
+    {
+      "id": 71,
+      "name": "مهمان نواز"
+    }
+  ],
+  "additional_feature": "اقامتگاه بصورت دوره ای سمپاشی می‌شود وعاری از هرگونه حشرات موذی میباشد",
+  "additional_safety": null,
+  "rules": [
+    "foreign_guest",
+    "party",
+    "pet",
+    "smoke",
+    "unmarried"
+  ],
+  "additional_rule": "در صورت هرگونه خسارت به امکانات اقامتگاه، هزینه خسارت دریافت می گردد.\nاقامتگاه تمیز تحویل داده شده و تمیز تحویل گرفته می شود، در صورت عدم رعایت مبلغ ۳۰۰ هزارتومان هزینه نظافت دریافت می گردد.",
+  "cancellation_policy": "middle",
+  "min_price": 3000000,
+  "extra_price": 500000,
+  "is_clean": false,
+  "is_new": false,
+  "is_instant": true,
+  "is_plus": true,
+  "success_books": 20,
+  "discounts": [],
+  "current_discount": null,
+  "current_discount_percent": 0,
+  "ratings": {
+    "count": 29,
+    "total": 5,
+    "accuracy": 5,
+    "communication": 5,
+    "cleanliness": 5,
+    "location": 5,
+    "checkin": 5,
+    "value": 4.8,
+    "comments_grouped_by_rating": {
+      "4": 4,
+      "5": 20
+    },
+    "is_recently": true,
+    "is_bad_host": false
+  },
+  "meta": {
+    "title": "خانه مبله در رامسر - همکف",
+    "description": "اجاره روزانه آپارتمان مبله شهری 2 خوابه در رامسر، مازندران برای 8 نفر مهمان با قیمت مناسب و ضمانت تحویل جاجیگا.",
+    "keywords": null
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "checkin": "2026-10-15",
+  "checkout": "2026-10-17",
+  "guests": {
+    "total": 4,
+    "extra": 0
+  },
+  "stays_count": 2,
+  "is_peak": false,
+  "is_nowruz": false,
+  "is_instant": true,
+  "is_guest_first_book": true,
+  "has_idcode": false,
+  "cancellation_policy": "middle",
+  "new_cancellation_policy": null,
+  "bill": {
+    "nights": [
+      {
+        "date": "2026-10-15",
+        "price": 3000000,
+        "price_after_discount": 3000000,
+        "discount_type": null,
+        "discount_percent": 0,
+        "discount": 0,
+        "is_peak": false,
+        "is_instant": true,
+        "is_weekend": true,
+        "is_holiday": false,
+        "is_guarantee": false,
+        "min_stay": 1
+      },
+      {
+        "date": "2026-10-16",
+        "price": 3000000,
+        "price_after_discount": 3000000,
+        "discount_type": null,
+        "discount_percent": 0,
+        "discount": 0,
+        "is_peak": false,
+        "is_instant": true,
+        "is_weekend": false,
+        "is_holiday": false,
+        "is_guarantee": false,
+        "min_stay": 1
+      }
+    ],
+    "average": 3000000,
+    "sum": 6000000,
+    "extra": 0,
+    "total": 6000000,
+    "host_discount": 0,
+    "site_discount": 0,
+    "host_service_fee": 900000,
+    "guest_service_fee": 180000,
+    "host_arzeshafzodeh": 90000,
+    "guest_arzeshafzodeh": 18000,
+    "amount": 6000000,
+    "payable": 6198000,
+    "prepay": 0,
+    "manual_pay": 0,
+    "discounts": []
+  },
+  "block_for": [],
+  "host_blocked_for_message": [],
+  "guest_blocked_for_message": []
+}

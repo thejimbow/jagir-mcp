@@ -1,0 +1,63 @@
+{
+  "name": "jagir-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.thejimbow/jagir-mcp",
+  "description": "MCP server to search and compare vacation rentals on Jabama, Jajiga and Otaghak (Iran) from Claude and other AI assistants",
+  "author": {
+    "name": "thejimbow",
+    "url": "https://github.com/thejimbow"
+  },
+  "homepage": "https://github.com/thejimbow/jagir-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejimbow/jagir-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thejimbow/jagir-mcp/issues"
+  },
+  "type": "module",
+  "bin": {
+    "jagir-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:live": "LIVE=1 vitest run test/live.test.ts",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build",
+    "pack:mcpb": "scripts/pack-mcpb.sh"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "claude",
+    "ai",
+    "jabama",
+    "jajiga",
+    "otaghak",
+    "iran",
+    "travel",
+    "vacation-rental",
+    "persian"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "jalaali-js": "^2.0.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}

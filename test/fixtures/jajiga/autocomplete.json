@@ -1,0 +1,69 @@
+{
+  "phrase": "رامسر",
+  "items": [
+    {
+      "id": "303",
+      "label": "رامسر",
+      "sub_label": "مازندران",
+      "type": "city",
+      "url": "/s/ramsar",
+      "rooms_count": 1876
+    },
+    {
+      "id": "d143",
+      "label": "جنگل دالخانی",
+      "sub_label": "رامسر",
+      "type": "district",
+      "url": "/s/dalkhani",
+      "rooms_count": 131
+    },
+    {
+      "id": "d142",
+      "label": "اربه کله",
+      "sub_label": "رامسر",
+      "type": "district",
+      "url": "/s/arbekale",
+      "rooms_count": 97
+    },
+    {
+      "id": "d141",
+      "label": "جواهرده",
+      "sub_label": "رامسر",
+      "type": "district",
+      "url": "/s/javaherdeh",
+      "rooms_count": 82
+    },
+    {
+      "id": "d40",
+      "label": "دریاچه قو رامسر",
+      "sub_label": "",
+      "type": "district",
+      "url": "/s/qulakeramsar",
+      "rooms_count": 29
+    },
+    {
+      "id": "d119",
+      "label": "چالکرود",
+      "sub_label": "رامسر",
+      "type": "district",
+      "url": "/s/chalkrud",
+      "rooms_count": 17
+    },
+    {
+      "id": "d111",
+      "label": "لپاسرک",
+      "sub_label": "رامسر",
+      "type": "district",
+      "url": "/s/lapasarakramsar",
+      "rooms_count": 15
+    },
+    {
+      "id": "d28",
+      "label": "بلوار کازینو رامسر",
+      "sub_label": "",
+      "type": "district",
+      "url": "/s/casinoboulevardramsar",
+      "rooms_count": 17
+    }
+  ]
+}

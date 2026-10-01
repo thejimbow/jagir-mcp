@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 180 180">
+  <title>jagir</title>
+  <rect x="1" y="1" width="178" height="178" rx="40" fill="#FFFFFF" stroke="#DCEDE6" stroke-width="1.5"/>
+  <path d="M90 36 L136 76 L136 104 Q136 116 127 124 L90 154 L53 124 Q44 116 44 104 L44 76 Z" fill="none" stroke="#0E8A63" stroke-width="8" stroke-linejoin="round"/>
+  <circle cx="90" cy="96" r="13" fill="none" stroke="#1DB584" stroke-width="8"/>
+</svg>
