@@ -1,6 +1,6 @@
-<p align="center"><img src="assets/logo-wordmark.svg" alt="jayab" width="360"></p>
+<p align="center"><img src="assets/logo-wordmark.svg" alt="jagir" width="360"></p>
 
-# jayab-mcp
+# jagir-mcp
 
 MCP server to search and compare short-term rentals on **Jabama**, **Jajiga** and **Otaghak** (Iran) from Claude and other MCP clients.
 
@@ -29,7 +29,7 @@ Requires Node.js 20+.
 ```json
 {
   "mcpServers": {
-    "jayab": { "command": "npx", "args": ["-y", "jayab-mcp"] }
+    "jagir": { "command": "npx", "args": ["-y", "jagir-mcp"] }
   }
 }
 ```
@@ -37,7 +37,7 @@ Requires Node.js 20+.
 ### Claude Code
 
 ```bash
-claude mcp add jayab -- npx -y jayab-mcp
+claude mcp add jagir -- npx -y jagir-mcp
 ```
 
 ## Example prompts

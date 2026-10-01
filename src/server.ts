@@ -31,11 +31,11 @@ const date = (what: string) =>
 export function createServer(adapters: Record<Platform, PlatformAdapter>, options: ServerOptions = {}): McpServer {
   const today = options.today ?? (() => todayTehran());
   const server = new McpServer({
-    name: 'jayab-mcp',
-    title: 'jayab',
+    name: 'jagir-mcp',
+    title: 'Jagir',
     version: VERSION,
     description: 'Search and compare stays on Jabama, Jajiga and Otaghak (Iran). Read-only.',
-    websiteUrl: 'https://github.com/thejimbow/jayab-mcp',
+    websiteUrl: 'https://github.com/thejimbow/jagir-mcp',
     icons: ICONS,
   });
   const adapterFor = (id: string) => {
