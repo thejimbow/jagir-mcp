@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="120" viewBox="0 0 420 120">
-  <title>jayab · جایاب</title>
+  <title>jagir · جاگیر</title>
   <g transform="translate(6 6) scale(0.6)">
     <path d="M90 36 L136 76 L136 104 Q136 116 127 124 L90 154 L53 124 Q44 116 44 104 L44 76 Z" fill="none" stroke="#0E8A63" stroke-width="8" stroke-linejoin="round"/>
     <circle cx="90" cy="96" r="13" fill="none" stroke="#1DB584" stroke-width="8"/>
   </g>
-  <text x="124" y="72" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="600" letter-spacing="-1" fill="#0E8A63">jayab</text>
-  <text x="128" y="100" font-family="Vazirmatn, Tahoma, 'Segoe UI', sans-serif" font-size="20" fill="#1DB584">جایاب · جستجوی اقامتگاه</text>
+  <text x="124" y="72" font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="52" font-weight="600" letter-spacing="-1" fill="#0E8A63">jagir</text>
+  <text x="128" y="100" font-family="Vazirmatn, Tahoma, 'Segoe UI', sans-serif" font-size="20" fill="#1DB584">جاگیر · جستجوی اقامتگاه</text>
 </svg>

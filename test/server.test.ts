@@ -79,7 +79,7 @@ describe('MCP server', () => {
   it('advertises the server icon', async () => {
     const { client } = await connect();
     const info = client.getServerVersion()!;
-    expect(info).toMatchObject({ name: 'jayab-mcp', title: 'jayab' });
+    expect(info).toMatchObject({ name: 'jagir-mcp', title: 'Jagir' });
     expect(info.icons!.map((i) => i.mimeType)).toEqual(['image/png', 'image/svg+xml']);
     expect(info.icons![0]!.src).toMatch(/^data:image\/png;base64,iVBOR/);
   });

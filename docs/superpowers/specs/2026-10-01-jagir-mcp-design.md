@@ -1,4 +1,4 @@
-# jayab-mcp — Design
+# jagir-mcp — Design
 
 **Date:** 2026-10-01
 **Status:** Approved (user: "بزن کامل" — proceed end to end)
@@ -13,7 +13,7 @@ A read-only MCP server that lets Claude (and other MCP clients) search, inspect 
 |---|---|
 | Scope | Read-only: location lookup, search, detail, calendar, price quote |
 | Language / runtime | TypeScript, Node ≥ 20 (native `fetch`), official `@modelcontextprotocol/sdk` |
-| Distribution | Public npm package, `npx jayab-mcp`, stdio transport, runs on the user's machine |
+| Distribution | Public npm package, `npx jagir-mcp`, stdio transport, runs on the user's machine |
 | Tool shape | Unified tools that fan out to all platforms and return normalized results |
 | Price quotes | Separate `get_quote` tool using read-only quote endpoints (Jabama `orders/preview`, Jajiga `invoice`); Otaghak computed from calendar |
 | Currency | Everything normalized to **Toman** (Jabama raw values are Rial ÷ 10) |
