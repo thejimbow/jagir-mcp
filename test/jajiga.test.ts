@@ -58,7 +58,50 @@ describe('mapJajigaDetail', () => {
   });
 });
 
+describe('mapJajigaDetail extras', () => {
+  const d = mapJajigaDetail(room);
+
+  it('includes the rating breakdown with cleanliness', () => {
+    expect(d.ratings).toEqual({
+      overall: 5,
+      count: 29,
+      breakdown: [
+        { label: 'پاکیزگی اقامتگاه', score: 5 },
+        { label: 'صحت مطالب', score: 5 },
+        { label: 'شیوه برخورد میزبان', score: 5 },
+        { label: 'مکان اقامتگاه', score: 5 },
+        { label: 'تحویل اقامتگاه', score: 5 },
+        { label: 'ارزندگی (قیمت به کیفیت)', score: 4.8 },
+      ],
+      distribution: { '4': 4, '5': 20 },
+    });
+  });
+
+  it('maps size, beds, privacy, bookings and extra notes', () => {
+    expect(d).toMatchObject({ areaM2: 100, privacy: 'نیمه دربست', successfulBookings: 20, media: [] });
+    expect(d.beds).toEqual(['اتاق 1: 1 تخت دونفره', 'اتاق 2: 1 تخت دونفره', 'فضای مشترک: 2 تشک']);
+    expect(d.facts).toContainEqual({ label: 'منطقه', value: 'شهری' });
+    expect(d.facts).toContainEqual({ label: 'متراژ زمین', value: '500' });
+    expect(d.facts).toContainEqual({ label: 'توضیحات خواب', value: 'ملحفه ها قبل ورود میهمان بطور کامل تعویض میشود' });
+    expect(d.facts.map((f) => f.label)).toContain('امکانات اضافه');
+    expect(d.images).toHaveLength(31);
+  });
+});
+
 describe('createJajigaAdapter', () => {
+  it('pages through reviews and attaches ratings', async () => {
+    const reviews = fixture('jajiga/reviews.json');
+    const { http, calls } = fakeHttp((url) => (url.endsWith('/reviews') ? reviews : room));
+    const res = await createJajigaAdapter(http).getReviews('3237270', 3);
+    const reviewCall = calls.find((c) => c.url.endsWith('/room/3237270/reviews'))!;
+    expect(reviewCall.req.query).toEqual({ page: 1, per_page: 3 });
+    expect(res).toMatchObject({ id: 'jajiga:3237270', platform: 'jajiga', total: 28, url: 'https://www.jajiga.com/room/3237270' });
+    expect(res.ratings!.breakdown[0]).toEqual({ label: 'پاکیزگی اقامتگاه', score: 5 });
+    expect(res.reviews).toHaveLength(3);
+    expect(res.reviews[0]).toMatchObject({ date: '2026-09-28', rating: 4.8, text: 'برخورد میزبان صمیمی', recommended: null, stayInfo: null });
+    expect(res.reviews[0]!.hostReply).toMatch(/ممنونم از ثبت نظرتون/);
+  });
+
   it('resolves location then searches', async () => {
     const { http, calls } = fakeHttp((url) => (url.endsWith('/autocomplete') ? fixture('jajiga/autocomplete.json') : search));
     const res = await createJajigaAdapter(http).search({
@@ -73,6 +116,12 @@ describe('createJajigaAdapter', () => {
     });
     expect(res.total).toBe(725);
     expect(res.stays).toHaveLength(search.rooms.items.length);
+  });
+
+  it('caps per_page at 30 (larger values are rejected with HTTP 422)', async () => {
+    const { http, calls } = fakeHttp((url) => (url.endsWith('/autocomplete') ? fixture('jajiga/autocomplete.json') : search));
+    await createJajigaAdapter(http).search({ location: 'رشت', sort: 'rating', limit: 60 });
+    expect(calls[1]!.req.query).toMatchObject({ per_page: 30, order: 'rating' });
   });
 
   it('returns location matches', async () => {

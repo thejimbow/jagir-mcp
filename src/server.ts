@@ -11,6 +11,8 @@ export const VERSION = '0.1.0';
 const DEFAULT_LIMIT = 30;
 const DEFAULT_CALENDAR_DAYS = 30;
 const MAX_CALENDAR_DAYS = 120;
+const DEFAULT_REVIEWS = 50;
+const MAX_REVIEWS = 200;
 const ANNOTATIONS = { readOnlyHint: true, openWorldHint: true } as const;
 
 export interface ServerOptions {
@@ -91,7 +93,11 @@ export function createServer(adapters: Record<Platform, PlatformAdapter>, option
     'get_stay',
     {
       title: 'Get stay details',
-      description: 'Full details of one stay: description, amenities, house rules, check-in/out times, cancellation policy, base prices (Toman).',
+      description:
+        'Full details of one stay: description, amenities (and missing ones), house rules, check-in/out times, cancellation policy, ' +
+        'base prices (Toman), rating breakdown incl. cleanliness, star distribution, area, beds, privacy (entire/shared), ' +
+        'successful bookings, discounts, all photos, and extra facts such as view/setting, distances to sea or city centre, ' +
+        'child pricing and host response time.',
       inputSchema: { id: stayId },
       annotations: ANNOTATIONS,
     },
@@ -99,6 +105,27 @@ export function createServer(adapters: Record<Platform, PlatformAdapter>, option
       run(async () => {
         const target = adapterFor(id);
         return target.adapter.getStay(target.id);
+      }),
+  );
+
+  server.registerTool(
+    'get_reviews',
+    {
+      title: 'Get guest reviews',
+      description:
+        'Guest reviews of one stay, newest first: full text, star rating, date or stay info, host reply, and (Otaghak) the ' +
+        'positive/negative points and whether the guest recommends it. Also returns the rating breakdown (cleanliness, accuracy, ' +
+        'location, value…) and star distribution. Use it to judge cleanliness, noise, view or host behaviour from real guests.',
+      inputSchema: {
+        id: stayId,
+        limit: z.number().int().min(1).max(MAX_REVIEWS).optional().describe(`Max reviews to return. Default ${DEFAULT_REVIEWS}.`),
+      },
+      annotations: ANNOTATIONS,
+    },
+    (args) =>
+      run(async () => {
+        const target = adapterFor(args.id);
+        return target.adapter.getReviews(target.id, args.limit ?? DEFAULT_REVIEWS);
       }),
   );
 

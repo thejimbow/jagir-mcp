@@ -33,16 +33,62 @@ export interface Stay {
   location: { lat: number; lng: number } | null;
 }
 
+/** Platform rating summary; `breakdown` holds sub-scores such as cleanliness, labelled as the platform labels them. */
+export interface RatingSummary {
+  overall: number | null;
+  count: number | null;
+  breakdown: { label: string; score: number }[];
+  /** Number of reviews per star ("1"–"5"). */
+  distribution: Record<string, number> | null;
+}
+
+/** A labelled fact that has no dedicated field (view, distances, host response time, child pricing…). */
+export interface Fact {
+  label: string;
+  value: string;
+}
+
 export interface StayDetail extends Stay {
   description: string | null;
   amenities: string[];
+  missingAmenities: string[];
   rules: string[];
   checkInTime: string | null;
   checkOutTime: string | null;
   minNights: number | null;
   cancellationPolicy: string | null;
   basePrices: { normal: number | null; weekend: number | null; holiday: number | null; extraPerson: number | null };
+  ratings: RatingSummary | null;
+  areaM2: number | null;
+  bathrooms: number | null;
+  floor: number | null;
+  beds: string[];
+  privacy: string | null;
+  successfulBookings: number | null;
+  discounts: string[];
+  facts: Fact[];
   images: string[];
+  media: string[];
+}
+
+export interface Review {
+  date: string | null;
+  rating: number | null;
+  text: string;
+  positives: string[];
+  negatives: string[];
+  recommended: boolean | null;
+  stayInfo: string | null;
+  hostReply: string | null;
+}
+
+export interface ReviewsResult {
+  id: string;
+  platform: Platform;
+  url: string;
+  total: number | null;
+  ratings: RatingSummary | null;
+  reviews: Review[];
 }
 
 export interface CalendarDay {
@@ -89,6 +135,7 @@ export interface PlatformAdapter {
   getStay(id: string): Promise<StayDetail>;
   getCalendar(id: string, from: string, to: string): Promise<CalendarDay[]>;
   getQuote(id: string, checkIn: string, checkOut: string, guests: number): Promise<Quote>;
+  getReviews(id: string, limit: number): Promise<ReviewsResult>;
 }
 
 export class PlatformError extends Error {

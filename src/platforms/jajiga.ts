@@ -2,14 +2,16 @@ import { nightsBetween } from '../core/dates.js';
 import { httpJson, type HttpJson } from '../core/http.js';
 import { formatStayId } from '../core/ids.js';
 import {
-  PlatformError, type CalendarDay, type LocationMatch, type PlatformAdapter, type SortOrder, type Stay, type StayDetail,
+  PlatformError, type CalendarDay, type Fact, type LocationMatch, type PlatformAdapter, type RatingSummary, type Review,
+  type SortOrder, type Stay, type StayDetail,
 } from '../core/types.js';
-import { compact, num, pos, str, type Raw } from '../core/util.js';
+import { compact, fact, MAX_IMAGES, num, pos, str, type Raw } from '../core/util.js';
 
 const API = 'https://api.jajiga.com/api';
 const WEB = 'https://www.jajiga.com';
 const PICTURES = 'https://storage.jajiga.com/public/pictures/medium/';
-const MAX_PAGE = 36;
+const MAX_PAGE = 30; // the API rejects per_page > 30 with HTTP 422
+const REVIEWS_PER_PAGE = 50;
 
 const ORDERS: Record<SortOrder, string> = {
   relevance: 'popularity',
@@ -37,6 +39,33 @@ const FEATURES: Record<string, string> = {
   toilet: 'توالت فرنگی', tv: 'تلویزیون', uncoveredRoofPool: 'استخر روباز', vacuumcleaner: 'جارو برقی',
   washer: 'ماشین لباسشویی', water: 'آب لوله‌کشی', wifi: 'اینترنت',
 };
+
+const RATING_FACTORS: [key: string, label: string][] = [
+  ['cleanliness', 'پاکیزگی اقامتگاه'],
+  ['accuracy', 'صحت مطالب'],
+  ['communication', 'شیوه برخورد میزبان'],
+  ['location', 'مکان اقامتگاه'],
+  ['checkin', 'تحویل اقامتگاه'],
+  ['value', 'ارزندگی (قیمت به کیفیت)'],
+];
+
+const ALLOCATIONS: Record<string, string> = {
+  entire_place: 'دربست',
+  private_room: 'اتاق خصوصی',
+  shared_place: 'نیمه دربست',
+  shared_room: 'اتاق مشترک',
+};
+
+const REGIONS: Record<string, string> = {
+  beach: 'ساحلی', desert: 'بیابانی', forest: 'جنگلی', mountain: 'ییلاقی', rural: 'روستایی', suburb: 'حومه شهر', urban: 'شهری',
+};
+
+const BEDS: [key: string, label: string][] = [
+  ['double', 'تخت دونفره'],
+  ['single', 'تخت یک‌نفره'],
+  ['sofa_bed', 'کاناپه‌تخت'],
+  ['mattress', 'تشک'],
+];
 
 const CANCELLATION: Record<string, string> = {
   easy: 'سیاست سهلگیرانه',
@@ -105,12 +134,50 @@ export function mapJajigaSearchItem(item: Raw, nights: number | null): Stay | nu
   };
 }
 
+export function mapJajigaRatings(room: Raw): RatingSummary | null {
+  const r = room?.ratings;
+  const overall = pos(r?.total);
+  const count = num(r?.count);
+  if (overall === null && count === null) return null;
+  const grouped = r?.comments_grouped_by_rating;
+  return {
+    overall,
+    count,
+    breakdown: compact(RATING_FACTORS.map(([key, label]) => (pos(r?.[key]) !== null ? { label, score: r[key] as number } : null))),
+    distribution: grouped && typeof grouped === 'object' ? Object.fromEntries(Object.entries(grouped).map(([k, v]) => [k, num(v) ?? 0])) : null,
+  };
+}
+
+function bedLines(arrangement: Raw[]): string[] {
+  return compact(
+    arrangement.map((space) => {
+      const beds = compact(BEDS.map(([key, label]) => (pos(space?.[key]) !== null ? `${space[key]} ${label}` : null)));
+      const extra = str(space?.etc);
+      if (extra) beds.push(extra);
+      if (beds.length === 0) return null;
+      const where = num(space?.space_id) ? `اتاق ${space.space_id}` : 'فضای مشترک';
+      return `${where}: ${beds.join('، ')}`;
+    }),
+  );
+}
+
+function discountLine(d: Raw): string | null {
+  if (typeof d === 'string') return str(d);
+  const percent = pos(d?.percent) ?? pos(d?.discount) ?? pos(d?.value);
+  const label = str(d?.title) ?? str(d?.type) ?? str(d?.name);
+  const nights = pos(d?.min_nights) ?? pos(d?.nights);
+  if (percent === null && !label) return null;
+  return compact([percent !== null ? `${percent}% تخفیف` : null, label, nights !== null ? `از ${nights} شب` : null]).join(' — ');
+}
+
 export function mapJajigaDetail(room: Raw): StayDetail {
   const id = num(room?.id);
   const title = str(room?.title);
   if (id === null || !title) throw new PlatformError('jajiga', 'Unexpected room payload');
   const pictures: Raw[] = Array.isArray(room.pictures) ? room.pictures : (room.pictures?.items ?? []);
-  const images = compact<string>(pictures.map(picture)).slice(0, 10);
+  const images = compact<string>(pictures.map(picture)).slice(0, MAX_IMAGES);
+  const allocation = str(room.allocation);
+  const regions = compact<string>((room.regions ?? []).map((r: Raw) => (str(r) ? (REGIONS[r] ?? r) : null)));
   const checkInFrom = hour(room.entrance_time_min);
   const checkInTo = hour(room.entrance_time_max);
   const cancellation = str(room.cancellation_policy);
@@ -146,7 +213,48 @@ export function mapJajigaDetail(room: Raw): StayDetail {
     minNights: num(room.stays_min),
     cancellationPolicy: cancellation ? (CANCELLATION[cancellation] ?? cancellation) : null,
     basePrices: { normal: pos(room.min_price), weekend: null, holiday: null, extraPerson: pos(room.extra_price) },
+    missingAmenities: [],
+    ratings: mapJajigaRatings(room),
+    areaM2: pos(room.floor_area),
+    bathrooms: null,
+    floor: null,
+    beds: bedLines(room.sleep_arrange ?? []),
+    privacy: allocation ? (ALLOCATIONS[allocation] ?? allocation) : null,
+    successfulBookings: num(room.success_books),
+    discounts: compact<string>([
+      pos(room.current_discount_percent) !== null ? `${room.current_discount_percent}% تخفیف فعلی` : null,
+      ...(Array.isArray(room.discounts) ? room.discounts.map(discountLine) : []),
+    ]),
+    facts: compact<Fact>([
+      fact('منطقه', regions.join('، ')),
+      fact('متراژ زمین', pos(room.land_area)),
+      fact('تعداد طبقات', pos(room.floors_count)),
+      fact('تعداد واحد', (num(room.units_count) ?? 0) > 1 ? room.units_count : null),
+      fact('توضیحات خواب', room.sleep_description),
+      fact('امکانات اضافه', room.additional_feature),
+      fact('ایمنی', room.additional_safety),
+      fact('حداکثر شب اقامت', pos(room.stays_max)),
+      fact('رزرو آنی', room.is_instant === true ? 'بله' : null),
+      fact('پلاس', room.is_plus === true ? 'اقامتگاه پلاس جاجیگا' : null),
+      fact('تمیزی تأییدشده', room.is_clean === true ? 'بله' : null),
+    ]),
     images,
+    media: compact<string>([str(room.video_url), str(room.vr_photo)]),
+  };
+}
+
+function mapReview(r: Raw): Review | null {
+  const text = str(r?.content);
+  if (!text) return null;
+  return {
+    date: str(r.created_at)?.slice(0, 10) ?? null,
+    rating: num(r.rating),
+    text,
+    positives: [],
+    negatives: [],
+    recommended: null,
+    stayInfo: null,
+    hostReply: str(r.host_reply?.content),
   };
 }
 
@@ -193,6 +301,32 @@ export function createJajigaAdapter(http: HttpJson = httpJson): PlatformAdapter 
 
     async getStay(id) {
       return mapJajigaDetail(await http(`${API}/room/${ensureNumericId(id)}`));
+    },
+
+    async getReviews(id, limit) {
+      ensureNumericId(id);
+      const perPage = Math.min(limit, REVIEWS_PER_PAGE);
+      const [room, first] = await Promise.all([
+        http(`${API}/room/${id}`),
+        http(`${API}/room/${id}/reviews`, { query: { page: 1, per_page: perPage } }),
+      ]);
+      let page: Raw = first;
+      const total = num(page?.pagination?.total);
+      const reviews: Review[] = compact((page?.items ?? []).map(mapReview));
+      for (let n = 2; reviews.length < limit && total !== null && (n - 1) * perPage < total; n++) {
+        page = await http(`${API}/room/${id}/reviews`, { query: { page: n, per_page: perPage } });
+        const batch: Raw[] = page?.items ?? [];
+        if (batch.length === 0) break;
+        reviews.push(...compact(batch.map(mapReview)));
+      }
+      return {
+        id: formatStayId('jajiga', id),
+        platform: 'jajiga',
+        url: `${WEB}/room/${id}`,
+        total,
+        ratings: mapJajigaRatings(room),
+        reviews: reviews.slice(0, limit),
+      };
     },
 
     async getCalendar(id, from, to) {

@@ -2,9 +2,10 @@ import { addDays, eachNight, nightsBetween } from '../core/dates.js';
 import { httpJson, type HttpJson } from '../core/http.js';
 import { formatStayId } from '../core/ids.js';
 import {
-  PlatformError, type CalendarDay, type LocationMatch, type PlatformAdapter, type SortOrder, type Stay, type StayDetail,
+  PlatformError, type CalendarDay, type Fact, type LocationMatch, type PlatformAdapter, type RatingSummary, type Review,
+  type SortOrder, type Stay, type StayDetail,
 } from '../core/types.js';
-import { compact, num, pos, str, type Raw } from '../core/util.js';
+import { compact, fact, itemText, MAX_IMAGES, num, pos, str, type Raw } from '../core/util.js';
 
 const API = 'https://core.otaghak.com';
 const WEB = 'https://www.otaghak.com';
@@ -80,13 +81,43 @@ export function mapOtaghakSearchItem(room: Raw, ctx: DateCtx): Stay | null {
   };
 }
 
-export function mapOtaghakDetail(pdp: Raw, attributes: Raw): StayDetail {
+/** Ratings from `Points/GetRoomPointsV2`; falls back to the PDP's seo rating when points are unavailable. */
+export function mapOtaghakRatings(points: Raw, seo: Raw = {}): RatingSummary | null {
+  const overall = pos(points?.score) ?? pos(seo?.rate);
+  const count = num(points?.totalCount) ?? num(seo?.rateCount) ?? num(seo?.commentCount);
+  if (overall === null && count === null) return null;
+  const progresses: Raw[] = points?.progresses ?? [];
+  return {
+    overall,
+    count,
+    breakdown: compact(
+      (points?.points ?? []).map((p: Raw) => {
+        const label = str(p?.title);
+        const score = num(p?.point);
+        return label && score !== null ? { label, score } : null;
+      }),
+    ),
+    distribution: progresses.length
+      ? Object.fromEntries(compact(progresses.map((p) => (num(p?.score) !== null ? [String(p.score), num(p.count) ?? 0] : null))))
+      : null,
+  };
+}
+
+/** Name/description items of a PDP section as facts. */
+function sectionFacts(section: Raw): (Fact | null)[] {
+  return (section?.items ?? []).map((i: Raw) => fact(i?.name, i?.description));
+}
+
+export function mapOtaghakDetail(pdp: Raw, attributes: Raw, points: Raw = null): StayDetail {
   const info = pdp?.roomInfo;
   const id = num(info?.roomId);
   const title = str(info?.roomName);
   if (id === null || !title) throw new PlatformError('otaghak', 'Unexpected room payload');
   const sections: Raw[] = pdp.pdpSections ?? [];
   const section = (type: string): Raw => sections.find((s) => s?.sectionType === type);
+  const gallery: Raw[] = section('Images')?.media ?? [];
+  const areas: Raw[] = section('RoomAreas')?.roomAreas ?? [];
+  const rentType = (section('Header')?.items ?? []).find((i: Raw) => i?.icon === 'ic_renttype');
   const times: Raw[] = section('RoomTime')?.items ?? [];
   const timeOf = (label: string) => str(times.find((t) => str(t?.name)?.includes(label))?.description);
   const cancel = section('RoomCancelRuleType');
@@ -127,12 +158,62 @@ export function mapOtaghakDetail(pdp: Raw, attributes: Raw): StayDetail {
     minNights: null,
     cancellationPolicy: compact([str(cancel?.cancelRuleTitle), str(cancel?.cancelRuleDescription)]).join(': ') || null,
     basePrices: { normal: pos(pdp.price?.basePrice), weekend: null, holiday: null, extraPerson: pos(pdp.price?.extraPersonPrice) },
-    images: mainImage ? [mainImage] : [],
+    missingAmenities: [],
+    ratings: mapOtaghakRatings(points, seo),
+    areaM2: pos(seo.area),
+    bathrooms: null,
+    floor: null,
+    beds: compact<string>(
+      areas
+        .filter((a) => a?.roomAreaType === 'BedRoom')
+        .flatMap((a) =>
+          (a.items ?? []).map((i: Raw) => {
+            const what = compact([str(i?.name), str(i?.description) ? `(${i.description.trim()})` : null]).join(' ');
+            return what ? `${str(a.name) ?? 'اتاق خواب'}: ${what}` : null;
+          }),
+        ),
+    ),
+    privacy: str(rentType?.name) ?? str(seo.rentType),
+    successfulBookings: num(seo.successfulBookingCount),
+    discounts: compact([seo.isLastSecondDiscount === true ? 'تخفیف لحظه آخری' : null]),
+    facts: compact<Fact>([
+      ...sectionFacts(section('PromotedRoomAttributes')),
+      ...sectionFacts(section('AboutRoom')),
+      ...sectionFacts(section('RoomPrice')),
+      ...sectionFacts(section('HostFullProfile')),
+      ...areas
+        .filter((a) => a?.roomAreaType !== 'BedRoom')
+        .flatMap((a) => (a.items ?? []).map((i: Raw) => fact(`${str(a.name) ?? ''} — ${str(i?.name) ?? ''}`, i?.description))),
+      fact('حیوان خانگی', seo.isPetAllowed === true ? 'مجاز' : null),
+      fact('استعمال دخانیات', seo.isSmokingAllowed === true ? 'مجاز' : null),
+      fact('پرایم', seo.isPrime === true ? 'اقامتگاه پرایم اتاقک' : null),
+    ]),
+    images: gallery.length ? compact<string>(gallery.map((m) => image(m?.name))).slice(0, MAX_IMAGES) : mainImage ? [mainImage] : [],
+    media: compact<string>([str(info.virtualTourUrl), ...gallery.map((m) => str(m?.videoUrl))]),
+  };
+}
+
+function mapComment(c: Raw): Review | null {
+  const text = str(c?.body);
+  if (!text) return null;
+  const reply = (c.replies ?? []).find((r: Raw) => r?.isFromHost === true) ?? c.replies?.[0];
+  return {
+    date: str(c.creationDateTime)?.slice(0, 10) ?? null,
+    rating: num(c.point),
+    text,
+    positives: compact<string>((c.positivePoints ?? []).map(itemText)),
+    negatives: compact<string>((c.negativePoints ?? []).map(itemText)),
+    recommended: c.recomendationType === 'Recommended' ? true : c.recomendationType === 'NotRecommended' ? false : null,
+    stayInfo: null,
+    hostReply: str(reply?.body),
   };
 }
 
 export function createOtaghakAdapter(http: HttpJson = httpJson): PlatformAdapter {
   const fetchPdp = (id: string): Promise<Raw> => http(`${API}/api/v3/Rooms/GetRoomPdp`, { query: { roomId: ensureNumericId(id) } });
+  /** Rating breakdown; optional, so failures degrade to null. */
+  const fetchPoints = (id: string): Promise<Raw> =>
+    http(`${API}/api/v2/Points/GetRoomPointsV2`, { query: { roomId: ensureNumericId(id) } }).catch(() => null);
 
   async function resolveLocation(query: string): Promise<LocationMatch[]> {
     const res: Raw = await http(`${API}/api/v1/Search/GetSearchResult`, { query: { input: query } });
@@ -195,11 +276,28 @@ export function createOtaghakAdapter(http: HttpJson = httpJson): PlatformAdapter
     },
 
     async getStay(id) {
-      const [pdp, attributes] = await Promise.all([
+      const [pdp, attributes, points] = await Promise.all([
         fetchPdp(id),
         http(`${API}/api/v3/Rooms/GetRoomPdpAttributes`, { query: { roomId: id } }).catch(() => []),
+        fetchPoints(id),
       ]);
-      return mapOtaghakDetail(pdp, attributes);
+      return mapOtaghakDetail(pdp, attributes, points);
+    },
+
+    async getReviews(id, limit) {
+      const [comments, points] = await Promise.all([
+        http(`${API}/api/v2/Comments/GetAllByRoomId`, { query: { roomId: ensureNumericId(id), take: limit, skip: 0 } }),
+        fetchPoints(id),
+      ]);
+      const ratings = mapOtaghakRatings(points);
+      return {
+        id: formatStayId('otaghak', id),
+        platform: 'otaghak',
+        url: roomUrl(id),
+        total: ratings?.count ?? null,
+        ratings,
+        reviews: compact<Review>((Array.isArray(comments) ? comments : []).map(mapComment)).slice(0, limit),
+      };
     },
 
     async getQuote(id, checkIn, checkOut, guests) {
