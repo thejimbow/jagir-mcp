@@ -76,6 +76,14 @@ describe('MCP server', () => {
     expect(tools.every((t) => t.annotations?.readOnlyHint === true)).toBe(true);
   });
 
+  it('advertises the server icon', async () => {
+    const { client } = await connect();
+    const info = client.getServerVersion()!;
+    expect(info).toMatchObject({ name: 'jayab-mcp', title: 'jayab' });
+    expect(info.icons!.map((i) => i.mimeType)).toEqual(['image/png', 'image/svg+xml']);
+    expect(info.icons![0]!.src).toMatch(/^data:image\/png;base64,iVBOR/);
+  });
+
   it('search_stays normalizes Jalali dates and reports platform errors', async () => {
     const { call, seen } = await connect();
     const res = await call('search_stays', { location: 'رامسر', checkIn: '1405-07-23', checkOut: '1405-07-25', guests: 4 });
