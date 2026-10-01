@@ -1,0 +1,3501 @@
+{
+  "meta": {
+    "title": "اجاره ویلا و سوئیت",
+    "url": "/s",
+    "canonical": "/",
+    "rooms_count": 28332,
+    "min_price": 240000,
+    "max_price": 85000000
+  },
+  "filters": {},
+  "autocomplete": [],
+  "related_path": [
+    {
+      "title": "اجاره سوئیت",
+      "rooms_count": 11149,
+      "url": "/s/suite"
+    },
+    {
+      "title": "اجاره کلبه سوئیسی",
+      "rooms_count": 1944,
+      "url": "/s/swiss_cottage"
+    },
+    {
+      "title": "اجاره هتل آپارتمان",
+      "rooms_count": 2873,
+      "url": "/s/apartmenthotel"
+    },
+    {
+      "title": "اجاره ویلا ساحلی",
+      "rooms_count": 2449,
+      "url": "/s/beach"
+    },
+    {
+      "title": "اجاره ویلا استخردار",
+      "rooms_count": 3336,
+      "url": "/s/pool"
+    },
+    {
+      "title": "رزرو اقامتگاه بوم‌گردی",
+      "rooms_count": 3277,
+      "url": "/s/ecolog"
+    },
+    {
+      "title": "اجاره ویلا ارزان قیمت",
+      "rooms_count": 4028,
+      "url": "/s?economic=1"
+    },
+    {
+      "title": "اجاره ویلا جنگلی",
+      "rooms_count": 3740,
+      "url": "/s/forest"
+    }
+  ],
+  "rooms": {
+    "pagination": {
+      "total": 23427,
+      "count": 18,
+      "page": 1,
+      "per_page": 18
+    },
+    "items": [
+      {
+        "id": 3254790,
+        "province_name": "مازندران",
+        "city_name": "هچیرود",
+        "url": "/room/3254790",
+        "short_url": "/r/2hce",
+        "title": "رزرو ویلای سنتی در چالوس - هچیرود",
+        "room_number": 2,
+        "floor_area": 110,
+        "guest_number": 4,
+        "max_guest_number": 8,
+        "is_new": false,
+        "price": 2400000,
+        "rating": {
+          "total": 4.9,
+          "count": 67
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3254790250303190701.jpg",
+              "preview": "UdD,J;_1s}%FyGxvs$oaTNXBngob.AtSjDt2",
+              "url": "2025/03/03/3254790250303190701.jpg"
+            },
+            {
+              "name": "3254790250303190641.jpg",
+              "preview": "UUDJhj_Ms5V;yGtSVqaIO0S7VrV?%ht8i]V?",
+              "url": "2025/03/03/3254790250303190641.jpg"
+            },
+            {
+              "name": "3254790250303190721.jpg",
+              "preview": "UKELvV%1WA?E}@VsWUs.#nRkM}jI=^xtRlxZ",
+              "url": "2025/03/03/3254790250303190721.jpg"
+            },
+            {
+              "name": "3254790250303190444.jpg",
+              "preview": "UJELvl-o%2?H~Vs:Rks:4oM|NGIoRORjxtoe",
+              "url": "2025/03/03/3254790250303190444.jpg"
+            },
+            {
+              "name": "3254790250303190435.jpg",
+              "preview": "UJDvG;$gs:xu~poJs:%2E2IptQtQj^IotQkC",
+              "url": "2025/03/03/3254790250303190435.jpg"
+            }
+          ],
+          "total": 18
+        },
+        "success_books": 100,
+        "price_after_discount": 2400000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 3,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 36.67660140991211,
+          "lng": 51.34320068359375
+        },
+        "bedrooms": 2,
+        "units_count": 1,
+        "min_price": 2400000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 500000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 2400000,
+          "prices": {
+            "2400000": 1
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3293127,
+        "province_name": "گیلان",
+        "city_name": "بندر انزلی",
+        "url": "/room/3293127",
+        "short_url": "/r/3axb",
+        "title": "ویلا دوبلکس استخردار در بندر انزلی - پاسداران",
+        "room_number": 2,
+        "floor_area": 150,
+        "guest_number": 4,
+        "max_guest_number": 10,
+        "is_new": false,
+        "price": 8000000,
+        "rating": {
+          "total": 4.9,
+          "count": 25
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "32931272607201412048748752.jpg",
+              "preview": "UPA^d$~q-pxtxus,j?f,M{M{WCogx^o#ofs:",
+              "url": "2026/07/20/32931272607201412048748752.jpg"
+            },
+            {
+              "name": "32931272603201628251884323.jpg",
+              "preview": "UF84ojxwV.t0?Yt4M*Roxtf5RSWF%jj^jBoH",
+              "url": "2026/03/20/32931272603201628251884323.jpg"
+            },
+            {
+              "name": "32931272603201629213689435.jpg",
+              "preview": "UsDTFs%1Rhj[.As,aJj]yFocV?R*%$t6RiRj",
+              "url": "2026/03/20/32931272603201629213689435.jpg"
+            },
+            {
+              "name": "32931272603201629466901050.jpg",
+              "preview": "UbHB*vNfM{-o~pM|M{xu-;t7RkbI_2xuR+j[",
+              "url": "2026/03/20/32931272603201629466901050.jpg"
+            },
+            {
+              "name": "32931272603201628404323258.jpg",
+              "preview": "UdG[[|xtxZ?b~qxZRja~%gt7Rjof?cozoex[",
+              "url": "2026/03/20/32931272603201628404323258.jpg"
+            }
+          ],
+          "total": 26
+        },
+        "success_books": 20,
+        "price_after_discount": 8000000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 3,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 37.489601135253906,
+          "lng": 49.39979934692383
+        },
+        "bedrooms": 2,
+        "units_count": 1,
+        "min_price": 8000000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 700000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 8000000,
+          "prices": {
+            "8000000": 1
+          }
+        },
+        "properties": [
+          "is_plus",
+          "is_instant"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3158858,
+        "province_name": "مازندران",
+        "city_name": "مرزیکلا",
+        "url": "/room/3158858",
+        "short_url": "/r/fbm",
+        "title": "خانه روستایی در مرزیکلا - رئیس کلا",
+        "room_number": 1,
+        "floor_area": 70,
+        "guest_number": 4,
+        "max_guest_number": 6,
+        "is_new": false,
+        "price": 1500000,
+        "rating": {
+          "total": 4.9,
+          "count": 134
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3158858211109211515.jpg",
+              "preview": "UdC?.P%hN|kX_4x_kXtR%%tTo#t8.TtnSjkX",
+              "url": "3158858211109211515.jpg"
+            },
+            {
+              "name": "3158858250213090852.jpg",
+              "preview": "UMC~;v.8bb%L^+%gxut7?b-pxuoz~p%Mt6t7",
+              "url": "2025/02/13/3158858250213090852.jpg"
+            },
+            {
+              "name": "3158858250213091529.jpg",
+              "preview": "UuJ%g#-:oJ-:~UxuW?%M%Lt7a$t7-Uxas:s:",
+              "url": "2025/02/13/3158858250213091529.jpg"
+            },
+            {
+              "name": "3158858250213090934.jpg",
+              "preview": "UeHBVm={IA?G~ps;IU%L%3ofjsof$*xZxtjG",
+              "url": "2025/02/13/3158858250213090934.jpg"
+            },
+            {
+              "name": "3158858250213091320.jpg",
+              "preview": "UXF~Ku?aoL-;~pxaWBxuWXaeayog%2t7ofof",
+              "url": "2025/02/13/3158858250213091320.jpg"
+            }
+          ],
+          "total": 16
+        },
+        "success_books": 200,
+        "price_after_discount": 1500000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 5,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 30,
+        "geo": {
+          "lat": 36.371299743652344,
+          "lng": 52.74259948730469
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 1500000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 200000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 1500000,
+          "prices": {
+            "1500000": 1
+          }
+        },
+        "properties": [
+          "is_scenic",
+          "is_economic",
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3194108,
+        "province_name": "مازندران",
+        "city_name": "سوادکوه",
+        "url": "/room/3194108",
+        "short_url": "/r/16is",
+        "title": "کلبه سوئیسی در لفور - میرارکلا",
+        "room_number": 1,
+        "floor_area": 35,
+        "guest_number": 2,
+        "max_guest_number": 4,
+        "is_new": false,
+        "price": 4600000,
+        "rating": {
+          "total": 4.8,
+          "count": 93
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3194108250325225341.jpg",
+              "preview": "UqC%jU%Mr?xu.TtRadtRyFXTR%kX.9tRe.t8",
+              "url": "2025/03/25/3194108250325225341.jpg"
+            },
+            {
+              "name": "3194108250325225348.jpg",
+              "preview": "U|CkSqo~jYtS%jf-fko#tTf,j[kDx_kEj[of",
+              "url": "2025/03/25/3194108250325225348.jpg"
+            },
+            {
+              "name": "3194108250325225343.jpg",
+              "preview": "UHBo:X-901EkyXadZ#tRlUR%VWxu_4slD$Si",
+              "url": "2025/03/25/3194108250325225343.jpg"
+            },
+            {
+              "name": "3194108250325225332.jpg",
+              "preview": "UxEyugadX8xu_4V@bGtQ.9oejYt7.8xuaet7",
+              "url": "2025/03/25/3194108250325225332.jpg"
+            },
+            {
+              "name": "3194108251026193853.jpg",
+              "preview": "UfG*pG%MV?xF}.skkDxYxBWBogs,?HogbFof",
+              "url": "2025/10/26/3194108251026193853.jpg"
+            }
+          ],
+          "total": 48
+        },
+        "success_books": 100,
+        "price_after_discount": 4600000,
+        "weekly_discount": 10,
+        "weekly_discount_min_nights": 5,
+        "monthly_discount": 20,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 36.22159957885742,
+          "lng": 52.79690170288086
+        },
+        "bedrooms": 1,
+        "units_count": 2,
+        "min_price": 4600000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 1500000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4600000,
+          "prices": {
+            "4600000": 1
+          }
+        },
+        "properties": [
+          "is_scenic",
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3273471,
+        "province_name": "مازندران",
+        "city_name": "بابلکنار",
+        "url": "/room/3273471",
+        "short_url": "/r/2vrb",
+        "title": "کلبه چوبی در بابلکنار - سیادرکا",
+        "room_number": 0,
+        "floor_area": 60,
+        "guest_number": 2,
+        "max_guest_number": 2,
+        "is_new": false,
+        "price": 1800000,
+        "rating": {
+          "total": 5,
+          "count": 54
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3273471250720223529.jpg",
+              "preview": "UvFYoot7%N-;~qt7%M%g?cofxux]-;j]fltR",
+              "url": "2025/07/20/3273471250720223529.jpg"
+            },
+            {
+              "name": "3273471250720223344.jpg",
+              "preview": "UeEf1os,%h-;_Nj[%g%M.8ozx]%M?bxutRx]",
+              "url": "2025/07/20/3273471250720223344.jpg"
+            },
+            {
+              "name": "3273471250720223415.jpg",
+              "preview": "UVG8Aa}?xs-p~U%0s-ozofWBjYof-T%0s,s:",
+              "url": "2025/07/20/3273471250720223415.jpg"
+            },
+            {
+              "name": "3273471250720223556.jpg",
+              "preview": "UUF5EKjbM|xZ~UWrNH%0xat7ofoJ$$t6xtjZ",
+              "url": "2025/07/20/3273471250720223556.jpg"
+            },
+            {
+              "name": "3273471250721095808.jpg",
+              "preview": "UPHU8z^hM{%M^$-oxuWXxCt7SiNG}?s:I;s:",
+              "url": "2025/07/21/3273471250721095808.jpg"
+            }
+          ],
+          "total": 10
+        },
+        "success_books": 50,
+        "price_after_discount": 1800000,
+        "weekly_discount": 10,
+        "weekly_discount_min_nights": 6,
+        "monthly_discount": 20,
+        "monthly_discount_min_nights": 15,
+        "geo": {
+          "lat": 36.36309814453125,
+          "lng": 52.75080108642578
+        },
+        "bedrooms": 0,
+        "units_count": 1,
+        "min_price": 1800000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 800000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 1800000,
+          "prices": {
+            "1800000": 1
+          }
+        },
+        "properties": [
+          "is_plus",
+          "is_instant"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3266369,
+        "province_name": "مازندران",
+        "city_name": "سرخرود",
+        "url": "/room/3266369",
+        "short_url": "/r/2qa1",
+        "title": "ویلا تریپلکس استخردار در سرخرود - ۴ خوابه",
+        "room_number": 4,
+        "floor_area": 350,
+        "guest_number": 6,
+        "max_guest_number": 20,
+        "is_new": false,
+        "price": 6500000,
+        "rating": {
+          "total": 4.8,
+          "count": 61
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3266369250519082449.jpg",
+              "preview": "UVD0[UpIrW%L^iocWBslozs:SOWC*Jo#V@f+",
+              "url": "2025/05/19/3266369250519082449.jpg"
+            },
+            {
+              "name": "3266369250526090938.jpg",
+              "preview": "UmI5rh%hIVxvE7bJa$R.D-bIt7WY?dt8oLt7",
+              "url": "2025/05/26/3266369250526090938.jpg"
+            },
+            {
+              "name": "3266369250519082454.jpg",
+              "preview": "UhF=m+NLIp%3?wt8WDW?pJt8kDWs-;S6WZt8",
+              "url": "2025/05/19/3266369250519082454.jpg"
+            },
+            {
+              "name": "3266369250519082455.jpg",
+              "preview": "URGl9SoI$|^*~pt6WCj[s+tQWrRj^*oebFxa",
+              "url": "2025/05/19/3266369250519082455.jpg"
+            },
+            {
+              "name": "3266369250519082456.jpg",
+              "preview": "URF65x_2?H~W-:xZt7axoMR%RjkB~pt7jZ%M",
+              "url": "2025/05/19/3266369250519082456.jpg"
+            }
+          ],
+          "total": 20
+        },
+        "success_books": 100,
+        "price_after_discount": 5850000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 3,
+        "monthly_discount": 10,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 36.674800872802734,
+          "lng": 52.44020080566406
+        },
+        "bedrooms": 4,
+        "units_count": 1,
+        "min_price": 6500000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 600000,
+            "total": 0
+          },
+          "discounts": [
+            {
+              "type": "period",
+              "percent": 10,
+              "amount": 650000
+            }
+          ],
+          "final": 5850000,
+          "prices": {
+            "5850000": 1
+          }
+        },
+        "properties": [
+          "has_discount",
+          "is_pet_friendly",
+          "is_plus",
+          "is_instant"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3209858,
+        "province_name": "گلستان",
+        "city_name": "مینودشت",
+        "url": "/room/3209858",
+        "short_url": "/r/1ioa",
+        "title": "ویلا در مینودشت - ترسه",
+        "room_number": 1,
+        "floor_area": 110,
+        "guest_number": 5,
+        "max_guest_number": 9,
+        "is_new": false,
+        "price": 2000000,
+        "rating": {
+          "total": 4.9,
+          "count": 25
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3209858231218120725.jpg",
+              "preview": "U%IhNuxZRj%M~qWAj@%M.9fkj?xu?cxtWBt8",
+              "url": "2023/12/18/3209858231218120725.jpg"
+            },
+            {
+              "name": "3209858231103134457.jpg",
+              "preview": "U8D0AV%1V@_3~pt6xut700xu%Max?a-:xuxu",
+              "url": "2023/11/03/3209858231103134457.jpg"
+            },
+            {
+              "name": "3209858231209223802.jpg",
+              "preview": "UrIq[kxaxa-p~qxus:xu%Mofoft7-;Rjayt7",
+              "url": "2023/12/09/3209858231209223802.jpg"
+            },
+            {
+              "name": "3209858231209223754.jpg",
+              "preview": "UbE{X=NGIVxa~qWWNGj[fkt7a|WBayt7fRj[",
+              "url": "2023/12/09/3209858231209223754.jpg"
+            },
+            {
+              "name": "3209858231209223941.jpg",
+              "preview": "UOD]SU-oIT_3~qoLM{-;tRWCRjof%Mxaofof",
+              "url": "2023/12/09/3209858231209223941.jpg"
+            }
+          ],
+          "total": 14
+        },
+        "success_books": 20,
+        "price_after_discount": 2000000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 4,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 37.09080123901367,
+          "lng": 55.56460189819336
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 2000000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 400000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 2000000,
+          "prices": {
+            "2000000": 1
+          }
+        },
+        "properties": [
+          "is_scenic",
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3140016,
+        "province_name": "گیلان",
+        "city_name": "شاندرمن",
+        "url": "/room/3140016",
+        "short_url": "/r/s8",
+        "title": "ویلا با حیاط دلباز در شاندرمن - اولم",
+        "room_number": 3,
+        "floor_area": 130,
+        "guest_number": 6,
+        "max_guest_number": 10,
+        "is_new": false,
+        "price": 2222000,
+        "rating": {
+          "total": 4.9,
+          "count": 102
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3140016190528220754.jpg",
+              "preview": "UFCjB?Io02%K.5t6RjaxNGWBxuay~oIVM|%L",
+              "url": "3140016190528220754.jpg"
+            },
+            {
+              "name": "3140016230709173008.jpg",
+              "preview": "UZEyo3.7Rkax-:t7RkRj-:%LV[Rj~p-:WBWB",
+              "url": "2023/07/09/3140016230709173008.jpg"
+            },
+            {
+              "name": "3140016200805001046.jpg",
+              "preview": "UFAT=YaQM{%d_LkCbExt%ftQj?kB?tt8WBk9",
+              "url": "3140016200805001046.jpg"
+            },
+            {
+              "name": "3140016220315123958.jpg",
+              "preview": "UcEfTi-;M{xb~q%MM{of%MofRjRjt7ofayRj",
+              "url": "3140016220315123958.jpg"
+            },
+            {
+              "name": "3140016220315123947.jpg",
+              "preview": "UZECqP-qof-;~q%Mt7t7-;%Mt7Rj?IxuofWB",
+              "url": "3140016220315123947.jpg"
+            }
+          ],
+          "total": 28
+        },
+        "success_books": 100,
+        "price_after_discount": 2222000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 6,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 30,
+        "geo": {
+          "lat": 37.4556999206543,
+          "lng": 49.08250045776367
+        },
+        "bedrooms": 3,
+        "units_count": 1,
+        "min_price": 2222000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 400000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 2222000,
+          "prices": {
+            "2222000": 1
+          }
+        },
+        "properties": [
+          "is_clean",
+          "is_disability_friendly",
+          "is_plus",
+          "is_instant"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3232381,
+        "province_name": "گیلان",
+        "city_name": "شاندرمن",
+        "url": "/room/3232381",
+        "short_url": "/r/201x",
+        "title": "کلبه سوئیسی جکوزی دار در شاندرمن - اولم",
+        "room_number": 2,
+        "floor_area": 130,
+        "guest_number": 4,
+        "max_guest_number": 8,
+        "is_new": false,
+        "price": 4980000,
+        "rating": {
+          "total": 4.9,
+          "count": 45
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "32323812604101541588757456.jpg",
+              "preview": "U@L#E$?bx@.6.7t7t6xt-;t7oet7~pxuayxt",
+              "url": "2026/04/10/32323812604101541588757456.jpg"
+            },
+            {
+              "name": "3232381240507133523.jpg",
+              "preview": "UqD]}0WXRjxu_NWWRjtQ?vt7WBof?bxuWBof",
+              "url": "2024/05/07/3232381240507133523.jpg"
+            },
+            {
+              "name": "32323812604101510335714022.jpg",
+              "preview": "UkED9U#lNHtl~S$*Rkk8=?%1WBax-:s+oKg3",
+              "url": "2026/04/10/32323812604101510335714022.jpg"
+            },
+            {
+              "name": "32323812604101211495327013.jpg",
+              "preview": "U@IzYC%2R%xB~AxaR*sl-Us.R,j[xZs.ShW=",
+              "url": "2026/04/10/32323812604101211495327013.jpg"
+            },
+            {
+              "name": "32323812604101214034580618.jpg",
+              "preview": "U%He2q-pxZ%2~AxYs-xZ-nn~ayoL-pofa{bH",
+              "url": "2026/04/10/32323812604101214034580618.jpg"
+            }
+          ],
+          "total": 21
+        },
+        "success_books": 50,
+        "price_after_discount": 4980000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 3,
+        "monthly_discount": 20,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 37.448001861572266,
+          "lng": 49.08359909057617
+        },
+        "bedrooms": 2,
+        "units_count": 1,
+        "min_price": 4980000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 500000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4980000,
+          "prices": {
+            "4980000": 1
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3147149,
+        "province_name": "مازندران",
+        "city_name": "رامسر",
+        "url": "/room/3147149",
+        "short_url": "/r/6ad",
+        "title": "منزل مبله در رامسر - طبقه سوم",
+        "room_number": 1,
+        "floor_area": 100,
+        "guest_number": 3,
+        "max_guest_number": 4,
+        "is_new": false,
+        "price": 2690000,
+        "rating": {
+          "total": 4.9,
+          "count": 127
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3147149240509150403.jpg",
+              "preview": "UPFFHR^*Rj-o~VxtWV%2%Lxaofxt~VxuRjof",
+              "url": "2024/05/09/3147149240509150403.jpg"
+            },
+            {
+              "name": "3147149240828212004.jpg",
+              "preview": "UWG[p0-:%L?G~pxtxtxt-;s:Rjfk~VoeRjt6",
+              "url": "2024/08/28/3147149240828212004.jpg"
+            },
+            {
+              "name": "3147149240828212005.jpg",
+              "preview": "UUGIWC-ot6?a~pt6t6%M%MoeRjWB_2xaWBj@",
+              "url": "2024/08/28/3147149240828212005.jpg"
+            },
+            {
+              "name": "3147149240828212014.jpg",
+              "preview": "UZF=v~-oWB-;~pxtofxu-;j@j[oL^+WARjof",
+              "url": "2024/08/28/3147149240828212014.jpg"
+            },
+            {
+              "name": "3147149240509150547.jpg",
+              "preview": "ULEyMa.9D+?b~qo#Rjt7offRj[ay_3xvogxu",
+              "url": "2024/05/09/3147149240509150547.jpg"
+            }
+          ],
+          "total": 24
+        },
+        "success_books": 200,
+        "price_after_discount": 2690000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 6,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 30,
+        "geo": {
+          "lat": 36.917701721191406,
+          "lng": 50.654998779296875
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 2690000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 400000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 2690000,
+          "prices": {
+            "2690000": 1
+          }
+        },
+        "properties": [
+          "is_clean",
+          "is_plus",
+          "is_instant"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3259061,
+        "province_name": "مازندران",
+        "city_name": "سوادکوه",
+        "url": "/room/3259061",
+        "short_url": "/r/2kn1",
+        "title": "کلبه سوئیسی با جکوزی در لفور - شاهکلا - ۱",
+        "room_number": 1,
+        "floor_area": 55,
+        "guest_number": 2,
+        "max_guest_number": 4,
+        "is_new": false,
+        "price": 4890000,
+        "rating": {
+          "total": 4.9,
+          "count": 93
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3259061251014102459.jpg",
+              "preview": "USD+rRFhNe={?wXokDxZyYtSf7WX?wo~R*of",
+              "url": "2025/10/14/3259061251014102459.jpg"
+            },
+            {
+              "name": "3259061250416095025.jpg",
+              "preview": "U_Fr^st7bIxv?wt7t7xv.9t7ofxu.8t7kCt8",
+              "url": "2025/04/16/3259061250416095025.jpg"
+            },
+            {
+              "name": "3259061250719161259.jpg",
+              "preview": "UUFGW;_1X3yS_J$%obtQ%Kn$Vuj0_JxtRQbZ",
+              "url": "2025/07/19/3259061250719161259.jpg"
+            },
+            {
+              "name": "3259061250428145157.jpg",
+              "preview": "USF=jRxt02RO~TaeRl%0V?n$t8xt?FoJIpS3",
+              "url": "2025/04/28/3259061250428145157.jpg"
+            },
+            {
+              "name": "3259061250428145516.jpg",
+              "preview": "UYF=Nuo#IVs8~9WXR-xtRPWBWYozxZbHR*NG",
+              "url": "2025/04/28/3259061250428145516.jpg"
+            }
+          ],
+          "total": 22
+        },
+        "success_books": 100,
+        "price_after_discount": 4890000,
+        "weekly_discount": 10,
+        "weekly_discount_min_nights": 4,
+        "monthly_discount": 20,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 36.182899475097656,
+          "lng": 52.69960021972656
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 4890000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 750000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4890000,
+          "prices": {
+            "4890000": 1
+          }
+        },
+        "properties": [
+          "is_scenic",
+          "is_luxury",
+          "is_plus",
+          "is_instant"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3176569,
+        "province_name": "گیلان",
+        "city_name": "فومن",
+        "url": "/room/3176569",
+        "short_url": "/r/szl",
+        "title": "اجاره خانه ویلایی در فومن - گران",
+        "room_number": 2,
+        "floor_area": 85,
+        "guest_number": 4,
+        "max_guest_number": 6,
+        "is_new": false,
+        "price": 2000000,
+        "rating": {
+          "total": 4.8,
+          "count": 49
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3176569230726152759.jpg",
+              "preview": "UfIqlT?ux]%L~V.7x]xu%f-;-:xu~V-;%M%L",
+              "url": "2023/07/26/3176569230726152759.jpg"
+            },
+            {
+              "name": "3176569230726152144.jpg",
+              "preview": "UwIF9o.7Io-:_MtRM{xu.7ozNGxt_2xuRjxu",
+              "url": "2023/07/26/3176569230726152144.jpg"
+            },
+            {
+              "name": "3176569230726151933.jpg",
+              "preview": "UaH2At-;IV-:~pxuM|xu?bt7ayt7^+t7ofxt",
+              "url": "2023/07/26/3176569230726151933.jpg"
+            },
+            {
+              "name": "3176569230624113940.jpg",
+              "preview": "UVC$}}-;Rjxu~q%MM{t7-;j[Rjof%3WBofs;",
+              "url": "2023/06/24/3176569230624113940.jpg"
+            },
+            {
+              "name": "3176569230726151942.jpg",
+              "preview": "UWGRxHt1WB^*_M%Lxtxutkxtt7kC-:RjR*t7",
+              "url": "2023/07/26/3176569230726151942.jpg"
+            }
+          ],
+          "total": 20
+        },
+        "success_books": 50,
+        "price_after_discount": 2000000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 4,
+        "monthly_discount": 10,
+        "monthly_discount_min_nights": 20,
+        "geo": {
+          "lat": 37.24190139770508,
+          "lng": 49.3119010925293
+        },
+        "bedrooms": 2,
+        "units_count": 1,
+        "min_price": 2000000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 300000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 2000000,
+          "prices": {
+            "2000000": 1
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3186965,
+        "province_name": "گیلان",
+        "city_name": "بندر انزلی",
+        "url": "/room/3186965",
+        "short_url": "/r/110d",
+        "title": "اجاره سوئیت در انزلی - حسن رود",
+        "room_number": 1,
+        "floor_area": 60,
+        "guest_number": 4,
+        "max_guest_number": 7,
+        "is_new": false,
+        "price": 1200000,
+        "rating": {
+          "total": 4.8,
+          "count": 31
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3186965231026215645.jpg",
+              "preview": "UuF~]ot8of%M_NRjayx]tQITRjxux]M{WBt8",
+              "url": "2023/10/26/3186965231026215645.jpg"
+            },
+            {
+              "name": "3186965240512102511.jpg",
+              "preview": "UxJHw5-;tQ-;~qxuR*xu%MRjM{of%Mj[WBof",
+              "url": "2024/05/12/3186965240512102511.jpg"
+            },
+            {
+              "name": "3186965240512102629.jpg",
+              "preview": "U~J*SMxuWUxu~qofNFoy-;a}Rjof-;t7oft7",
+              "url": "2024/05/12/3186965240512102629.jpg"
+            },
+            {
+              "name": "3186965240512102546.jpg",
+              "preview": "U~L4g3_2%M-;~q-;t7xu%Mofa|of%Mt6t7t7",
+              "url": "2024/05/12/3186965240512102546.jpg"
+            },
+            {
+              "name": "3186965240512102602.jpg",
+              "preview": "U~LD_e?bxu%M~q-poft7%MofWBof%Mj[oft7",
+              "url": "2024/05/12/3186965240512102602.jpg"
+            }
+          ],
+          "total": 16
+        },
+        "success_books": 50,
+        "price_after_discount": 1200000,
+        "weekly_discount": 5,
+        "weekly_discount_min_nights": 3,
+        "monthly_discount": 10,
+        "monthly_discount_min_nights": 7,
+        "geo": {
+          "lat": 37.453800201416016,
+          "lng": 49.61899948120117
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 1200000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 200000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 1200000,
+          "prices": {
+            "1200000": 1
+          }
+        },
+        "properties": [
+          "is_economic",
+          "is_plus",
+          "is_instant"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3195671,
+        "province_name": "مازندران",
+        "city_name": "رامسر",
+        "url": "/room/3195671",
+        "short_url": "/r/17q7",
+        "title": "اجاره منزل تراس دار در رامسر - توبن",
+        "room_number": 2,
+        "floor_area": 95,
+        "guest_number": 3,
+        "max_guest_number": 5,
+        "is_new": false,
+        "price": 2750000,
+        "rating": {
+          "total": 4.8,
+          "count": 53
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3195671230508131418.jpg",
+              "preview": "UHCQVMtcov?Z??%eodoxx@t6V[ay_KWAWBtQ",
+              "url": "2023/05/08/3195671230508131418.jpg"
+            },
+            {
+              "name": "3195671230508131433.jpg",
+              "preview": "UWFF,3.7xu.8~q%f%M%gxu%M%Mxuxu%Mx[j[",
+              "url": "2023/05/08/3195671230508131433.jpg"
+            },
+            {
+              "name": "3195671250922213421.jpg",
+              "preview": "UZEVsW%2ozxu_Nt7n%s:tRkDRPae%LfkM{WA",
+              "url": "2025/09/22/3195671250922213421.jpg"
+            },
+            {
+              "name": "3195671230508131408.jpg",
+              "preview": "UOE39t-;D%%M~qt7M{s:t7RjWBM{_3xuayRj",
+              "url": "2023/05/08/3195671230508131408.jpg"
+            },
+            {
+              "name": "3195671251022151331.jpg",
+              "preview": "UWC~;rxtIU%2~ptQIot7xut6WBayjEt7tRWB",
+              "url": "2025/10/22/3195671251022151331.jpg"
+            }
+          ],
+          "total": 22
+        },
+        "success_books": 100,
+        "price_after_discount": 2750000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 4,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 7,
+        "geo": {
+          "lat": 36.92959976196289,
+          "lng": 50.625301361083984
+        },
+        "bedrooms": 2,
+        "units_count": 1,
+        "min_price": 2750000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 500000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 2750000,
+          "prices": {
+            "2750000": 1
+          }
+        },
+        "properties": [
+          "is_scenic",
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3191940,
+        "province_name": "گیلان",
+        "city_name": "بندر انزلی",
+        "url": "/room/3191940",
+        "short_url": "/r/14uk",
+        "title": "سوئیت حیاط دار در بندرانزلی",
+        "room_number": 1,
+        "floor_area": 55,
+        "guest_number": 2,
+        "max_guest_number": 4,
+        "is_new": false,
+        "price": 1650000,
+        "rating": {
+          "total": 4.8,
+          "count": 30
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3191940250319135825.jpg",
+              "preview": "UfF$eKxvay%M~qx]ofof%Mozjtf6xuWCj]of",
+              "url": "2025/03/19/3191940250319135825.jpg"
+            },
+            {
+              "name": "3191940250319135822.jpg",
+              "preview": "UbE.|dxvjs%M~q%Moexu%Mt7WBt7xvRkRij[",
+              "url": "2025/03/19/3191940250319135822.jpg"
+            },
+            {
+              "name": "3191940250319135616.jpg",
+              "preview": "UYF65.-:x[-;~qt7Rjt7-;t7WBt7?bxuxuxu",
+              "url": "2025/03/19/3191940250319135616.jpg"
+            },
+            {
+              "name": "3191940250319135601.jpg",
+              "preview": "UZEVyp%Madxa~qt7WBs:%Mofj[ofxts:t7of",
+              "url": "2025/03/19/3191940250319135601.jpg"
+            },
+            {
+              "name": "3191940250319135816.jpg",
+              "preview": "UaF$R=?bof-;~q%Laxxu%MWBV@t7-;ofj?t7",
+              "url": "2025/03/19/3191940250319135816.jpg"
+            }
+          ],
+          "total": 16
+        },
+        "success_books": 50,
+        "price_after_discount": 1650000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 6,
+        "monthly_discount": 10,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 37.469600677490234,
+          "lng": 49.42409896850586
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 1650000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 300000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 1650000,
+          "prices": {
+            "1650000": 1
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3267520,
+        "province_name": "گیلان",
+        "city_name": "اسالم",
+        "url": "/room/3267520",
+        "short_url": "/r/2r60",
+        "title": "کلبه سوئیسی نزدیک گیسوم - سیاه بیل",
+        "room_number": 1,
+        "floor_area": 140,
+        "guest_number": 5,
+        "max_guest_number": 8,
+        "is_new": false,
+        "price": 4500000,
+        "rating": {
+          "total": 4.8,
+          "count": 54
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3267520250525124008.jpg",
+              "preview": "UeC%mOouNEt2.SX5jWob%iS1s*t3?wSKact3",
+              "url": "2025/05/25/3267520250525124008.jpg"
+            },
+            {
+              "name": "3267520250602160815.jpg",
+              "preview": "UjDc]g$~M_XR%jjZRPWYyFV[V?t7?vobV?t7",
+              "url": "2025/06/02/3267520250602160815.jpg"
+            },
+            {
+              "name": "3267520250602151532.jpg",
+              "preview": "UbD0xixmk7yB_LffjEt7x^M{V[sX%hM{awt7",
+              "url": "2025/06/02/3267520250602151532.jpg"
+            },
+            {
+              "name": "3267520250525123943.jpg",
+              "preview": "UBELW;:4E+oh@=ssK3oI8^x]t7Rj~X$cnjR.",
+              "url": "2025/05/25/3267520250525123943.jpg"
+            },
+            {
+              "name": "3267520250602151931.jpg",
+              "preview": "UUEV=]_NVsrX^$%0Vti_s6sks.s:?b%Mt3t2",
+              "url": "2025/06/02/3267520250602151931.jpg"
+            }
+          ],
+          "total": 22
+        },
+        "success_books": 100,
+        "price_after_discount": 4500000,
+        "weekly_discount": 5,
+        "weekly_discount_min_nights": 3,
+        "monthly_discount": 20,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 37.65019989013672,
+          "lng": 48.977901458740234
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 4500000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 500000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4500000,
+          "prices": {
+            "4500000": 1
+          }
+        },
+        "properties": [
+          "is_scenic",
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3216517,
+        "province_name": "تهران",
+        "city_name": "تهران",
+        "url": "/room/3216517",
+        "short_url": "/r/1nt9",
+        "title": "سوئیت مبله در تهران - نواب - ط ۲",
+        "room_number": 1,
+        "floor_area": 50,
+        "guest_number": 2,
+        "max_guest_number": 4,
+        "is_new": false,
+        "price": 3000000,
+        "rating": {
+          "total": 4.8,
+          "count": 70
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3216517240128234940.jpg",
+              "preview": "UbGk]}-pju-p^+f8Rjt7%MWBRjt7~Wxuofxu",
+              "url": "2024/01/28/3216517240128234940.jpg"
+            },
+            {
+              "name": "3216517240128234909.jpg",
+              "preview": "UoHn~W%Mt6%M~ptQj[t7.7xuofbH_2xut7t7",
+              "url": "2024/01/28/3216517240128234909.jpg"
+            },
+            {
+              "name": "3216517240128234811.jpg",
+              "preview": "URE.kM?G%L^*~V%1t6%LRkWBRjM|%1WBRjRj",
+              "url": "2024/01/28/3216517240128234811.jpg"
+            },
+            {
+              "name": "3216517240128234829.jpg",
+              "preview": "USE2,$^+%Lxa~V-pxuaxxtxaoLRj%2s:f6of",
+              "url": "2024/01/28/3216517240128234829.jpg"
+            },
+            {
+              "name": "3216517240128234800.jpg",
+              "preview": "UaFYJp-qt7%L~W%Mt7xa%Mxut7j[?Ht7ofof",
+              "url": "2024/01/28/3216517240128234800.jpg"
+            }
+          ],
+          "total": 11
+        },
+        "success_books": 100,
+        "price_after_discount": 3000000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 2,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 20,
+        "geo": {
+          "lat": 35.693599700927734,
+          "lng": 51.374900817871094
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 3000000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 800000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 3000000,
+          "prices": {
+            "3000000": 1
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3234736,
+        "province_name": "مازندران",
+        "city_name": "چالوس",
+        "url": "/room/3234736",
+        "short_url": "/r/21vc",
+        "title": "سوئیت مبله در چالوس - نزدیک ساحل - و ۲",
+        "room_number": 1,
+        "floor_area": 50,
+        "guest_number": 2,
+        "max_guest_number": 3,
+        "is_new": false,
+        "price": 2150000,
+        "rating": {
+          "total": 4.8,
+          "count": 124
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3234736250808014743.jpg",
+              "preview": "UYJj_0^4aI?G~BRQNJozrWM{WCso}[wbadxY",
+              "url": "2025/08/08/3234736250808014743.jpg"
+            },
+            {
+              "name": "3234736240601174807.jpg",
+              "preview": "UVE_%E=|sW-V~V%2%2xaj[ofxut7n$s:oLs:",
+              "url": "2024/06/01/3234736240601174807.jpg"
+            },
+            {
+              "name": "3234736250827194621.jpg",
+              "preview": "UTGRr2^PR*-:~Un$Ipocr;R+NHad=xsBbbxa",
+              "url": "2025/08/27/3234736250827194621.jpg"
+            },
+            {
+              "name": "3234736250827194606.jpg",
+              "preview": "UPG[QJrDRk^*~TMxNextrrRiR+jZ^QoLn~xa",
+              "url": "2025/08/27/3234736250827194606.jpg"
+            },
+            {
+              "name": "3234736240601174835.jpg",
+              "preview": "UWG%[e~BWB-V}[-VxaxaM|f7xaWBxFn%oLoL",
+              "url": "2024/06/01/3234736240601174835.jpg"
+            }
+          ],
+          "total": 11
+        },
+        "success_books": 200,
+        "price_after_discount": 2150000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 5,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 36.686100006103516,
+          "lng": 51.41120147705078
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 2150000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 350000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 2150000,
+          "prices": {
+            "2150000": 1
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      }
+    ]
+  },
+  "map": {
+    "items": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3147629,
+          "price": 850000,
+          "price_after_discount": 850000,
+          "rating": {
+            "count": 51,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            57.08689880371094,
+            30.294099807739258
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3152093,
+          "price": 800000,
+          "price_after_discount": 800000,
+          "rating": {
+            "count": 52,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.717098236083984,
+            32.67110061645508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3152104,
+          "price": 950000,
+          "price_after_discount": 855000,
+          "rating": {
+            "count": 83,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.717098236083984,
+            32.67110061645508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3148812,
+          "price": 4900000,
+          "price_after_discount": 4900000,
+          "rating": {
+            "count": 118,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.60649871826172,
+            36.90829849243164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3149930,
+          "price": 1400000,
+          "price_after_discount": 1400000,
+          "rating": {
+            "count": 254,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.60369873046875,
+            37.27130126953125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3151536,
+          "price": 1200000,
+          "price_after_discount": 1200000,
+          "rating": {
+            "count": 86,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.12649917602539,
+            37.359100341796875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3154281,
+          "price": 3300000,
+          "price_after_discount": 3300000,
+          "rating": {
+            "count": 208,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.59349822998047,
+            37.277400970458984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3157040,
+          "price": 2500000,
+          "price_after_discount": 2500000,
+          "rating": {
+            "count": 140,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.82149887084961,
+            35.71160125732422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3171472,
+          "price": 1800000,
+          "price_after_discount": 1800000,
+          "rating": {
+            "count": 156,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.8202018737793,
+            35.94599914550781
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3173809,
+          "price": 5000000,
+          "price_after_discount": 3500000,
+          "rating": {
+            "count": 89,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.672298431396484,
+            36.893798828125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3174579,
+          "price": 3000000,
+          "price_after_discount": 3000000,
+          "rating": {
+            "count": 170,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.49489974975586,
+            37.47309875488281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3177175,
+          "price": 5950000,
+          "price_after_discount": 5950000,
+          "rating": {
+            "count": 112,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.784000396728516,
+            36.2963981628418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3180404,
+          "price": 2580000,
+          "price_after_discount": 2580000,
+          "rating": {
+            "count": 92,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.44499969482422,
+            35.70909881591797
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3180620,
+          "price": 2980000,
+          "price_after_discount": 2980000,
+          "rating": {
+            "count": 90,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.444698333740234,
+            35.709800720214844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3182014,
+          "price": 3500000,
+          "price_after_discount": 3500000,
+          "rating": {
+            "count": 56,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.911399841308594,
+            36.89950180053711
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3186076,
+          "price": 3700000,
+          "price_after_discount": 3700000,
+          "rating": {
+            "count": 136,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.437198638916016,
+            35.70940017700195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3186434,
+          "price": 3950000,
+          "price_after_discount": 3950000,
+          "rating": {
+            "count": 140,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.28030014038086,
+            35.77199935913086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3187779,
+          "price": 1690000,
+          "price_after_discount": 1690000,
+          "rating": {
+            "count": 61,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.099098205566406,
+            37.32640075683594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3188771,
+          "price": 1980000,
+          "price_after_discount": 1980000,
+          "rating": {
+            "count": 61,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.6156005859375,
+            36.68980026245117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3190431,
+          "price": 4600000,
+          "price_after_discount": 4600000,
+          "rating": {
+            "count": 89,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.436100006103516,
+            33.97909927368164
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3197433,
+          "price": 5800000,
+          "price_after_discount": 5220000,
+          "rating": {
+            "count": 29,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.70389938354492,
+            35.856300354003906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3198755,
+          "price": 2400000,
+          "price_after_discount": 2400000,
+          "rating": {
+            "count": 83,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.99039840698242,
+            37.15510177612305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3201199,
+          "price": 1800000,
+          "price_after_discount": 1800000,
+          "rating": {
+            "count": 47,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.53739929199219,
+            29.609100341796875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3206602,
+          "price": 3200000,
+          "price_after_discount": 3200000,
+          "rating": {
+            "count": 55,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.664798736572266,
+            32.6697998046875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3206603,
+          "price": 3200000,
+          "price_after_discount": 3200000,
+          "rating": {
+            "count": 13,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.664798736572266,
+            32.6697998046875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3206604,
+          "price": 3500000,
+          "price_after_discount": 3500000,
+          "rating": {
+            "count": 14,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.664798736572266,
+            32.6697998046875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3211206,
+          "price": 2690000,
+          "price_after_discount": 2690000,
+          "rating": {
+            "count": 28,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.54990005493164,
+            29.60140037536621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3211305,
+          "price": 2690000,
+          "price_after_discount": 2690000,
+          "rating": {
+            "count": 57,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.54990005493164,
+            29.60140037536621
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3216092,
+          "price": 1700000,
+          "price_after_discount": 1700000,
+          "rating": {
+            "count": 51,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.8317985534668,
+            28.98870086669922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3216116,
+          "price": 1800000,
+          "price_after_discount": 1800000,
+          "rating": {
+            "count": 52,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.8317985534668,
+            28.98870086669922
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3216153,
+          "price": 1400000,
+          "price_after_discount": 1400000,
+          "rating": {
+            "count": 150,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.60340118408203,
+            37.27119827270508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3217243,
+          "price": 3750000,
+          "price_after_discount": 3375000,
+          "rating": {
+            "count": 49,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.95309829711914,
+            36.76729965209961
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3221664,
+          "price": 1600000,
+          "price_after_discount": 1600000,
+          "rating": {
+            "count": 82,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.60340118408203,
+            37.27109909057617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3221835,
+          "price": 1500000,
+          "price_after_discount": 1500000,
+          "rating": {
+            "count": 64,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.60340118408203,
+            37.27109909057617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3222143,
+          "price": 3000000,
+          "price_after_discount": 3000000,
+          "rating": {
+            "count": 176,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.72200012207031,
+            36.23149871826172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3224728,
+          "price": 2500000,
+          "price_after_discount": 2500000,
+          "rating": {
+            "count": 54,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.987300872802734,
+            37.140499114990234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3226629,
+          "price": 3300000,
+          "price_after_discount": 3300000,
+          "rating": {
+            "count": 71,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            56.27450180053711,
+            26.941999435424805
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3228000,
+          "price": 1000000,
+          "price_after_discount": 1000000,
+          "rating": {
+            "count": 32,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.53779983520508,
+            35.25040054321289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3230415,
+          "price": 2200000,
+          "price_after_discount": 2200000,
+          "rating": {
+            "count": 53,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.98939895629883,
+            37.155399322509766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3231473,
+          "price": 1200000,
+          "price_after_discount": 1200000,
+          "rating": {
+            "count": 65,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            48.07389831542969,
+            38.153499603271484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3237975,
+          "price": 3300000,
+          "price_after_discount": 3300000,
+          "rating": {
+            "count": 22,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.3651008605957,
+            35.73569869995117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3242269,
+          "price": 2850000,
+          "price_after_discount": 2850000,
+          "rating": {
+            "count": 40,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.4833984375,
+            35.73550033569336
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3245404,
+          "price": 4000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 86,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.959598541259766,
+            35.61439895629883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3246328,
+          "price": 900000,
+          "price_after_discount": 900000,
+          "rating": {
+            "count": 26,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.678199768066406,
+            36.272499084472656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3246499,
+          "price": 4500000,
+          "price_after_discount": 4500000,
+          "rating": {
+            "count": 76,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.301300048828125,
+            35.72840118408203
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3246896,
+          "price": 2700000,
+          "price_after_discount": 2700000,
+          "rating": {
+            "count": 34,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.74689865112305,
+            36.36410140991211
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3248629,
+          "price": 3400000,
+          "price_after_discount": 3400000,
+          "rating": {
+            "count": 23,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.92539978027344,
+            35.82389831542969
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3251150,
+          "price": 5400000,
+          "price_after_discount": 5400000,
+          "rating": {
+            "count": 42,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.38970184326172,
+            35.70159912109375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3251371,
+          "price": 1500000,
+          "price_after_discount": 1500000,
+          "rating": {
+            "count": 40,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.60309982299805,
+            37.27119827270508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3251452,
+          "price": 6000000,
+          "price_after_discount": 6000000,
+          "rating": {
+            "count": 42,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.72169876098633,
+            36.87049865722656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3251647,
+          "price": 4444000,
+          "price_after_discount": 4444000,
+          "rating": {
+            "count": 71,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.55139923095703,
+            35.742698669433594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3252086,
+          "price": 5400000,
+          "price_after_discount": 5400000,
+          "rating": {
+            "count": 41,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.38909912109375,
+            35.70220184326172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3254052,
+          "price": 5950000,
+          "price_after_discount": 5950000,
+          "rating": {
+            "count": 207,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.78150177001953,
+            36.2947998046875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3254552,
+          "price": 3200000,
+          "price_after_discount": 3200000,
+          "rating": {
+            "count": 25,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.66469955444336,
+            32.669700622558594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3254998,
+          "price": 2000000,
+          "price_after_discount": 2000000,
+          "rating": {
+            "count": 48,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            56.26570129394531,
+            26.960899353027344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3255316,
+          "price": 820000,
+          "price_after_discount": 820000,
+          "rating": {
+            "count": 36,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.35599899291992,
+            31.904699325561523
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3256744,
+          "price": 2950000,
+          "price_after_discount": 2950000,
+          "rating": {
+            "count": 22,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.3390998840332,
+            34.0443000793457
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3263627,
+          "price": 6980000,
+          "price_after_discount": 6980000,
+          "rating": {
+            "count": 35,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.22959899902344,
+            36.700801849365234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3263818,
+          "price": 3900000,
+          "price_after_discount": 3900000,
+          "rating": {
+            "count": 49,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.43920135498047,
+            35.70309829711914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3264531,
+          "price": 750000,
+          "price_after_discount": 750000,
+          "rating": {
+            "count": 19,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            59.595401763916016,
+            36.282100677490234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3272424,
+          "price": 7950000,
+          "price_after_discount": 7950000,
+          "rating": {
+            "count": 63,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.68880081176758,
+            36.85499954223633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3272513,
+          "price": 4000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 55,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.178199768066406,
+            36.67539978027344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3273471,
+          "price": 1800000,
+          "price_after_discount": 1800000,
+          "rating": {
+            "count": 54,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.75080108642578,
+            36.36309814453125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3274119,
+          "price": 2000000,
+          "price_after_discount": 2000000,
+          "rating": {
+            "count": 13,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.99679946899414,
+            36.48659896850586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3274854,
+          "price": 12500000,
+          "price_after_discount": 12500000,
+          "rating": {
+            "count": 45,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.65589904785156,
+            36.884700775146484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3275443,
+          "price": 2000000,
+          "price_after_discount": 2000000,
+          "rating": {
+            "count": 15,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.35049819946289,
+            36.174198150634766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3276127,
+          "price": 5100000,
+          "price_after_discount": 5100000,
+          "rating": {
+            "count": 16,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.553001403808594,
+            35.731300354003906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3276587,
+          "price": 3000000,
+          "price_after_discount": 3000000,
+          "rating": {
+            "count": 34,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.09980010986328,
+            36.592201232910156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3278175,
+          "price": 1200000,
+          "price_after_discount": 1200000,
+          "rating": {
+            "count": 10,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.71039962768555,
+            36.84519958496094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3281847,
+          "price": 3400000,
+          "price_after_discount": 3400000,
+          "rating": {
+            "count": 21,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.30390167236328,
+            35.76350021362305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3283006,
+          "price": 1400000,
+          "price_after_discount": 1400000,
+          "rating": {
+            "count": 14,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            54.37160110473633,
+            31.904300689697266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3283223,
+          "price": 3400000,
+          "price_after_discount": 3400000,
+          "rating": {
+            "count": 16,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.304100036621094,
+            35.76350021362305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3284870,
+          "price": 3700000,
+          "price_after_discount": 3700000,
+          "rating": {
+            "count": 18,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.53369903564453,
+            35.93949890136719
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3286097,
+          "price": 3500000,
+          "price_after_discount": 3500000,
+          "rating": {
+            "count": 17,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.449501037597656,
+            35.74150085449219
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3286255,
+          "price": 1800000,
+          "price_after_discount": 1800000,
+          "rating": {
+            "count": 11,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.68199920654297,
+            32.71189880371094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3287393,
+          "price": 5750000,
+          "price_after_discount": 5175000,
+          "rating": {
+            "count": 12,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.447200775146484,
+            35.7218017578125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3294142,
+          "price": 3900000,
+          "price_after_discount": 3900000,
+          "rating": {
+            "count": 2,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.39139938354492,
+            37.36159896850586
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3294495,
+          "price": 3500000,
+          "price_after_discount": 3500000,
+          "rating": {
+            "count": 43,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.70180130004883,
+            36.18040084838867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3299592,
+          "price": 3400000,
+          "price_after_discount": 3400000,
+          "rating": {
+            "count": 15,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.30390167236328,
+            35.76359939575195
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3300186,
+          "price": 3900000,
+          "price_after_discount": 3900000,
+          "rating": {
+            "count": 26,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.15570068359375,
+            37.386199951171875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3300248,
+          "price": 3950000,
+          "price_after_discount": 3950000,
+          "rating": {
+            "count": 12,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.43899917602539,
+            35.702999114990234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3301214,
+          "price": 5500000,
+          "price_after_discount": 5500000,
+          "rating": {
+            "count": 16,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.72060012817383,
+            37.188499450683594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3302125,
+          "price": 690000,
+          "price_after_discount": 690000,
+          "rating": {
+            "count": 33,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.87839889526367,
+            37.40660095214844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3306227,
+          "price": 3200000,
+          "price_after_discount": 3200000,
+          "rating": {
+            "count": 11,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.47050094604492,
+            35.7338981628418
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3309239,
+          "price": 3500000,
+          "price_after_discount": 3500000,
+          "rating": {
+            "count": 15,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.32339859008789,
+            35.722999572753906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3310132,
+          "price": 2000000,
+          "price_after_discount": 2000000,
+          "rating": {
+            "count": 10,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.3651008605957,
+            36.64680099487305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3142622,
+          "price": 7500000,
+          "price_after_discount": 7500000,
+          "rating": {
+            "count": 163,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.434600830078125,
+            36.663299560546875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3143508,
+          "price": 1500000,
+          "price_after_discount": 1500000,
+          "rating": {
+            "count": 185,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.126800537109375,
+            37.35860061645508
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3145099,
+          "price": 2300000,
+          "price_after_discount": 2300000,
+          "rating": {
+            "count": 133,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.32740020751953,
+            36.68560028076172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3150937,
+          "price": 3700000,
+          "price_after_discount": 3700000,
+          "rating": {
+            "count": 319,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.22880172729492,
+            36.70199966430664
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3154283,
+          "price": 4900000,
+          "price_after_discount": 4900000,
+          "rating": {
+            "count": 174,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.59360122680664,
+            37.277400970458984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3155486,
+          "price": 1500000,
+          "price_after_discount": 1500000,
+          "rating": {
+            "count": 289,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            49.60380172729492,
+            37.27130126953125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3158288,
+          "price": 4480000,
+          "price_after_discount": 4480000,
+          "rating": {
+            "count": 189,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.12480163574219,
+            32.42259979248047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3158289,
+          "price": 3000000,
+          "price_after_discount": 3000000,
+          "rating": {
+            "count": 124,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.683101654052734,
+            32.690101623535156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3158301,
+          "price": 2499000,
+          "price_after_discount": 2499000,
+          "rating": {
+            "count": 119,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.41740036010742,
+            36.684600830078125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3159336,
+          "price": 2950000,
+          "price_after_discount": 2950000,
+          "rating": {
+            "count": 261,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            51.279598236083984,
+            35.77180099487305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3162102,
+          "price": 2000000,
+          "price_after_discount": 2000000,
+          "rating": {
+            "count": 171,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.0463981628418,
+            37.20140075683594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3162410,
+          "price": 1800000,
+          "price_after_discount": 1800000,
+          "rating": {
+            "count": 89,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.26089859008789,
+            37.22880172729492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3164087,
+          "price": 1150000,
+          "price_after_discount": 1150000,
+          "rating": {
+            "count": 85,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.92539978027344,
+            36.45069885253906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3164584,
+          "price": 2800000,
+          "price_after_discount": 2800000,
+          "rating": {
+            "count": 558,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            52.716400146484375,
+            36.36429977416992
+          ]
+        }
+      }
+    ]
+  },
+  "seo": {},
+  "related_filters": [
+    {
+      "name": "is_instant"
+    },
+    {
+      "name": "is_plus"
+    },
+    {
+      "name": "is_scenic"
+    },
+    {
+      "name": "has_yard"
+    },
+    {
+      "name": "is_hospitable"
+    },
+    {
+      "name": "pool"
+    },
+    {
+      "name": "mountain"
+    },
+    {
+      "name": "breakfast"
+    },
+    {
+      "name": "jacuzzi"
+    },
+    {
+      "name": "swiss_cottage"
+    },
+    {
+      "name": "wooden_cottage"
+    },
+    {
+      "name": "ecolog"
+    },
+    {
+      "name": "ruralhome"
+    },
+    {
+      "name": "is_waterfront"
+    },
+    {
+      "name": "is_disable_friendly"
+    },
+    {
+      "name": "is_luxury"
+    },
+    {
+      "name": "is_economic"
+    },
+    {
+      "name": "is_local_food"
+    },
+    {
+      "name": "pet"
+    }
+  ],
+  "cities": [
+    {
+      "id": "303",
+      "name": "رامسر",
+      "count": 1876
+    },
+    {
+      "id": "282",
+      "name": "ماسال",
+      "count": 1512
+    },
+    {
+      "id": "263",
+      "name": "بندر انزلی",
+      "count": 1387
+    },
+    {
+      "id": "122",
+      "name": "مشهد",
+      "count": 1310
+    },
+    {
+      "id": "82",
+      "name": "تهران",
+      "count": 1307
+    },
+    {
+      "id": "305",
+      "name": "سوادکوه",
+      "count": 1232
+    },
+    {
+      "id": "265",
+      "name": "رشت",
+      "count": 993
+    },
+    {
+      "id": "330",
+      "name": "قشم",
+      "count": 907
+    }
+  ]
+}

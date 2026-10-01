@@ -1,0 +1,117 @@
+[
+  {
+    "name": "سرویس بهداشتی و حمام",
+    "order": 1,
+    "icon": "icon",
+    "items": [
+      {
+        "icon": "Bath-Room-Area-Icon",
+        "name": "سرویس بهداشتی-1",
+        "description": "توالت ایرانی، روشویی، دوش",
+        "order": 1,
+        "count": 0,
+        "tag": null
+      }
+    ]
+  },
+  {
+    "name": "لوازم خانگی",
+    "order": 2,
+    "icon": "icon",
+    "items": [
+      {
+        "icon": "ic_tv",
+        "name": "تلویزیون",
+        "description": "lcd 32",
+        "order": 1,
+        "count": 0,
+        "tag": null
+      },
+      {
+        "icon": "ic_reciever",
+        "name": "گیرنده دیجیتال",
+        "description": "",
+        "order": 2,
+        "count": 0,
+        "tag": null
+      }
+    ]
+  },
+  {
+    "name": "امکانات آشپزی",
+    "order": 3,
+    "icon": "icon",
+    "items": [
+      {
+        "icon": "ic_gas",
+        "name": "اجاق گاز",
+        "description": "",
+        "order": 1,
+        "count": 0,
+        "tag": null
+      },
+      {
+        "icon": "ic_ref",
+        "name": "یخچال",
+        "description": "",
+        "order": 2,
+        "count": 0,
+        "tag": null
+      },
+      {
+        "icon": "ic_cooking",
+        "name": "لوازم آشپزی",
+        "description": "",
+        "order": 3,
+        "count": 0,
+        "tag": null
+      },
+      {
+        "icon": "ic_teamaking",
+        "name": "کتری و قوری",
+        "description": "",
+        "order": 4,
+        "count": 0,
+        "tag": null
+      },
+      {
+        "icon": "ic_washingstuff",
+        "name": "لوازم ظرفشویی",
+        "description": "",
+        "order": 5,
+        "count": 0,
+        "tag": null
+      }
+    ]
+  },
+  {
+    "name": "امکانات رفاهی",
+    "order": 4,
+    "icon": "icon",
+    "items": [
+      {
+        "icon": "ic_kebab",
+        "name": "سیخ کباب و منقل کباب",
+        "description": "",
+        "order": 1,
+        "count": 0,
+        "tag": null
+      }
+    ]
+  },
+  {
+    "name": "پارکینگ",
+    "order": 8,
+    "icon": "icon",
+    "items": [
+      {
+        "icon": "ic_ParkingRoobaz",
+        "name": "پارکینگ روباز، پارکینگ فقط مناسب خودروهای کوچک",
+        "description": null,
+        "order": 1,
+        "count": 0,
+        "tag": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,930 @@
+{
+  "roomInfo": {
+    "roomId": 2397109,
+    "roomName": "خیری",
+    "isActive": true,
+    "descriptionTitle": "‫‫اجاره روزانه و ماهانه خیری، 45 متر برای 2  نفر به همراه 2 نفر اضافی در شهر رامسر با تضمین بهترین کیفیت و قیمت در اتاقک",
+    "description": "ویلا خیری رامسر، اقامتگاهی برای آرامش و تفریح شماست. این ویلا در زمینی به مساحت 240 متر مربع با زیر بنای 45 متر مربع در فاصله 5 دقیقه ای ساحل شهر رامسر واقع شده است. دسترسی زمینی به رامسر، عروس شهرهای ایران از مسیر جاده قزوین-رشت، چالوس-رامسر و جاده ساحلی خزر امکان‌پذیر است. ویلا دو طبقه بوده و دارای یک اتاق خواب، حمام و دستشویی(ایرانی) است. حیاط ویلا برای پارک خودرو های کوچک مناسب است. ویلا مناسب سالمندان، کودکان و افراد دارای معلولیت است.پذیرش حیوان خانگی در این ویلا مجاز نیست. ویلا آسانسور ندارد.\n\nامکانات اقامتگاه:\n- آشپزخانه با امکانات رفاهی شامل اجاق گاز صفحه ای، یخچال، فریزر و لوازم آشپزی\n- اتاق پذیرایی دارای تلویزیون\n- سیستم سرمایشی کولر اسپیلت و گرمایشی بخاری گازی\n- آب آشامیدنی مجهز به سیستم تصفیه اتوماتیک\n\nدسترسی اقامتگاه به اماکن تفریحی، رفاهی و خدماتی:\n- فاصله تا ساحل با ماشین ۵ دقیقه\n- فاصله تا پارک جنگلی ملی 500 متر\n- فاصله تا تله کابین رامسر 12 کیلومتر\n- فاصله بیمارستان 1 کیلومتر\n- فاصله تا فرودگاه 1200 متر\n- فاصله تا سوپر مارکت و نانوایی ۵۰ متر\n- فاصله تا پمپ بنزین 500 متر",
+    "isFavorite": false,
+    "personCount": 2,
+    "extraPersonCount": 2,
+    "virtualTourUrl": null,
+    "hasVirtualTour": false
+  },
+  "seoInfo": {
+    "metaTitle": "ویلا خیری،1 خوابه در رامسر - اتاقک",
+    "metaDescription": "اجاره روزانه ویلا خیری 2 خوابه با ارزان ترین قیمت در رامسر با ضمانت بازگشت وجه و پشتیبانی 24 ساعته ",
+    "mainImageUrl": "536ff812-e503-41fa-8621-427b051d8da8.webp",
+    "noIndex": false,
+    "commentCount": 25,
+    "personCount": 2,
+    "extraPersonCount": 2,
+    "area": 45,
+    "isInstant": true,
+    "isPrime": false,
+    "isLastSecondDiscount": false,
+    "isSmokingAllowed": false,
+    "isPetAllowed": false,
+    "bedRoomCount": 1,
+    "successfulBookingCount": 41,
+    "rate": 4.9,
+    "comments": [
+      {
+        "id": 0,
+        "profileImageId": 1703068,
+        "commentId": 2739750,
+        "bookingId": 5025976,
+        "body": "بسیار مردشریف و محترمی بودن جناب خیری \nوسط شهر رامسر این قیمت عالی بود پیشنهادمیکنم دوستان\n",
+        "roomId": 2397109,
+        "roomName": "خیری",
+        "senderUserId": 2150177,
+        "senderDisplayName": "مرضیه",
+        "point": 5.00,
+        "pointId": 284867,
+        "isFromOtaghak": false,
+        "isFromHost": false,
+        "isAllowReply": false,
+        "allowReplyStatus": false,
+        "commentStatus": 0,
+        "recomendationType": "Recommended",
+        "positivePoints": [],
+        "negativePoints": [],
+        "replies": [
+          {
+            "id": 2740430,
+            "replyId": 2740430,
+            "body": "سپاس از لطف شما",
+            "profileImageId": 1309374,
+            "senderDisplayName": "رضا خیری",
+            "isFromOtaghak": false,
+            "isFromHost": true,
+            "creationDateTime": "2026-04-20T23:22:02.7749578+03:30"
+          }
+        ],
+        "creationDateTime": "2026-04-18T11:24:37.2722786+03:30",
+        "pdpMediaObject": []
+      },
+      {
+        "id": 0,
+        "profileImageId": 1703068,
+        "commentId": 2652687,
+        "bookingId": 4232611,
+        "body": "محیط خوب و نزدیک دریا بود ،کمی کوچیک بود اما امکانات تکمیل بود",
+        "roomId": 2397109,
+        "roomName": "خیری",
+        "senderUserId": 3630702,
+        "senderDisplayName": "علی",
+        "point": 4.33,
+        "pointId": 228576,
+        "isFromOtaghak": false,
+        "isFromHost": false,
+        "isAllowReply": false,
+        "allowReplyStatus": false,
+        "commentStatus": 0,
+        "recomendationType": "Recommended",
+        "positivePoints": [],
+        "negativePoints": [],
+        "replies": [],
+        "creationDateTime": "2024-11-18T16:49:46.302488+03:30",
+        "pdpMediaObject": []
+      },
+      {
+        "id": 0,
+        "profileImageId": 1703068,
+        "commentId": 2623351,
+        "bookingId": 4029219,
+        "body": "جناب خیری خیلی انسان محترم و خوش اخلاقی بودن\nبنا به دلایلی نشد که تو اقامتگاه ایشون باشیم اما تو سریعترین فرصت ممکن یه اقامتگاه دیگه که مال دوستشون بود برامون تهیه کردن. هرچند فکر می کنم اقامتگاه ایشون خیلی بهتر از اونی بود که ما توش موندیم اما اونجا هم تمیز بود و از لحاظ موجودات و حشرات واقعا پاک بود که یکی از مهمترین مسائل از نظر من تو اقامتگاه های شمال همینه. ایشالا دفعه بعد این فرصت باشه که تو اقامتگاه آقای خیری باشیم. ایشون رو به دلیل همین مسئولیت پذیری و انسانیت پیشنهاد می کنم.",
+        "roomId": 2397109,
+        "roomName": "خیری",
+        "senderUserId": 3353646,
+        "senderDisplayName": "فرزین",
+        "point": 5.00,
+        "pointId": 209920,
+        "isFromOtaghak": false,
+        "isFromHost": false,
+        "isAllowReply": false,
+        "allowReplyStatus": false,
+        "commentStatus": 0,
+        "recomendationType": "Recommended",
+        "positivePoints": [],
+        "negativePoints": [],
+        "replies": [],
+        "creationDateTime": "2024-06-24T21:43:54.6408027+03:30",
+        "pdpMediaObject": []
+      },
+      {
+        "id": 0,
+        "profileImageId": 1703068,
+        "commentId": 2564358,
+        "bookingId": 3823793,
+        "body": "از منطقه خیلی راضی بودم به همه چیز دسترسی داشتیم \nمیزبان خیلی خوشبرخورد و مهربان بودن قطعا اگه دوباره برگردم رامسر اینجارو انتخاب میکنم ",
+        "roomId": 2397109,
+        "roomName": "خیری",
+        "senderUserId": 3124537,
+        "senderDisplayName": "فاطمه",
+        "point": 5.00,
+        "pointId": 159487,
+        "isFromOtaghak": false,
+        "isFromHost": false,
+        "isAllowReply": false,
+        "allowReplyStatus": false,
+        "commentStatus": 0,
+        "recomendationType": "Recommended",
+        "positivePoints": [],
+        "negativePoints": [],
+        "replies": [],
+        "creationDateTime": "2023-09-24T13:44:43.3207188+03:30",
+        "pdpMediaObject": []
+      },
+      {
+        "id": 0,
+        "profileImageId": 1703068,
+        "commentId": 2532436,
+        "bookingId": 3641434,
+        "body": "با تشکر از میزبان خوب و بااخلاق جناب آقای خیری که یک محیط امن، آرام، تمیز و با دسترسی عالی به مناطق مختلف را فراهم کردن، همه چیز عالی و درجه یک",
+        "roomId": 2397109,
+        "roomName": "خیری",
+        "senderUserId": 1325523,
+        "senderDisplayName": "میلاد",
+        "point": 5.00,
+        "pointId": 139222,
+        "isFromOtaghak": false,
+        "isFromHost": false,
+        "isAllowReply": false,
+        "allowReplyStatus": false,
+        "commentStatus": 0,
+        "recomendationType": "Recommended",
+        "positivePoints": [],
+        "negativePoints": [],
+        "replies": [
+          {
+            "id": 2532539,
+            "replyId": 2532539,
+            "body": "سلام عرض ارادت \nممنونم از لطف جناب عالی امیدورام خوش گذشته باشه به امید دیدار دوباره پیروز سربلند باشید",
+            "profileImageId": 1309374,
+            "senderDisplayName": "رضا خیری",
+            "isFromOtaghak": false,
+            "isFromHost": true,
+            "creationDateTime": "2023-05-14T10:20:47.5133919+03:30"
+          }
+        ],
+        "creationDateTime": "2023-05-13T16:23:03.8418673+03:30",
+        "pdpMediaObject": []
+      },
+      {
+        "id": 0,
+        "profileImageId": 1703068,
+        "commentId": 2527145,
+        "bookingId": 3607228,
+        "body": "خوب",
+        "roomId": 2397109,
+        "roomName": "خیری",
+        "senderUserId": 1395054,
+        "senderDisplayName": "حمید",
+        "point": 5.00,
+        "pointId": 136035,
+        "isFromOtaghak": false,
+        "isFromHost": false,
+        "isAllowReply": false,
+        "allowReplyStatus": false,
+        "commentStatus": 0,
+        "recomendationType": "Recommended",
+        "positivePoints": [
+          "میزبان عالی"
+        ],
+        "negativePoints": [],
+        "replies": [],
+        "creationDateTime": "2023-04-15T20:25:06.7228052+03:30",
+        "pdpMediaObject": []
+      },
+      {
+        "id": 0,
+        "profileImageId": 1703068,
+        "commentId": 2497775,
+        "bookingId": 3424224,
+        "body": "اوکی بود ",
+        "roomId": 2397109,
+        "roomName": "خیری",
+        "senderUserId": 1286328,
+        "senderDisplayName": "امیر",
+        "point": 5.00,
+        "pointId": 116619,
+        "isFromOtaghak": false,
+        "isFromHost": false,
+        "isAllowReply": false,
+        "allowReplyStatus": false,
+        "commentStatus": 0,
+        "recomendationType": "Recommended",
+        "positivePoints": [],
+        "negativePoints": [],
+        "replies": [
+          {
+            "id": 2497965,
+            "replyId": 2497965,
+            "body": "ممنونم از لطف تون بامید دیدار دوباره",
+            "profileImageId": 1309374,
+            "senderDisplayName": "رضا خیری",
+            "isFromOtaghak": false,
+            "isFromHost": true,
+            "creationDateTime": "2022-11-26T09:14:35.238049+03:30"
+          }
+        ],
+        "creationDateTime": "2022-11-25T09:59:59.3739221+03:30",
+        "pdpMediaObject": []
+      },
+      {
+        "id": 0,
+        "profileImageId": 1703068,
+        "commentId": 2496410,
+        "bookingId": 3418110,
+        "body": "سلام.به معنای واقعی همه چی عالی بود ، برخورد میزبان و نظافت منزل ، دسترسی راحت به همه چیز . در این سفر ، رفتار بسیار بسیار مهربان آقای خیری و کادوی زیبای ایشان از همه چیز قشنگ تر بود. قطعا پیشنهاد میکنم.",
+        "roomId": 2397109,
+        "roomName": "خیری",
+        "senderUserId": 2645912,
+        "senderDisplayName": "فاطمه",
+        "point": 5.00,
+        "pointId": 115717,
+        "isFromOtaghak": false,
+        "isFromHost": false,
+        "isAllowReply": false,
+        "allowReplyStatus": false,
+        "commentStatus": 0,
+        "recomendationType": "Recommended",
+        "positivePoints": [],
+        "negativePoints": [],
+        "replies": [
+          {
+            "id": 2497963,
+            "replyId": 2497963,
+            "body": "سلام عرض ارادت شما لطف دارین ما انجام وظیفه کردیم امیدوارم یک محیط آرامی را برای شما فراهم کرده باشیم بامید دیدار دوباره ",
+            "profileImageId": 1309374,
+            "senderDisplayName": "رضا خیری",
+            "isFromOtaghak": false,
+            "isFromHost": true,
+            "creationDateTime": "2022-11-26T09:13:27.4527732+03:30"
+          }
+        ],
+        "creationDateTime": "2022-11-18T23:00:54.9539602+03:30",
+        "pdpMediaObject": []
+      }
+    ],
+    "rateCount": 26,
+    "rentType": "Shared"
+  },
+  "breadCrumb": {
+    "roomType": "ویلا",
+    "roomTypeEnName": "ویلا",
+    "cityName": "رامسر",
+    "cityEnName": "ramsar",
+    "stateName": "مازندران",
+    "stateEnName": "mazandaran"
+  },
+  "price": {
+    "currencyId": 0,
+    "basePrice": 900000.0,
+    "extraPersonPrice": 100000.0,
+    "afterDiscount": 0.0,
+    "totalDiscountValue": 0.0,
+    "nightlyComment": null,
+    "nightlyIcon": null
+  },
+  "pdpSections": [
+    {
+      "media": [
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "536ff812-e503-41fa-8621-427b051d8da8.webp",
+          "description": null,
+          "order": 1,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "bce9a5cf-513b-45c1-803f-85400bb9f8c7.webp",
+          "description": null,
+          "order": 2,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "f9330b0f-e234-42af-aa7c-3c1fea478376.webp",
+          "description": null,
+          "order": 3,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "396ea1bc-7a6c-4a45-9378-3ea926cbebea.webp",
+          "description": null,
+          "order": 4,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "bc485697-44f9-46a9-8876-b34d64c370c3.webp",
+          "description": null,
+          "order": 5,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "2fed75f7-8168-4cf8-b526-d887df497c31.webp",
+          "description": null,
+          "order": 6,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "77dc08bb-1d34-482e-89fa-d67a9f667bc2.webp",
+          "description": null,
+          "order": 7,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "fe9bddec-3840-4087-99fd-a5aa24ef7d91.webp",
+          "description": null,
+          "order": 8,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "9eb034d9-fe92-4b56-b96b-c6450ab104cf.webp",
+          "description": null,
+          "order": 9,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "2f70c458-e5b7-4406-b9e3-14bffd405afd.webp",
+          "description": null,
+          "order": 10,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "99b06c48-444e-40c7-83cd-88aa788328bb.webp",
+          "description": null,
+          "order": 11,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "videoUrl": null,
+          "icon": null,
+          "name": "d5f1757b-af77-4849-b7b5-fe41c3d4c499.webp",
+          "description": null,
+          "order": 12,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "commentsMedia": [],
+      "imageTags": [
+        {
+          "icon": "instant-colored",
+          "name": "آنی",
+          "description": null,
+          "order": 2,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "Images",
+      "name": null,
+      "description": null,
+      "count": null,
+      "order": 1,
+      "icon": null,
+      "tabName": "تصاویر"
+    },
+    {
+      "items": [
+        {
+          "icon": "ic_renttype",
+          "name": "غیر دربست",
+          "description": "اقامتگاهی که تمامی امکانات آن اشتراکی است، مانند حمام مشترک، سرویس بهداشتی مشترک و...",
+          "order": 0,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "video": null,
+      "sectionType": "Header",
+      "name": "خیری، در رامسر",
+      "description": null,
+      "count": null,
+      "order": 2,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "profile": {
+        "profileImageId": 1309374,
+        "name": "رضا خیری",
+        "description": "بیش از 7 سال میزبان اتاقک"
+      },
+      "sectionType": "HostProfile",
+      "name": null,
+      "description": null,
+      "count": null,
+      "order": 3,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "items": [
+        {
+          "icon": "star-rate",
+          "name": "4.9",
+          "description": "(25نظر)",
+          "order": 1,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "circleTick-confirm-accept-green",
+          "name": "41",
+          "description": "رزرو موفق",
+          "order": 2,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "recommended",
+          "name": "100%",
+          "description": "توصیه شده",
+          "order": 3,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "RoomRate",
+      "name": null,
+      "description": null,
+      "count": null,
+      "order": 4,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "items": [
+        {
+          "icon": "Pdp-BNPL",
+          "name": "امکان پرداخت اقساطی",
+          "description": "امکان پرداخت اقساطی از طریق تارا، دیجی‌پی و ...",
+          "order": 0,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "ic_sweet",
+          "name": "اطلاعات بنا",
+          "description": "45 متر، 1 اتاق، فلت، پارکینگ روباز",
+          "order": 1,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "ic_twopersonbed",
+          "name": "سرویس خواب",
+          "description": "1 تخت دو نفره، 2 سرویس خواب کامل، 2 پتو",
+          "order": 2,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "Accessibility",
+          "name": "دسترس پذیری",
+          "description": "همکف، 1 تا 3 پله",
+          "order": 3,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "outdoorforeignbathroom",
+          "name": "سرویس بهداشتی و حمام",
+          "description": "1 توالت ایرانی، 1 دوش در سرویس",
+          "order": 4,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "ic_guest",
+          "name": "ظرفیت اقامتگاه",
+          "description": "2 نفر پایه، 2 نفر اضافه",
+          "order": 5,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "AboutRoom",
+      "name": "درباره اقامتگاه",
+      "description": null,
+      "count": null,
+      "order": 6,
+      "icon": null,
+      "tabName": "مشخصات"
+    },
+    {
+      "items": [
+        {
+          "icon": "ic_contextandview",
+          "name": "بافت و چشم انداز",
+          "description": "شهری",
+          "order": 1,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "PromotedRoomAttributes",
+      "name": null,
+      "description": null,
+      "count": null,
+      "order": 8,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "roomAreas": [
+        {
+          "id": 2345828,
+          "icon": null,
+          "name": "هال و پذیرایی یک",
+          "description": null,
+          "order": 1,
+          "items": [
+            {
+              "icon": null,
+              "name": "سیستم سرمایشی",
+              "description": "کولر گازی",
+              "order": 0,
+              "count": 1,
+              "tag": null
+            },
+            {
+              "icon": null,
+              "name": "سیستم گرمایشی",
+              "description": "بخاری گازی",
+              "order": 1,
+              "count": 1,
+              "tag": null
+            }
+          ],
+          "namePostFix": null,
+          "roomAreaType": "Hall"
+        },
+        {
+          "id": 2345829,
+          "icon": null,
+          "name": "اتاق خواب یک ",
+          "description": null,
+          "order": 1,
+          "items": [
+            {
+              "icon": null,
+              "name": "سرویس خواب",
+              "description": "تخت دو نفره",
+              "order": 0,
+              "count": 1,
+              "tag": null
+            }
+          ],
+          "namePostFix": null,
+          "roomAreaType": "BedRoom"
+        }
+      ],
+      "sectionType": "RoomAreas",
+      "name": "فضای خواب",
+      "description": null,
+      "count": null,
+      "order": 9,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "items": [
+        {
+          "icon": "ic_gas",
+          "name": "اجاق گاز",
+          "description": null,
+          "order": 0,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "ic_ref",
+          "name": "یخچال",
+          "description": null,
+          "order": 1,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "ic_tv",
+          "name": "تلویزیون",
+          "description": null,
+          "order": 2,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "TopAttributes",
+      "name": "امکانات اقامتگاه",
+      "description": null,
+      "count": 8,
+      "order": 10,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "sectionType": "RoomDescription",
+      "name": "‫‫اجاره روزانه و ماهانه خیری، 45 متر برای 2  نفر به همراه 2 نفر اضافی در شهر رامسر با تضمین بهترین کیفیت و قیمت در اتاقک",
+      "description": "ویلا خیری رامسر، اقامتگاهی برای آرامش و تفریح شماست. این ویلا در زمینی به مساحت 240 متر مربع با زیر بنای 45 متر مربع در فاصله 5 دقیقه ای ساحل شهر رامسر واقع شده است. دسترسی زمینی به رامسر، عروس شهرهای ایران از مسیر جاده قزوین-رشت، چالوس-رامسر و جاده ساحلی خزر امکان‌پذیر است. ویلا دو طبقه بوده و دارای یک اتاق خواب، حمام و دستشویی(ایرانی) است. حیاط ویلا برای پارک خودرو های کوچک مناسب است. ویلا مناسب سالمندان، کودکان و افراد دارای معلولیت است.پذیرش حیوان خانگی در این ویلا مجاز نیست. ویلا آسانسور ندارد.\n\nامکانات اقامتگاه:\n- آشپزخانه با امکانات رفاهی شامل اجاق گاز صفحه ای، یخچال، فریزر و لوازم آشپزی\n- اتاق پذیرایی دارای تلویزیون\n- سیستم سرمایشی کولر اسپیلت و گرمایشی بخاری گازی\n- آب آشامیدنی مجهز به سیستم تصفیه اتوماتیک\n\nدسترسی اقامتگاه به اماکن تفریحی، رفاهی و خدماتی:\n- فاصله تا ساحل با ماشین ۵ دقیقه\n- فاصله تا پارک جنگلی ملی 500 متر\n- فاصله تا تله کابین رامسر 12 کیلومتر\n- فاصله بیمارستان 1 کیلومتر\n- فاصله تا فرودگاه 1200 متر\n- فاصله تا سوپر مارکت و نانوایی ۵۰ متر\n- فاصله تا پمپ بنزین 500 متر",
+      "count": null,
+      "order": 12,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "latitude": 36.896366227,
+      "longitude": 50.675353436,
+      "sectionType": "Map",
+      "name": "موقعیت تقریبی اقامتگاه",
+      "description": "آدرس و موقعیت دقیق اقامتگاه، پس از رزرو برای شما ارسال خواهد شد",
+      "count": null,
+      "order": 13,
+      "icon": null,
+      "tabName": "موقعیت"
+    },
+    {
+      "items": [
+        {
+          "icon": "kid",
+          "name": "نرخ ورود کودک",
+          "description": "تا 1 کودک زیر 3 سال در صورتحساب لحاظ نمی گردد",
+          "order": 1,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "extra-person",
+          "name": "نرخ هر نفر اضافه",
+          "description": "100,000 تومان",
+          "order": 2,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "RoomPrice",
+      "name": "محاسبه قیمت",
+      "description": null,
+      "count": 0,
+      "order": 15,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "sectionType": "RoomCalendar",
+      "name": "تقویم و نرخ رزرو",
+      "description": null,
+      "count": 0,
+      "order": 17,
+      "icon": null,
+      "tabName": "تقویم"
+    },
+    {
+      "items": [
+        {
+          "icon": "calendar",
+          "name": "زمان ورود",
+          "description": "ساعت 14:00 تا 17:00",
+          "order": 1,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "calendar",
+          "name": "زمان خروج",
+          "description": "ساعت 12:00",
+          "order": 2,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "RoomTime",
+      "name": "مقررات زمانی اقامتگاه",
+      "description": null,
+      "count": 0,
+      "order": 18,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "items": [
+        {
+          "icon": "PetNotAllowed",
+          "name": "ورود حیوان خانگی مجاز نیست",
+          "description": "",
+          "order": 1,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "PartyNotAllowed",
+          "name": "برگزاری مراسم مجاز نیست",
+          "description": "",
+          "order": 2,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "ShoesInsideBuildingNotAllowed",
+          "name": "تردد با کفش داخل محیط ساختمان مجاز نیست",
+          "description": "",
+          "order": 3,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "SmokingNotAllowed",
+          "name": "استعمال دخانیات مجاز نیست",
+          "description": "",
+          "order": 4,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "YardUsageNotAllowed",
+          "name": "استفاده از حیاط و باغ مجاز نیست",
+          "description": "",
+          "order": 5,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "IdentityDocumentMarriageDocument",
+          "name": "مدرک محرمیت لازم است",
+          "description": "",
+          "order": 6,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "NoneMarriedGroupsNotAllowed",
+          "name": "عدم پذیرش فرد یا جمع‌های مجردی ",
+          "description": "",
+          "order": 7,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "RoomRules",
+      "name": "قوانین اقامتگاه",
+      "description": null,
+      "count": 0,
+      "order": 19,
+      "icon": null,
+      "tabName": "قوانین"
+    },
+    {
+      "items": [
+        {
+          "icon": "ic-hostrule",
+          "name": "ارائه مدارک محرمیت (برای زوج ها) الزامی است.",
+          "description": null,
+          "order": 1,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "RoomHostRule",
+      "name": "قوانین میزبان",
+      "description": null,
+      "count": null,
+      "order": 20,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "cancelRuleTitle": "سختگیرانه",
+      "cancelRuleDescription": "لغو رزرو تا 72  ساعت قبل از زمان ورود: کسر 25 درصد کل مبلغ رزرو / لغو رزرو در کمتر از 72 ساعت قبل از زمان ورود: کسر 100 درصد روز هایی که کمتر از 72 ساعت به آنها مانده است + 25 درصد باقی روز ها / لغو رزرو پس از زمان ورود:کسر 100 درصد مبلغ رزرو همان روز و سه روز بعد + 25 درصد مبلغ رزرو روز های باقی مانده.",
+      "items": [
+        {
+          "title": "لغو رزرو تا 72 ساعت مانده به زمان ورود روز کنسل شده",
+          "description": "25  درصد کل مبلغ رزرو",
+          "textColor": "#44a663",
+          "icon": "cancel-72"
+        },
+        {
+          "title": "لغو رزرو در کمتر از 72 ساعت مانده به زمان ورود روز کنسل شده",
+          "description": "100 درصد روز هایی که کمتر از 72 ساعت به آنها مانده است + 25 درصد باقی روز ها",
+          "textColor": "#fbb118",
+          "icon": "cancel-lt-72"
+        },
+        {
+          "title": "لغو رزرو حین اقامت",
+          "description": "100 درصد مبلغ رزرو همان روز و سه روز بعد + 25 درصد مبلغ رزرو روز های باقی مانده",
+          "textColor": "#f03e58",
+          "icon": "cancel-during"
+        }
+      ],
+      "sectionType": "RoomCancelRuleType",
+      "name": "مقررات لغو رزرو",
+      "description": null,
+      "count": 0,
+      "order": 21,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "sectionType": "RoomGuarantee",
+      "name": "ضمانت و گارانتی اتاقک",
+      "description": "ضمانت تحویل اقامتگاه اتاقک، به مهمان اطمینان می‌دهد در صورت عدم لغو رزرو از سوی وی، اقامتگاهی که رزرو کرده‌است را با مشخصات ثبت شده در سایت، در زمان مقرر تحویل بگیرد و در غیر این صورت وجه واریزی خود را کاملا و بدون کسر هیچ‌گونه کارمزدی پس بگیرد.",
+      "count": 0,
+      "order": 22,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "sectionType": "RoomComments",
+      "name": "نظرات مهمان ها",
+      "description": null,
+      "count": 25,
+      "order": 23,
+      "icon": null,
+      "tabName": "نظرات"
+    },
+    {
+      "profile": {
+        "profileImageId": 1309374,
+        "name": "رضا خیری",
+        "description": "بیش از 7 سال میزبان اتاقک"
+      },
+      "items": [
+        {
+          "icon": "clock-rewind-response",
+          "name": "زمان پاسخگویی",
+          "description": "کمتر از 11 دقیقه",
+          "order": 0,
+          "count": 0,
+          "tag": null
+        },
+        {
+          "icon": "circle-tick-confirm-accept",
+          "name": "میزان تایید رزرو",
+          "description": "در حدود 28 درصد",
+          "order": 0,
+          "count": 0,
+          "tag": null
+        }
+      ],
+      "sectionType": "HostFullProfile",
+      "name": null,
+      "description": null,
+      "count": 0,
+      "order": 24,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "sectionType": "HostOtherRooms",
+      "name": "سایر اقامتگاه های رضا خیری",
+      "description": "(1 اقامتگاه)",
+      "count": 0,
+      "order": 25,
+      "icon": null,
+      "tabName": null
+    },
+    {
+      "sectionType": "SimilarRooms",
+      "name": "سایر اقامتگاه های مشابه منطقه",
+      "description": null,
+      "count": 0,
+      "order": 26,
+      "icon": null,
+      "tabName": null
+    }
+  ]
+}

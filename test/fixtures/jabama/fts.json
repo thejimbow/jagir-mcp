@@ -1,0 +1,147 @@
+{
+  "mode": "flat",
+  "items": [
+    {
+      "type": "plp",
+      "title": "رامسر",
+      "subtitle": "استان مازندران",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/8ea097b2-29cd-4281-82bb-32e6cacb9960.svg",
+      "url": "city-ramsar",
+      "liquidity": 2798
+    },
+    {
+      "type": "plp",
+      "title": "بام رامسر 2",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/90b18d8e-5600-4618-99d6-d273af6633fc.png",
+      "url": "list-99530",
+      "liquidity": 6
+    },
+    {
+      "type": "plp",
+      "title": "بام رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/90b18d8e-5600-4618-99d6-d273af6633fc.png",
+      "url": "list-99213",
+      "liquidity": 4
+    },
+    {
+      "type": "plp",
+      "title": "ساحل رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=C8oTQrqPSkLTDAAA2LPYp9it2YQg2LHYp9mF2LPYsQ"
+    },
+    {
+      "type": "plp",
+      "title": "سواحل رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=oJoTQtGiSkI1BAAA2LPZiNin2K3ZhCDYsdin2YXYs9ix"
+    },
+    {
+      "type": "plp",
+      "title": "فرودگاه رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=oZ4TQsy6SkJLEgAA2YHYsdmI2K_ar9in2Ycg2LHYp9mF2LPYsQ"
+    },
+    {
+      "type": "plp",
+      "title": "باغ پرندگان رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=ErUTQoCSSkKSEgAA2KjYp9i6INm-2LHZhtiv2q_Yp9mGINix2KfZhdiz2LE"
+    },
+    {
+      "type": "plp",
+      "title": "تله‌کابین رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=39cTQsFmSkJLDgAA2KrZhNmH4oCM2qnYp9io24zZhiDYsdin2YXYs9ix"
+    },
+    {
+      "type": "plp",
+      "title": "جنگل دالخانی رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=djATQn9gSkI3BAAA2KzZhtqv2YQg2K_Yp9mE2K7Yp9mG24wg2LHYp9mF2LPYsQ"
+    },
+    {
+      "type": "plp",
+      "title": "روستای جواهرده رامسر",
+      "subtitle": "استان سمنان، بسطام",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=n_ASQkAjXEJ0BQAA2LHZiNiz2KrYp9uMINis2YjYp9mH2LHYr9mHINix2KfZhdiz2LE"
+    },
+    {
+      "type": "plp",
+      "title": "روستای فرحزاد رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=XI8TQtejSkLKBQAA2LHZiNiz2KrYp9uMINmB2LHYrdiy2KfYryDYsdin2YXYs9ix"
+    },
+    {
+      "type": "plp",
+      "title": "شهر ساحلی رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=ErUTQoCSSkLcEQAA2LTZh9ixINiz2KfYrdmE24wg2LHYp9mF2LPYsQ"
+    },
+    {
+      "type": "plp",
+      "title": "میدان مرکزی رامسر",
+      "subtitle": "استان مازندران، تنکابن",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=lkMTQh-FS0JkCQAA2YXbjNiv2KfZhiDZhdix2qnYstuMINix2KfZhdiz2LE"
+    },
+    {
+      "type": "plp",
+      "title": "چشمه ثنا رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=j8ITQtejSkLVAAAA2obYtNmF2Ycg2KvZhtinINix2KfZhdiz2LE"
+    },
+    {
+      "type": "plp",
+      "title": "خیابان امام خمینی رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=j8ITQtejSkIJCAAA2K7bjNin2KjYp9mGINin2YXYp9mFINiu2YXbjNmG24wg2LHYp9mF2LPYsQ"
+    },
+    {
+      "type": "plp",
+      "title": "پارک جنگلی دالخانی رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=djATQn9gSkIWBgAA2b7Yp9ix2qkg2KzZhtqv2YTbjCDYr9in2YTYrtin2YbbjCDYsdin2YXYs9ix"
+    },
+    {
+      "type": "plp",
+      "title": "پارک جنگلی صفارود رامسر",
+      "subtitle": "استان مازندران، رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=39cTQsFmSkIVBgAA2b7Yp9ix2qkg2KzZhtqv2YTbjCDYtdmB2KfYsdmI2K8g2LHYp9mF2LPYsQ"
+    },
+    {
+      "type": "plp",
+      "title": "پارک جنگلی گلستان رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=j8ITQtejSkLtAgAA2b7Yp9ix2qkg2KzZhtqv2YTbjCDar9mE2LPYqtin2YYg2LHYp9mF2LPYsQ"
+    },
+    {
+      "type": "plp",
+      "title": "چشمه عزیز گرما رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=j8ITQtejSkLSAAAA2obYtNmF2Ycg2LnYstuM2LIg2q_YsdmF2Kcg2LHYp9mF2LPYsQ"
+    },
+    {
+      "type": "plp",
+      "title": "چشمه محمود گرما رامسر",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/ed5660ab-778c-4e36-8948-17a08b2a1a5b.svg",
+      "url": "all?poi=j8ITQtejSkLRAAAA2obYtNmF2Ycg2YXYrdmF2YjYryDar9ix2YXYpyDYsdin2YXYs9ix"
+    },
+    {
+      "type": "plp",
+      "title": "همه نتایج",
+      "image": "https://cdn.jabama.com/original/jabama-images/0/bb47eada-efd9-4b36-bc20-8c3edb625750.svg",
+      "url": "all?fts=رامسر"
+    }
+  ]
+}

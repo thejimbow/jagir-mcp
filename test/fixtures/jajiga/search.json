@@ -1,0 +1,2756 @@
+{
+  "meta": {
+    "title": "اجاره ویلا و سوئیت در رامسر",
+    "url": "/s/ramsar?chin=2026-10-15&chout=2026-10-17&gstnum=4&maxp=6000000&minp=2000000&order=low_price&page=2",
+    "canonical": "/s/ramsar?page=2",
+    "rooms_count": 776,
+    "min_price": 4000000,
+    "max_price": 23750000,
+    "name": "ramsar",
+    "description": "رامسر عروس مازندران؛ اجاره ویلا و سوئیت در رامسر بهانه ای ست برای آرامش روح و روان در تلاقی کوه، دریا و جنگل.",
+    "is_landing": true,
+    "city": {
+      "name": "رامسر",
+      "url": "/s/ramsar"
+    }
+  },
+  "filters": {
+    "checkin": "2026-10-15",
+    "checkout": "2026-10-17",
+    "locations": [
+      "303"
+    ],
+    "max_price": 6000000,
+    "min_capacity": 4,
+    "min_price": 2000000,
+    "order": "low_price"
+  },
+  "autocomplete": [
+    {
+      "id": "303",
+      "label": "رامسر",
+      "sub_label": "",
+      "type": "city",
+      "url": "/s/ramsar",
+      "rooms_count": 1876
+    }
+  ],
+  "related_path": [
+    {
+      "title": "اجاره ویلا استخردار در رامسر",
+      "rooms_count": 472,
+      "url": "/s/ramsar/pool"
+    },
+    {
+      "title": "اجاره ویلا در جنگل دالخانی",
+      "rooms_count": 131,
+      "url": "/s/dalkhani"
+    },
+    {
+      "title": "اجاره ویلا با استخر آب گرم در رامسر",
+      "rooms_count": 464,
+      "url": "/s/ramsar?feature[0]=pool-hot"
+    },
+    {
+      "title": "اجاره سوئیت در رامسر",
+      "rooms_count": 423,
+      "url": "/s/ramsar/suite"
+    },
+    {
+      "title": "اجاره ویلا با جکوزی در رامسر",
+      "rooms_count": 410,
+      "url": "/s/ramsar/jacuzzi"
+    },
+    {
+      "title": "اجاره سوئیت در کتالم و سادات شهر",
+      "rooms_count": 226,
+      "url": "/s/ketalemandsadatshahr"
+    },
+    {
+      "title": "اجاره ویلا شمال",
+      "rooms_count": 15696,
+      "url": "/s/shomal"
+    },
+    {
+      "title": "اجاره کلبه در رامسر",
+      "rooms_count": 386,
+      "url": "/s/ramsar/cottage"
+    }
+  ],
+  "rooms": {
+    "pagination": {
+      "total": 725,
+      "count": 5,
+      "page": 2,
+      "per_page": 5
+    },
+    "items": [
+      {
+        "id": 3179488,
+        "province_name": "مازندران",
+        "city_name": "رامسر",
+        "url": "/room/3179488?gstnum=4&chin=2026-10-15&chout=2026-10-17",
+        "short_url": "/r/v8o",
+        "title": "خانه ویلایی در رامسر - طبقه اول",
+        "room_number": 2,
+        "floor_area": 115,
+        "guest_number": 4,
+        "max_guest_number": 7,
+        "is_new": false,
+        "price": 2000000,
+        "rating": {
+          "total": 4.7,
+          "count": 27
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "31794882608032252477407770.jpg",
+              "preview": "UJEL:7S+cH?w-=tTXUxwIWt8RlfS^,o$tTxw",
+              "url": "2026/08/03/31794882608032252477407770.jpg"
+            },
+            {
+              "name": "3179488221116103553.jpg",
+              "preview": "U=E:D5t7oMx].AX9bHtS.9bcbHt8?cozj[t8",
+              "url": "3179488221116103553.jpg"
+            },
+            {
+              "name": "3179488221116103548.jpg",
+              "preview": "UMCQ3pD*Vu-:?vM{V[xu%NW9jst8~pM{oLxu",
+              "url": "3179488221116103548.jpg"
+            },
+            {
+              "name": "3179488221116103550.jpg",
+              "preview": "UZCi~+t7M{%M~qofRj%M-;ofayt7t6ofofay",
+              "url": "3179488221116103550.jpg"
+            },
+            {
+              "name": "3179488221116103551.jpg",
+              "preview": "UeDl[?%Mog%M~q%MtRxu?bxut7t7?bt7j[kC",
+              "url": "3179488221116103551.jpg"
+            }
+          ],
+          "total": 11
+        },
+        "success_books": 20,
+        "price_after_discount": 4000000,
+        "weekly_discount": 10,
+        "weekly_discount_min_nights": 0,
+        "monthly_discount": 10,
+        "monthly_discount_min_nights": 0,
+        "geo": {
+          "lat": 36.94260025024414,
+          "lng": 50.618099212646484
+        },
+        "bedrooms": 2,
+        "units_count": 1,
+        "min_price": 2000000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 100000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4000000,
+          "prices": {
+            "2000000": 2
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3182775,
+        "province_name": "مازندران",
+        "city_name": "کتالم و سادات شهر",
+        "url": "/room/3182775?gstnum=4&chin=2026-10-15&chout=2026-10-17",
+        "short_url": "/r/xrz",
+        "title": "اجاره ویلا در رامسر - ساداتشهر - طبقه اول",
+        "room_number": 3,
+        "floor_area": 145,
+        "guest_number": 4,
+        "max_guest_number": 7,
+        "is_new": false,
+        "price": 2000000,
+        "rating": {
+          "total": 4.3,
+          "count": 40
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3182775230513190707.jpg",
+              "preview": "UNDlyEtLIo%Lxn-:WVIUtO%LxtRj~ok8oy%L",
+              "url": "2023/05/13/3182775230513190707.jpg"
+            },
+            {
+              "name": "3182775230513190725.jpg",
+              "preview": "UVDJqakDICx@%cWVWCbE%ea|WBoe_LkCM|xt",
+              "url": "2023/05/13/3182775230513190725.jpg"
+            },
+            {
+              "name": "3182775230622170722.jpg",
+              "preview": "UwHe2w%2t7%L~Wt7j[xa-pofWBfR%Ms:WBWB",
+              "url": "2023/06/22/3182775230622170722.jpg"
+            },
+            {
+              "name": "3182775230513190642.jpg",
+              "preview": "UiGl6V?Hja-;_N%MRjtR%gozRjWB?bt7jZae",
+              "url": "2023/05/13/3182775230513190642.jpg"
+            },
+            {
+              "name": "3182775230908134914.jpg",
+              "preview": "UpH-iN-pxa?G~VxtWVxa%Mt7WBay%2t6f6oe",
+              "url": "2023/09/08/3182775230908134914.jpg"
+            }
+          ],
+          "total": 23
+        },
+        "success_books": 50,
+        "price_after_discount": 4000000,
+        "weekly_discount": 5,
+        "weekly_discount_min_nights": 3,
+        "monthly_discount": 20,
+        "monthly_discount_min_nights": 15,
+        "geo": {
+          "lat": 36.888301849365234,
+          "lng": 50.691898345947266
+        },
+        "bedrooms": 3,
+        "units_count": 1,
+        "min_price": 2000000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 400000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4000000,
+          "prices": {
+            "2000000": 2
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3182900,
+        "province_name": "گیلان",
+        "city_name": "چابکسر",
+        "url": "/room/3182900?gstnum=4&chin=2026-10-15&chout=2026-10-17",
+        "short_url": "/r/xvg",
+        "title": "اجاره منزل ویلایی در چابکسر",
+        "room_number": 2,
+        "floor_area": 100,
+        "guest_number": 4,
+        "max_guest_number": 9,
+        "is_new": false,
+        "price": 2000000,
+        "rating": {
+          "total": 4.9,
+          "count": 3
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3182900240407182729.jpg",
+              "preview": "UaEpAY_M%g.7o_tQtQt7IUM{RjRj-.bHR*j[",
+              "url": "2024/04/07/3182900240407182729.jpg"
+            },
+            {
+              "name": "3182900250801014906.jpg",
+              "preview": "UeIg+M?GtR-:~pt7tQxu.7WXofxa^+t7WUt6",
+              "url": "2025/08/01/3182900250801014906.jpg"
+            },
+            {
+              "name": "3182900250801014904.jpg",
+              "preview": "UqI:~]-oWBxZ~UtQe:s:%1bba#s:=ys:bFoJ",
+              "url": "2025/08/01/3182900250801014904.jpg"
+            },
+            {
+              "name": "3182900240407182843.jpg",
+              "preview": "U-J7t1sSo0%2~poJWBt7%fofR*fk-poeayj[",
+              "url": "2024/04/07/3182900240407182843.jpg"
+            },
+            {
+              "name": "3182900240407182919.jpg",
+              "preview": "UkH1xf-;R+-:~V%2R*xtxtWBRkWBn$RjfkWB",
+              "url": "2024/04/07/3182900240407182919.jpg"
+            }
+          ],
+          "total": 10
+        },
+        "success_books": 5,
+        "price_after_discount": 4000000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 2,
+        "monthly_discount": 10,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 36.972900390625,
+          "lng": 50.56949996948242
+        },
+        "bedrooms": 2,
+        "units_count": 1,
+        "min_price": 2000000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 700000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4000000,
+          "prices": {
+            "2000000": 2
+          }
+        },
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3194368,
+        "province_name": "مازندران",
+        "city_name": "رامسر",
+        "url": "/room/3194368?gstnum=4&chin=2026-10-15&chout=2026-10-17",
+        "short_url": "/r/16q0",
+        "title": "کلبه چوبی در دره دم رامسر - یکخوابه",
+        "room_number": 1,
+        "floor_area": 80,
+        "guest_number": 4,
+        "max_guest_number": 4,
+        "is_new": false,
+        "price": 2000000,
+        "rating": {
+          "total": 4.5,
+          "count": 29
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3194368230422141507.jpg",
+              "preview": "UOCP;Kxu9ZWA~pt7IUWB%Mt7RjWB-:ofRjay",
+              "url": "2023/04/22/3194368230422141507.jpg"
+            },
+            {
+              "name": "3194368230422141518.jpg",
+              "preview": "UNEe[H-:9Goc~V-ooef5Rjj@xaayxZNGRjfR",
+              "url": "2023/04/22/3194368230422141518.jpg"
+            },
+            {
+              "name": "3194368230422141450.jpg",
+              "preview": "UMEB.}_3-;%1~AxuR+Rjn~RjIpRj%0j[a{j[",
+              "url": "2023/04/22/3194368230422141450.jpg"
+            },
+            {
+              "name": "3194368230422141459.jpg",
+              "preview": "UKF}l.^j-o=|}pxZoee.DiM{M{M{^jjZs:t6",
+              "url": "2023/04/22/3194368230422141459.jpg"
+            },
+            {
+              "name": "3194368230422141357.jpg",
+              "preview": "URGRSH~qtl%2^j-:xus:MyRjn%oM={ofbHt6",
+              "url": "2023/04/22/3194368230422141357.jpg"
+            }
+          ],
+          "total": 8
+        },
+        "success_books": 50,
+        "price_after_discount": 4000000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 0,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 0,
+        "geo": {
+          "lat": 36.784698486328125,
+          "lng": 50.514801025390625
+        },
+        "bedrooms": 1,
+        "units_count": 1,
+        "min_price": 2000000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 200000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4000000,
+          "prices": {
+            "2000000": 2
+          }
+        },
+        "properties": [
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      },
+      {
+        "id": 3196132,
+        "province_name": "مازندران",
+        "city_name": "رامسر",
+        "url": "/room/3196132?gstnum=4&chin=2026-10-15&chout=2026-10-17",
+        "short_url": "/r/1830",
+        "title": "خانه ویلایی حیاط دار در رامسر",
+        "room_number": 2,
+        "floor_area": 125,
+        "guest_number": 4,
+        "max_guest_number": 9,
+        "is_new": false,
+        "price": 550000,
+        "rating": {
+          "total": 4.8,
+          "count": 49
+        },
+        "pictures": {
+          "items": [
+            {
+              "name": "3196132250701123542.jpg",
+              "preview": "UhFiS#~q%g-:_3-=%Mx].8xvozxu~q.8tRx[",
+              "url": "2025/07/01/3196132250701123542.jpg"
+            },
+            {
+              "name": "3196132250701123651.jpg",
+              "preview": "URGb6crWs,~VD%kXtRWBE2bvWCNH~Wsln$xt",
+              "url": "2025/07/01/3196132250701123651.jpg"
+            },
+            {
+              "name": "3196132250701124011.jpg",
+              "preview": "UpG[sN%N%Mxt_4%Mxuaf%ht8ayay-=ofbHt7",
+              "url": "2025/07/01/3196132250701124011.jpg"
+            },
+            {
+              "name": "3196132250701124006.jpg",
+              "preview": "UkGbbg%Moe_3_4t7jr-;%hozoJtR-;ogaytR",
+              "url": "2025/07/01/3196132250701124006.jpg"
+            },
+            {
+              "name": "3196132250701124001.jpg",
+              "preview": "UnG+O4-;Sh%N~qxua#xut6ayWVofaJoLozbH",
+              "url": "2025/07/01/3196132250701124001.jpg"
+            }
+          ],
+          "total": 23
+        },
+        "success_books": 50,
+        "price_after_discount": 4000000,
+        "weekly_discount": 0,
+        "weekly_discount_min_nights": 3,
+        "monthly_discount": 0,
+        "monthly_discount_min_nights": 10,
+        "geo": {
+          "lat": 36.93199920654297,
+          "lng": 50.64120101928711
+        },
+        "bedrooms": 2,
+        "units_count": 1,
+        "min_price": 550000,
+        "invoice": {
+          "extra": {
+            "count": 0,
+            "price": 400000,
+            "total": 0
+          },
+          "discounts": [],
+          "final": 4000000,
+          "prices": {
+            "2000000": 2
+          }
+        },
+        "properties": [
+          "is_economic",
+          "is_plus"
+        ],
+        "is_promotion": false,
+        "promotion_id": ""
+      }
+    ]
+  },
+  "map": {
+    "items": [
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3163992,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 16,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.70029830932617,
+            36.885799407958984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3173257,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 37,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.466400146484375,
+            37.033599853515625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3178599,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 18,
+            "total": 4.5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.51599884033203,
+            36.78630065917969
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3178601,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 23,
+            "total": 4.3
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.51599884033203,
+            36.78630065917969
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3179057,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 2,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.61629867553711,
+            36.945899963378906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3179488,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 27,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.618099212646484,
+            36.94260025024414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3182775,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 40,
+            "total": 4.3
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.691898345947266,
+            36.888301849365234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3182900,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 3,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.56949996948242,
+            36.972900390625
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3194368,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 29,
+            "total": 4.5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.514801025390625,
+            36.784698486328125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3196132,
+          "price": 550000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 49,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.64120101928711,
+            36.93199920654297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3198433,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 9,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.576499938964844,
+            36.7958984375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3208504,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 5,
+            "total": 4.5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.50019836425781,
+            37.00080108642578
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3227473,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 9,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.6786003112793,
+            36.894798278808594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3227742,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 1,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.74729919433594,
+            36.877498626708984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3234315,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 4,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.655399322509766,
+            36.93410110473633
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3235318,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 45,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.664398193359375,
+            36.925498962402344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3235573,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 65,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.667598724365234,
+            36.8567008972168
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3255240,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 1,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.67850112915039,
+            36.89509963989258
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3255417,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 2,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.74679946899414,
+            36.877498626708984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3294257,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 4,
+            "total": 4.5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.530399322509766,
+            36.98979949951172
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3303590,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 0,
+            "total": 0
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.747798919677734,
+            36.8672981262207
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3307206,
+          "price": 2000000,
+          "price_after_discount": 4000000,
+          "rating": {
+            "count": 2,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.623199462890625,
+            36.93479919433594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3229763,
+          "price": 2050000,
+          "price_after_discount": 4200000,
+          "rating": {
+            "count": 64,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.54779815673828,
+            36.97520065307617
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3258969,
+          "price": 2000000,
+          "price_after_discount": 4200000,
+          "rating": {
+            "count": 17,
+            "total": 4.4
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.757598876953125,
+            36.83689880371094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3267921,
+          "price": 2000000,
+          "price_after_discount": 4250000,
+          "rating": {
+            "count": 6,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.680198669433594,
+            36.89030075073242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3235851,
+          "price": 2000000,
+          "price_after_discount": 4300000,
+          "rating": {
+            "count": 14,
+            "total": 4.4
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.493099212646484,
+            36.857200622558594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3238075,
+          "price": 2000000,
+          "price_after_discount": 4300000,
+          "rating": {
+            "count": 1,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.53519821166992,
+            36.78929901123047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3238256,
+          "price": 2000000,
+          "price_after_discount": 4300000,
+          "rating": {
+            "count": 5,
+            "total": 4
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.49039840698242,
+            36.85960006713867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3308215,
+          "price": 2000000,
+          "price_after_discount": 4300000,
+          "rating": {
+            "count": 3,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.554901123046875,
+            36.789100646972656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3171300,
+          "price": 2200000,
+          "price_after_discount": 4400000,
+          "rating": {
+            "count": 2,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.51029968261719,
+            36.98699951171875
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3179256,
+          "price": 2000000,
+          "price_after_discount": 4400000,
+          "rating": {
+            "count": 87,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.535099029541016,
+            36.9921989440918
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3194878,
+          "price": 2200000,
+          "price_after_discount": 4400000,
+          "rating": {
+            "count": 4,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.64789962768555,
+            36.91780090332031
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3228004,
+          "price": 2200000,
+          "price_after_discount": 4400000,
+          "rating": {
+            "count": 3,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.587799072265625,
+            36.96080017089844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3236272,
+          "price": 2000000,
+          "price_after_discount": 4400000,
+          "rating": {
+            "count": 49,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.57609939575195,
+            36.977901458740234
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3309291,
+          "price": 2000000,
+          "price_after_discount": 4400000,
+          "rating": {
+            "count": 1,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.69020080566406,
+            36.890899658203125
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3148225,
+          "price": 2150000,
+          "price_after_discount": 4450000,
+          "rating": {
+            "count": 13,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.453399658203125,
+            37.04629898071289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3166173,
+          "price": 2000000,
+          "price_after_discount": 4480000,
+          "rating": {
+            "count": 6,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.665401458740234,
+            36.927799224853516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3182675,
+          "price": 2000000,
+          "price_after_discount": 4500000,
+          "rating": {
+            "count": 135,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.65530014038086,
+            36.92399978637695
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3192551,
+          "price": 2000000,
+          "price_after_discount": 4500000,
+          "rating": {
+            "count": 82,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.660099029541016,
+            36.87269973754883
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3198731,
+          "price": 2250000,
+          "price_after_discount": 4500000,
+          "rating": {
+            "count": 125,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.63779830932617,
+            36.93550109863281
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3224010,
+          "price": 1890000,
+          "price_after_discount": 4500000,
+          "rating": {
+            "count": 6,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.637298583984375,
+            36.92570114135742
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3245346,
+          "price": 2000000,
+          "price_after_discount": 4500000,
+          "rating": {
+            "count": 62,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.520599365234375,
+            36.98249816894531
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3274009,
+          "price": 2000000,
+          "price_after_discount": 4500000,
+          "rating": {
+            "count": 0,
+            "total": 0
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.51620101928711,
+            36.7849006652832
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3309799,
+          "price": 2000000,
+          "price_after_discount": 4500000,
+          "rating": {
+            "count": 1,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.64500045776367,
+            36.912899017333984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3178445,
+          "price": 2200000,
+          "price_after_discount": 4600000,
+          "rating": {
+            "count": 6,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.66350173950195,
+            36.923500061035156
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3184436,
+          "price": 2000000,
+          "price_after_discount": 4600000,
+          "rating": {
+            "count": 12,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.69779968261719,
+            36.89059829711914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3196429,
+          "price": 2300000,
+          "price_after_discount": 4600000,
+          "rating": {
+            "count": 6,
+            "total": 3.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.7671012878418,
+            36.87009811401367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3311387,
+          "price": 2000000,
+          "price_after_discount": 4600000,
+          "rating": {
+            "count": 2,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.623199462890625,
+            36.93479919433594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3163892,
+          "price": 2350000,
+          "price_after_discount": 4700000,
+          "rating": {
+            "count": 16,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.67259979248047,
+            36.901798248291016
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3196108,
+          "price": 2150000,
+          "price_after_discount": 4700000,
+          "rating": {
+            "count": 20,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.5900993347168,
+            36.95800018310547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3197588,
+          "price": 2200000,
+          "price_after_discount": 4700000,
+          "rating": {
+            "count": 32,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.65639877319336,
+            36.919498443603516
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3259721,
+          "price": 2200000,
+          "price_after_discount": 4700000,
+          "rating": {
+            "count": 3,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.653499603271484,
+            36.910301208496094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3263186,
+          "price": 2200000,
+          "price_after_discount": 4700000,
+          "rating": {
+            "count": 4,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.542301177978516,
+            36.94620132446289
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3273630,
+          "price": 2200000,
+          "price_after_discount": 4700000,
+          "rating": {
+            "count": 4,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.654998779296875,
+            36.92639923095703
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3276096,
+          "price": 2379000,
+          "price_after_discount": 4758000,
+          "rating": {
+            "count": 6,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.80979919433594,
+            36.83319854736328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3230924,
+          "price": 2000000,
+          "price_after_discount": 4800000,
+          "rating": {
+            "count": 19,
+            "total": 4.5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.63859939575195,
+            36.91640090942383
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3242455,
+          "price": 2300000,
+          "price_after_discount": 4800000,
+          "rating": {
+            "count": 2,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.70159912109375,
+            36.89030075073242
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3305624,
+          "price": 2250000,
+          "price_after_discount": 4800000,
+          "rating": {
+            "count": 9,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.6974983215332,
+            36.895198822021484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3177936,
+          "price": 1830000,
+          "price_after_discount": 4804000,
+          "rating": {
+            "count": 175,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.64500045776367,
+            36.93479919433594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3194671,
+          "price": 2190000,
+          "price_after_discount": 4880000,
+          "rating": {
+            "count": 4,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.47380065917969,
+            36.851898193359375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3293124,
+          "price": 2320000,
+          "price_after_discount": 4890000,
+          "rating": {
+            "count": 2,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.6416015625,
+            36.932899475097656
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3237344,
+          "price": 2400000,
+          "price_after_discount": 4900000,
+          "rating": {
+            "count": 5,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.65639877319336,
+            36.93360137939453
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3266950,
+          "price": 2200000,
+          "price_after_discount": 4900000,
+          "rating": {
+            "count": 13,
+            "total": 4.6
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.614601135253906,
+            36.945899963378906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3309435,
+          "price": 2200000,
+          "price_after_discount": 4900000,
+          "rating": {
+            "count": 1,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.554901123046875,
+            36.789398193359375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3168185,
+          "price": 2490000,
+          "price_after_discount": 4980000,
+          "rating": {
+            "count": 42,
+            "total": 4.6
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.757198333740234,
+            36.86800003051758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3152498,
+          "price": 2300000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 112,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.68090057373047,
+            36.86130142211914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3153366,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 147,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.65810012817383,
+            36.91429901123047
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3161744,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 8,
+            "total": 4.6
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.53129959106445,
+            36.991600036621094
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3163569,
+          "price": 2200000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 118,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.69850158691406,
+            36.89550018310547
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3163685,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 23,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.69850158691406,
+            36.89569854736328
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3169953,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 23,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.65340042114258,
+            36.91389846801758
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3171538,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 6,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.68410110473633,
+            36.89830017089844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3179456,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 96,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.618099212646484,
+            36.94260025024414
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3190576,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 2,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.73820114135742,
+            36.85940170288086
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3196034,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 5,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.71500015258789,
+            36.88479995727539
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3202138,
+          "price": 2000000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 103,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.64540100097656,
+            36.92839813232422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3204698,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 4,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.81010055541992,
+            36.840599060058594
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3211174,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 15,
+            "total": 4.6
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.699100494384766,
+            36.895198822021484
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3212850,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 2,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.71030044555664,
+            36.845298767089844
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3213400,
+          "price": 2000000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 17,
+            "total": 4.4
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.8036994934082,
+            36.837501525878906
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3216681,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 18,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.6421012878418,
+            36.93119812011719
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3219114,
+          "price": 1800000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 0,
+            "total": 0
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.719600677490234,
+            36.86949920654297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3223721,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 12,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.44169998168945,
+            37.037601470947266
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3225917,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 14,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.56019973754883,
+            36.975399017333984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3229742,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 4,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.71080017089844,
+            36.84550094604492
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3237277,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 6,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.627601623535156,
+            36.929500579833984
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3237443,
+          "price": 2000000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 62,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.554100036621094,
+            36.942100524902344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3238651,
+          "price": 2000000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 0,
+            "total": 0
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.6593017578125,
+            36.92210006713867
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3248887,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 1,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.73379898071289,
+            36.833099365234375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3249998,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 4,
+            "total": 4.5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.654598236083984,
+            36.915000915527344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3255850,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 33,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.474998474121094,
+            37.003299713134766
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3263038,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 8,
+            "total": 4.9
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.7495002746582,
+            36.87189865112305
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3267976,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 0,
+            "total": 0
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.5260009765625,
+            36.98619842529297
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3290143,
+          "price": 2000000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 1,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.5260009765625,
+            36.98569869995117
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3290408,
+          "price": 2000000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 1,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.53779983520508,
+            36.977500915527344
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3298470,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 0,
+            "total": 0
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.6702995300293,
+            36.895599365234375
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3299882,
+          "price": 2000000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 1,
+            "total": 5
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.63019943237305,
+            36.93259811401367
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3302580,
+          "price": 2500000,
+          "price_after_discount": 5000000,
+          "rating": {
+            "count": 2,
+            "total": 4.8
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.69020080566406,
+            36.89059829711914
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3265405,
+          "price": 2500000,
+          "price_after_discount": 5050000,
+          "rating": {
+            "count": 26,
+            "total": 4.7
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.679901123046875,
+            36.89910125732422
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "id": 3303413,
+          "price": 2400000,
+          "price_after_discount": 5070000,
+          "rating": {
+            "count": 3,
+            "total": 4.1
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            50.69029998779297,
+            36.88690185546875
+          ]
+        }
+      }
+    ],
+    "polygons": [
+      {
+        "location_id": "303",
+        "name": "رامسر",
+        "coordinates": [
+          [
+            [
+              50.4118677,
+              36.6217476
+            ],
+            [
+              50.4350152,
+              36.6155751
+            ],
+            [
+              50.4863248,
+              36.5907846
+            ],
+            [
+              50.520808,
+              36.5693592
+            ],
+            [
+              50.5414983,
+              36.6116684
+            ],
+            [
+              50.5786559,
+              36.6638666
+            ],
+            [
+              50.6062661,
+              36.7191934
+            ],
+            [
+              50.6278786,
+              36.7588899
+            ],
+            [
+              50.701076,
+              36.7999337
+            ],
+            [
+              50.7142881,
+              36.8162376
+            ],
+            [
+              50.7264989,
+              36.820749
+            ],
+            [
+              50.7354886,
+              36.8305422
+            ],
+            [
+              50.7478139,
+              36.8417874
+            ],
+            [
+              50.7539008,
+              36.8505793
+            ],
+            [
+              50.7587338,
+              36.8559989
+            ],
+            [
+              50.7612743,
+              36.8620218
+            ],
+            [
+              50.7675535,
+              36.8685319
+            ],
+            [
+              50.7699422,
+              36.8715304
+            ],
+            [
+              50.7736623,
+              36.8742203
+            ],
+            [
+              50.9151693,
+              37.0391353
+            ],
+            [
+              50.7315385,
+              37.1374371
+            ],
+            [
+              50.5978098,
+              36.9642384
+            ],
+            [
+              50.5961683,
+              36.9614844
+            ],
+            [
+              50.5888539,
+              36.960171
+            ],
+            [
+              50.5853596,
+              36.9553636
+            ],
+            [
+              50.5812718,
+              36.9528056
+            ],
+            [
+              50.5729968,
+              36.9524581
+            ],
+            [
+              50.5684621,
+              36.9487785
+            ],
+            [
+              50.5669863,
+              36.9403177
+            ],
+            [
+              50.5628585,
+              36.9299288
+            ],
+            [
+              50.5359444,
+              36.9055611
+            ],
+            [
+              50.5265217,
+              36.894257
+            ],
+            [
+              50.522644,
+              36.8868079
+            ],
+            [
+              50.521639,
+              36.8882991
+            ],
+            [
+              50.5150917,
+              36.8866286
+            ],
+            [
+              50.510232,
+              36.8915141
+            ],
+            [
+              50.5068964,
+              36.8814071
+            ],
+            [
+              50.4999446,
+              36.8768916
+            ],
+            [
+              50.4881238,
+              36.8777903
+            ],
+            [
+              50.4799193,
+              36.8763749
+            ],
+            [
+              50.4666443,
+              36.8735439
+            ],
+            [
+              50.4567293,
+              36.8736676
+            ],
+            [
+              50.4513645,
+              36.8717935
+            ],
+            [
+              50.4232977,
+              36.8440488
+            ],
+            [
+              50.4218859,
+              36.8352972
+            ],
+            [
+              50.423126,
+              36.8267375
+            ],
+            [
+              50.4123751,
+              36.8162847
+            ],
+            [
+              50.4047583,
+              36.8116212
+            ],
+            [
+              50.4078482,
+              36.8050241
+            ],
+            [
+              50.4159942,
+              36.8032009
+            ],
+            [
+              50.4217294,
+              36.7996403
+            ],
+            [
+              50.4286192,
+              36.7915533
+            ],
+            [
+              50.4304702,
+              36.7832288
+            ],
+            [
+              50.4369019,
+              36.7739379
+            ],
+            [
+              50.4355716,
+              36.7487194
+            ],
+            [
+              50.4338147,
+              36.7477831
+            ],
+            [
+              50.4308548,
+              36.742798
+            ],
+            [
+              50.4267395,
+              36.7386116
+            ],
+            [
+              50.4246444,
+              36.7372763
+            ],
+            [
+              50.4173762,
+              36.7281312
+            ],
+            [
+              50.4173212,
+              36.7242814
+            ],
+            [
+              50.4154014,
+              36.7231315
+            ],
+            [
+              50.4131397,
+              36.7126403
+            ],
+            [
+              50.412919,
+              36.7050354
+            ],
+            [
+              50.4121881,
+              36.6968763
+            ],
+            [
+              50.4125978,
+              36.6873202
+            ],
+            [
+              50.4005869,
+              36.678757
+            ],
+            [
+              50.3916109,
+              36.6724279
+            ],
+            [
+              50.3855609,
+              36.6680719
+            ],
+            [
+              50.3833178,
+              36.667591
+            ],
+            [
+              50.3791608,
+              36.6647445
+            ],
+            [
+              50.3732516,
+              36.6604905
+            ],
+            [
+              50.3635962,
+              36.6533413
+            ],
+            [
+              50.3597657,
+              36.641521
+            ],
+            [
+              50.4118677,
+              36.6217476
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "seo": {},
+  "related_filters": [
+    {
+      "name": "is_instant"
+    },
+    {
+      "name": "is_plus"
+    },
+    {
+      "name": "is_scenic"
+    },
+    {
+      "name": "has_yard"
+    },
+    {
+      "name": "is_hospitable"
+    },
+    {
+      "name": "pool"
+    },
+    {
+      "name": "mountain"
+    },
+    {
+      "name": "breakfast"
+    },
+    {
+      "name": "jacuzzi"
+    },
+    {
+      "name": "swiss_cottage"
+    },
+    {
+      "name": "wooden_cottage"
+    },
+    {
+      "name": "ecolog"
+    },
+    {
+      "name": "ruralhome"
+    },
+    {
+      "name": "is_waterfront"
+    },
+    {
+      "name": "is_disable_friendly"
+    },
+    {
+      "name": "is_economic"
+    },
+    {
+      "name": "is_local_food"
+    },
+    {
+      "name": "pet"
+    }
+  ],
+  "cities": [
+    {
+      "id": "303",
+      "name": "رامسر",
+      "count": 776
+    }
+  ]
+}
