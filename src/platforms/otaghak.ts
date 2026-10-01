@@ -56,7 +56,8 @@ export function mapOtaghakSearchItem(room: Raw, ctx: DateCtx): Stay | null {
   if (ctx.nights !== null) {
     total = pos(room.totalPriceWithExtraPerson) ?? pos(room.totalPrice);
     nights = total !== null ? (pos(room.totalNights) ?? ctx.nights) : null;
-    perNight = pos(room.afterDiscountAverage) ?? (total !== null && nights ? Math.round(total / nights) : null);
+    // Derive from the total so extra-guest charges are included, like the other platforms.
+    perNight = total !== null && nights ? Math.round(total / nights) : pos(room.afterDiscountAverage);
   } else {
     perNight = pos(room.afterDiscount) ?? pos(room.basePrice);
   }
